@@ -63,7 +63,9 @@ def load_lines():
 
     # codecs library needed to strip BOM off the begining of the file
     # unclear why google sheets included one on this file and not the others.
+
     for row in codecs.open("data/lines.txt", "r", "utf-8-sig"):
+    # for row in open("data/lines2.txt"):
         row = row.rstrip()
 
         song_id, char_code, lyrics = row.split("\t")
