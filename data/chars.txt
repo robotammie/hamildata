@@ -1,0 +1,39 @@
+burr	Aaron Burr	Burr
+ham	Alexander Hamilton	Hamilton
+wash	George Washington	Washington
+laur	John Laurens	Laurens
+laf	Marquis de Lafayette	Lafayette
+mul	Hercules Mulligan	Mulligan
+eliz	Elizabeth Hamilton	Eliza
+ang	Angelica Schuyler	Angelica
+peg	Peggy Schuyler	Peggy
+jef	Thomas Jefferson	Jefferson
+mad	James Madison	Madison
+kg	King George III	King George
+sea	Samuel Seabury	Seabury
+lee	Charles Lee	Lee
+phil	Phillip Hamilton	Phillip
+mar	Maria Reynolds	Maria
+reyn	James Reynolds	Reynolds
+wom	Women	Women
+men	Men	Men
+ens	Ensemble	Ensemble
+comp	Company	Company
+man1	Ensemble Man	Man 1
+man2	Ensemble Man	Man 2
+man3	Ensemble Man	Deep Voice
+wom1	Martha	Martha
+wom2	Dolly	Dolly
+eack	George Eacker	Eacker
+doc	Doctor	Doctor
+vot1	Male Voter 1	Voter 1
+vot2	Female Voter 1	Voter 2
+vot3	Male Voter 2	Voter 3
+vot4	Male Voter 3	Voter 4
+vot5	Male Voter 4	Voter 5
+vot6	Female Voter 2	Voter 6
+vot7	Female Voter 3	Voter 7
+vot8	Female Voter 4	Voter 8
+vot9	Female Voter 5	Voter 9
+vot10	Male Voter 5	Voter 10
+vot11	Male Voter 6	Voter 11

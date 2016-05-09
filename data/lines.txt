@@ -1,0 +1,4274 @@
+﻿SONG	CHARACTER	LINE
+1	burr	How does a bastard, orphan, son of a whore 
+1	burr	and a Scotsman, dropped in the middle of a forgotten
+1	burr	spot in the Caribbean by providence, impoverished, in squalor,
+1	burr	grow up to be a hero and a scholar?
+1	laur	The ten-dollar founding father without a father
+1	laur	got a lot farther by working a lot harder,
+1	laur	by being a lot smarter,
+1	laur	by being a self-starter,
+1	laur	by fourteen, they placed him in charge of a trading charter.
+1	jef	And every day while slaves were being slaughtered and carted
+1	jef	away across the waves, he struggled and kept his guard up.
+1	jef	Inside, he was longing for something to be a part of,
+1	jef	the brother was willing to beg, steal, borrow or barter.
+1	mad	Then a hurricane came, and devastation reigned
+1	mad	our man saw his future drip, dripping down the drain,
+1	mad	put a pencil to his temple, connected it to his brain
+1	mad	and he wrote his first refrain, a testament to his pain.
+1	burr	Well, the word got around, they said, “This kid is insane, man"
+1	burr	took up a collection just to send him to the mainland.
+1	burr	“Get your education, don’t forget from whence you came, and
+1	burr	the world is gonna know your name. What’s your name, man?"
+1	ham	Alexander Hamilton.
+1	ham	My name is Alexander Hamilton.
+1	ham	And there’s a million things I haven’t done,
+1	ham	but just you wait, just you wait . . .
+1	eliz	When he was ten his father split, full of it, debt-ridden
+1	eliz	two years later, see Alex and his mother bed-ridden,
+1	eliz	half-dead sittin in their own sick,
+1	eliz	the scent thick
+1	comp	And Alex got better but his mother went quick.
+1	wash	Moved in with a cousin, the cousin committed suicide.
+1	wash	Left him with nothin’ but ruined pride, something new inside,
+1	wash	a voice saying, “You gotta fend for yourself.”
+1	comp	“Alex, you gotta fend for yourself."
+1	wash	he started retreatin’ and readin’ every treatise on the shelf.
+1	burr	There would have been nothin’ left to do
+1	burr	for someone less astute,
+1	burr	he woulda been dead or destitute
+1	burr	without a cent of restitution,
+1	burr	started workin'
+1	burr	clerkin' for his late mother's landlord,
+1	burr	tradin' sugar cane and rum and all the things he can't aford
+1	burr	scammin' for every book he can get his hands on,
+1	comp	scammin'
+1	burr	plannin' for the future see him now as he stands on
+1	comp	plannin'
+1	burr	the bow of a ship headed for a new land,
+1	burr	in New York you can be a new man.
+1	comp	In New York you can be a new man--
+1	ham	Just you wait!
+1	comp	In New York you can be a new man--
+1	ham	Just you wait!
+1	comp	In New York you can be a new man--
+1	wom	In New York--
+1	men	New York--
+1	ham	Just you wait!
+1	comp	Alexander Hamilton,
+1	comp	Alexander Hamilton,
+1	comp	We are waiting in the wings for you.
+1	comp	We are waiting in the wings for you.
+1	comp	You could never back down,
+1	comp	you never learned to take your time!
+1	comp	You never learned to take your time!
+1	comp	Oh, Alexander Hamilton
+1	comp	Alexander Hamilton...
+1	comp	When America sings for you
+1	comp	Will they know what you overcame?
+1	comp	Will they know you rewrote the game?
+1	comp	The world will never be the same, oh..
+1	burr	The ship is in the harbor now, see if you can spot him.
+1	comp	Just you wait
+1	burr	Another immigrant, comin' up from the bottom.
+1	burr	His enemies destroyed his rep, America forgot him.
+1	comp	Just you wait
+1	laf	We fought with him.
+1	mull	We fought with him.
+1	laur	Me? I died for him.
+1	wash	Me? I trusted him.
+1	eliz	Me? I loved him.
+1	ang	I loved him.
+1	mar	I loved him.
+1	burr	And me? I'm the damn fool that shot him.
+1	comp	There's a million things I haven't done,
+1	comp	but just you wait!
+1	burr	What's your name, man?
+1	comp	Alexander Hamilton!
+2	comp	1776. New York City.
+2	ham	Pardon me. Are you Aaron Burr, sir?
+2	burr	That depends. Who’s asking?
+2	ham	Oh, well, sure, sir,
+2	ham	I’m Alexander Hamilton, I’m at your service, sir
+2	ham	I have been looking for you.
+2	burr	I’m getting nervous.
+2	ham	Sir…
+2	ham	I heard your name at Princeton. 
+2	ham	I was seeking an accelerated course of study
+2	ham	when I got sort of out of sorts with a buddy of yours.
+2	ham	I may have punched him. It’s a blur, sir.
+2	ham	He handles the financials?
+2	burr	You punched the bursar.
+2	ham	Yes!
+2	ham	I wanted to do what you did. Graduate in two,
+2	ham	then join the revolution. He looked at me like I was stupid, I’m not stupid.
+2	ham	So how’d you do it? How’d you graduate so fast?
+2	burr	It was my parents’ dying wish before they passed.
+2	ham	You’re an orphan. Of course! I’m an orphan.
+2	ham	God, I wish there was a war!
+2	ham	Then we could prove that we’re worth more
+2	ham	than anyone bargained for…
+2	burr	Can I buy you a drink?
+2	ham	That would be nice.
+2	burr	While we’re talking, let me offer you some free advice.
+2	burr	Talk less.
+2	ham	What?
+2	burr	Smile more.
+2	ham	Ha.
+2	burr	Don’t let them know what you’re against or what you’re for.
+2	ham	You can’t be serious.
+2	burr	You wanna get ahead?
+2	ham	Yes.
+2	burr	Fools who run their mouths off wind up dead.
+2	laur	Yo yo yo yo yo!
+2	laur	What time is it?
+2	laur	Show time!
+2	laf	Show time!
+2	mull	Show time!
+2	burr	…like I said…
+2	laur	Show time! Show time! Yo!
+2	laur	I’m John Laurens in the place to be!
+2	laur	Two pints o’ Sam Adams, but I’m workin’ on three, uh!
+2	laur	Those redcoats don’t want it with me!
+2	laur	Cuz I will pop chick-a pop these cops til I’m free!
+2	laf	Oui oui, mon ami, je m’appelle Lafayette!
+2	laf	The Lancelot of the revolutionary set!
+2	laf	I came from afar just to say “Bonsoir!”
+2	laf	Tell the King “Casse toi!” Who’s the best?
+2	laf	C’est moi!
+2	mull	Brrrah brraaah! I am Hercules Mulligan,
+2	mull	Up in it, lovin’ it, yes I heard ya mother said
+2	mull	“Come again?”
+2	mull	Lock up ya daughters and horses, of course
+2	mull	it’s hard to have intercourse over four sets of corsets.
+2	laur	No more sex, pour me another brew, son!
+2	laur	Let’s raise a couple more…
+2	laur	To the revolution!
+2	laf	To the revolution!
+2	mull	To the revolution!
+2	laur	Well, if it ain’t the prodigy of Princeton College!
+2	mull	Aaron Burr!
+2	laur	Give us a verse, drop some knowledge!
+2	burr	Good luck with that: you’re takin’ a stand.
+2	burr	You spit. I’m ‘a sit. We’ll see where we land.
+2	laf	Boooo!
+2	mull	Boooo!
+2	laur	Burr, the revolution’s imminent. What do stall for?
+2	ham	If you stand for nothing, Burr, what’ll you fall for?
+3	laur	Ooh, Who are you?
+3	laf	Ooh, Who are you?
+3	mull	Ooh, Who are you?
+3	laur	Ooh, who is this kid? What’s he gonna do?
+3	laf	Ooh, who is this kid? What’s he gonna do?
+3	mull	Ooh, who is this kid? What’s he gonna do?
+3	ham	I am not throwing away my shot!
+3	ham	I am not throwing away my shot!
+3	ham	Hey yo, I’m just like my country,
+3	ham	I’m young, scrappy and hungry,
+3	ham	and I’m not throwing away my shot!
+3	ham	I’m ‘a get a scholarship to King’s College.
+3	ham	I prob’ly shouldn’t brag, but dag, I amaze and astonish.
+3	ham	The problem is I got a lot of brains but no polish.
+3	ham	I gotta holler just to be heard.
+3	ham	With every word, I drop knowledge!
+3	ham	I’m a diamond in the rough, a shiny piece of coal
+3	ham	tryin’ to reach my goal. My power of speech: unimpeachable
+3	ham	Only nineteen but my mind is older.
+3	ham	These New York City streets get colder, I shoulder
+3	ham	ev’ry burden, ev’ry disadvantage
+3	ham	I have learned to manage, I don’t have a gun to brandish,
+3	ham	I walk these streets famished.
+3	ham	The plan is to fan this spark into a flame.
+3	ham	But damn, it’s getting dark, so let me spell out my name,
+3	ham	I am the—
+3	ham	A-l-e-x-a-n-d
+3	laur	A-l-e-x-a-n-d
+3	laf	A-l-e-x-a-n-d
+3	mull	A-l-e-x-a-n-d
+3	ham	e-r—we are—meant to be...
+3	laur	e-r—we are—meant to be...
+3	laf	e-r—we are—meant to be...
+3	mull	e-r—we are—meant to be...
+3	ham	A colony that runs independently.
+3	ham	Meanwhile, Britain keeps shittin’ on us endlessly.
+3	ham	Essentially, they tax us relentlessly,
+3	ham	then King George turns around, runs a spending spree.
+3	ham	He ain’t ever gonna set his descendants free,
+3	ham	so there will be a revolution in this century.
+3	ham	Enter me!
+3	laur	(He says in parentheses)
+3	laf	(He says in parentheses)
+3	mull	(He says in parentheses)
+3	ham	Don’t be shocked when your hist’ry book mentions me.
+3	ham	I will lay down my life if it sets us free.
+3	ham	Eventually, you’ll see my ascendancy,
+3	ham	And I am not throwing away my shot.
+3	laur	My shot!
+3	ham	I am not throwing away my shot.
+3	laur	My shot!
+3	ham	Hey yo, I’m just like my country,
+3	ham	I'm young, scrappy, and hungry
+3	ham	and I'm not throwing away my shot.
+3	laur	and I'm not throwing away my shot.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	Hey yo, I’m just like my country,
+3	laur	Hey yo, I’m just like my country,
+3	laf	Hey yo, I’m just like my country,
+3	mull	Hey yo, I’m just like my country,
+3	ham	I'm young, scrappy, and hungry
+3	laur	I'm young, scrappy, and hungry
+3	laf	I'm young, scrappy, and hungry
+3	mull	I'm young, scrappy, and hungry
+3	ham	and I'm not throwing away my shot.
+3	laur	and I'm not throwing away my shot.
+3	laf	and I'm not throwing away my shot.
+3	mull	and I'm not throwing away my shot.
+3	ham	It's time to take a shot!
+3	laur	It's time to take a shot!
+3	laf	It's time to take a shot!
+3	mull	It's time to take a shot!
+3	laf	The unrest in France will lead to ‘onarchy?
+3	laf	‘Onarchy? How you say, how you say, ‘anarchy?’
+3	laf	When I fight, I make the other side panicky.
+3	laf	With my--
+3	ham	Shot!
+3	laur	Shot!
+3	laf	Shot!
+3	mull	Shot!
+3	mull	Yo, I’m a tailor’s apprentice,
+3	mull	and I got y’all knuckleheads in loco parentis.
+3	mull	I’m joining the rebellion cuz I know it’s my chance
+3	mull	to socially advance, instead of sewin’ some pants!
+3	mull	I’m gonna take a--
+3	ham	Shot!
+3	laur	Shot!
+3	laf	Shot!
+3	mull	Shot!
+3	laur	But we’ll never be truly free
+3	laur	until those in bondage have the same rights as you and me,
+3	laur	you and I. Do or die. Wait till I sally in
+3	laur	on a stallion with the first black battalion
+3	laur	have another--
+3	ham	Shot!
+3	laur	Shot!
+3	laf	Shot!
+3	mull	Shot!
+3	burr	Geniuses, lower your voices.
+3	burr	You keep out of trouble and you double your choices
+3	burr	I’m with you, but the situation is fraught.
+3	burr	You’ve got to be carefully taught:
+3	burr	If you talk, you’re gonna get shot!
+3	ham	Burr, check what we got.
+3	ham	Mister Lafayette, hard rock like Lancelot,
+3	ham	I think your pants look hot,
+3	ham	Laurens, I like you a lot.
+3	ham	Let’s hatch a plot blacker than the kettle callin’ the pot...
+3	ham	What are the odds the gods would put us all in one spot,
+3	ham	poppin’ a squat on conventional wisdom, like it or not,
+3	ham	a bunch of revolutionary manumission abolitionists?
+3	ham	Give me a position, show me where the ammunition is!
+3	ham	Oh, am I talkin’ too loud?
+3	ham	Sometimes I get over excited, shoot off at the mouth.
+3	ham	I never had a group of friends before,
+3	ham	I promise that I’ll make y’all proud.
+3	laur	Let’s get this guy in front of a crowd.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	Hey yo, I’m just like my country,
+3	laur	Hey yo, I’m just like my country,
+3	laf	Hey yo, I’m just like my country,
+3	mull	Hey yo, I’m just like my country,
+3	ham	I’m young, scrappy and hungry
+3	laur	I’m young, scrappy and hungry
+3	laf	I’m young, scrappy and hungry
+3	mull	I’m young, scrappy and hungry
+3	ham	and I’m not throwing away my shot.
+3	laur	and I’m not throwing away my shot.
+3	laf	and I’m not throwing away my shot.
+3	mull	and I’m not throwing away my shot.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	I am not throwing away my shot.
+3	laur	I am not throwing away my shot.
+3	laf	I am not throwing away my shot.
+3	mull	I am not throwing away my shot.
+3	ham	Hey yo, I’m just like my country,
+3	laur	Hey yo, I’m just like my country,
+3	laf	Hey yo, I’m just like my country,
+3	mull	Hey yo, I’m just like my country,
+3	ham	I’m young, scrappy and hungry
+3	laur	I’m young, scrappy and hungry
+3	laf	I’m young, scrappy and hungry
+3	mull	I’m young, scrappy and hungry
+3	ham	and I’m not throwing away my shot.
+3	laur	and I’m not throwing away my shot.
+3	laf	and I’m not throwing away my shot.
+3	mull	and I’m not throwing away my shot.
+3	laur	Ev'rybody sing:
+3	ham	Whoa, whoa, whoa!
+3	laur	Whoa, whoa, whoa!
+3	laf	Whoa, whoa, whoa!
+3	mull	Whoa, whoa, whoa!
+3	laur	Hey!
+3	ham	Whoa!
+3	laur	Whoa!
+3	laf	Whoa!
+3	mull	Whoa!
+3	ham	Whoa!
+3	laur	Whoa!
+3	laf	Whoa!
+3	mull	Whoa!
+3	laur	Ay, let ‘em hear ya!
+3	laur	Let’s go!
+3	ham	Yea!
+3	laf	Yea!
+3	mull	Yea!
+3	laur	I said shout it to the rooftops!
+3	comp	Whoa! Whoa! Whoa!
+3	laur	Said, to the rooftops! Whoa!
+3	comp	Whoa!
+3	laur	Come on!
+3	comp	Whoa!
+3	laur	Come on, let’s go!
+3	comp	Yea!
+3	laur	Rise up!
+3	laur	When you’re living on your knees,
+3	laur	you rise up.
+3	laur	Tell your brother that he’s gotta rise up.
+3	laur	Tell your sister that she's gotta rise up.
+3	laur	When are these colonies gonna rise up?
+3	comp	Whoa! Whoah!
+3	laur	When are these colonies gonna rise up?
+3	comp	Whoa!
+3	laur	When are these colonies gonna rise up?
+3	comp	Whoa!
+3	laur	When are these colonies gonna rise up?
+3	comp	Woah!
+3	laur	Rise up!
+3	comp	Rise up!
+3	ham	I imagine death so much it feels more like a memory 
+3	ham	When’s it gonna get me?
+3	ham	In my sleep? Seven feet ahead of me?
+3	ham	comin’, do I run or do I let it be?
+3	ham	Is it like a beat without a melody?
+3	ham	See, I never thought I’d live past twenty.
+3	ham	Where I come from some get half as many.
+3	ham	Ask anybody why we livin’ fast and we laugh, reach for a flask,
+3	ham	we have to make this moment last, that’s plenty
+3	ham	Scratch that,
+3	ham	this is not a moment, it’s the movement
+3	ham	where all the hungriest brothers with something to prove went?
+3	ham	Foes oppose us, we take an honest stand,
+3	ham	we roll like Moses, claimin’ our promised land.
+3	ham	And? If we win our independence?
+3	ham	‘Zat a guarantee of freedom for our descendants?
+3	ham	Or will the blood we shed begin an endless
+3	ham	cycle of vengeance and death with no defendants?
+3	ham	I know the action in the street is excitin’,
+3	ham	but Jesus, between all the bleedin’ ‘n fightin’ 
+3	ham	I’ve been readin’ ‘n writin’.
+3	ham	We need to handle our financial situation.
+3	ham	Are we a nation of states? What’s the state of our nation?
+3	ham	I’m past patiently waitin’. I’m passionately smashin’ every expectation, 
+3	ham	every action’s an act of creation!
+3	ham	I’m laughin’ in the face of casualties and sorrow,
+3	ham	for the first time, I’m thinkin’ past tomorrow,
+3	comp	And I am not throwing away my shot.
+3	comp	I am not throwing away my shot.
+3	comp	Hey yo, I’m just like my country,
+3	comp	I’m young, scrappy and hungry
+3	comp	and I’m not throwing away my shot.
+3	ham	We’re gonna rise up!
+3	laur	We’re gonna rise up!
+3	laf	We’re gonna rise up!
+3	mull	We’re gonna rise up!
+3	ham	Time to take a shot!
+3	laur	Time to take a shot!
+3	laf	Time to take a shot!
+3	mull	Time to take a shot!
+3	ens	Not throwing away my shot.
+3	ham	We’re gonna rise up!
+3	laur	We’re gonna rise up!
+3	laf	We’re gonna rise up!
+3	mull	We’re gonna rise up!
+3	ens	Not throwing away my shot.
+3	ham	Time to take a shot!
+3	laur	Time to take a shot!
+3	laf	Time to take a shot!
+3	mull	Time to take a shot!
+3	ens	We're gonna rise up!
+3	ens	Rise up!
+3	ham	Time to take a shot!
+3	ens	Rise up!
+3	ens	Rise up!
+3	ham	Time to take a shot!
+3	laur	Time to take a shot!
+3	laf	Time to take a shot!
+3	mull	Time to take a shot!
+3	ens	Rise up!
+3	ens	Rise up!
+3	ham	Take a shot!
+3	laur	Take a shot!
+3	laf	Take a shot!
+3	mull	Take a shot!
+3	ens	Ri-ri-ri
+3	ham	Shot!
+3	laur	Shot!
+3	laf	Shot!
+3	mull	Shot!
+3	ham	Shot!
+3	laur	Shot!
+3	laf	Shot!
+3	mull	Shot!
+3	ham	A-yo, it's time to take a shot!
+3	laur	A-yo, it's time to take a shot!
+3	laf	A-yo, it's time to take a shot!
+3	mull	A-yo, it's time to take a shot!
+3	ham	Time to take a shot!
+3	laur	Time to take a shot!
+3	laf	Time to take a shot!
+3	mull	Time to take a shot!
+3	ham	And I am not throwin' away my--
+3	laur	And I am not throwin' away my--
+3	laf	And I am not throwin' away my--
+3	mull	And I am not throwin' away my--
+3	comp	Not throwin' away my shot!
+4	ham	I may not live to see our glory!
+4	laur	I may not live to see our glory!
+4	laf	I may not live to see our glory!
+4	mull	I may not live to see our glory!
+4	ham	But I will gladly join the fight!
+4	laur	But I will gladly join the fight!
+4	laf	But I will gladly join the fight!
+4	mull	But I will gladly join the fight!
+4	ham	And when our children tell our story...
+4	laur	And when our children tell our story...
+4	laf	And when our children tell our story...
+4	mull	And when our children tell our story...
+4	ham	They’ll tell the story of tonight.
+4	mull	Let’s have another round tonight.
+4	laf	Let’s have another round tonight.
+4	laur	Let’s have another round tonight.
+4	laur	Raise a glass to freedom,
+4	laur	Something they can never take away,
+4	laur	no matter what they tell you.
+4	laur	Raise a glass to the four of us.
+4	laur	Tomorrow there’ll be more of us.
+4	mull	Tomorrow there’ll be more of us.
+4	laur	Telling the story of tonight.
+4	laf	Telling the story of tonight.
+4	mull	Telling the story of tonight.
+4	ham	They'll tell the story of tonighr.
+4	laur	Raise a glass to freedom,
+4	laf	Raise a glass to freedom,
+4	mull	Raise a glass to freedom,
+4	laur	something they can never take away.
+4	laf	something they can never take away.
+4	mull	something they can never take away.
+4	ham	No matter what they tell you.
+4	laf	Let’s have another round tonight.
+4	mull	Let’s have another round tonight.
+4	laur	Raise a glass to the four of us.
+4	ham	Tomorrow there’ll be more of us.
+4	laur	Tomorrow there’ll be more of us.
+4	laf	Tomorrow there’ll be more of us.
+4	mull	Tomorrow there’ll be more of us.
+4	ham	Telling the story of tonight
+4	laur	Telling the story of tonight
+4	laf	Let’s have another round tonight
+4	mull	Let’s have another round tonight
+4	ham	They'll tell the story of tonight
+4	laur	They'll tell the story of tonight
+4	ens	They'll tell the story of tonight
+4	laf	Raise a glass to freedom.
+4	mull	Raise a glass to freedom.
+4	ens	Raise a glass to freedom.
+4	ham	They'll tell the story of tonight
+4	laur	They'll tell the story of tonight
+4	ens	They'll tell the story of tonight
+4	laf	Raise a glass to freedom.
+4	mull	Raise a glass to freedom.
+4	ens	Raise a glass to freedom.
+4	ham	They'll tell the story of tonight
+4	laur	They'll tell the story of tonight
+4	ens	They'll tell the story of tonight
+4	laf	They'll tell the story of tonight.
+4	mull	They'll tell the story of tonight.
+4	ens	They'll tell the story of tonight.
+4	ens	Tonight
+4	ens	Tonight
+4	ens	Tonight
+5	burr	There’s nothing rich folks love more
+5	burr	than going downtown and slummin’ it with the poor.
+5	burr	They pull up in their carriages and gawk
+5	burr	at the students in the common
+5	burr	Just to watch them talk.
+5	burr	Take Philip Schuyler: the man is loaded.
+5	burr	Uh-oh, but little does he know that
+5	burr	his daughters, Peggy, Angelica, Eliza
+5	burr	sneak into the city just to watch all the guys at—
+5	comp	Work, work!
+5	ang	Angelica!
+5	comp	Work, work!
+5	eliz	Eliza!
+5	peg	And Peggy!
+5	comp	Work, work!
+5	comp	The Schuyler sisters!
+5	ang	Angelica!
+5	peg	Peggy!
+5	eliz	Eliza!
+5	comp	Work!
+5	peg	Daddy said to be home by sundown.
+5	ang	Daddy doesn’t need to know.
+5	peg	Daddy said not to go downtown.
+5	eliz	Like I said, you’re free to go.
+5	ang	But–look around, look around, the
+5	ang	revolution’s happening in New York.
+5	eliz	New York.
+5	peg	New York.
+5	comp	Angelica
+5	comp	Work!
+5	peg	It’s bad enough daddy wants to go to war.
+5	eliz	People shouting in the square.
+5	peg	It’s bad enough there’ll be violence on our shore.
+5	ang	New ideas in the air.
+5	ang	Look around, look around—
+5	ens	Look around, look around—
+5	eliz	Angelica, remind me what we’re looking for…
+5	men	She’s lookin’ for me!
+5	ang	Eliza, I'm lookin' for a mind at work!
+5	comp	Work! Work!
+5	ang	I'm lookin' for a mind at work!
+5	comp	Work! Work!
+5	ang	Whooaaaaa!
+5	ang	Whooaaaaa!
+5	eliz	Whooaaaaa!
+5	peg	Whooaaaaa!
+5	ang	Work!
+5	eliz	Work!
+5	peg	Work!
+5	burr	Wooh! There’s nothin’ like summer in the city.
+5	burr	Someone in a rush next to someone lookin’ pretty
+5	burr	Excuse me, miss, I know it’s not funny
+5	burr	But your perfume smells like your daddy’s got money.
+5	burr	Why you slummin’ in the city in your fancy heels
+5	burr	You searchin for an urchin who can give you ideals?
+5	ang	Burr, you disgust me.
+5	burr	Ah, so you’ve discussed me.
+5	burr	I’m a trust fund, baby, you can trust me!
+5	ang	I’ve been reading Common Sense by Thomas Paine.
+5	ang	So men say that I’m intense or I’m insane.
+5	ang	You want a revolution? I want a revelation
+5	ang	So listen to my declaration:
+5	ang	“We hold these truths to be self-evident
+5	eliz	“We hold these truths to be self-evident
+5	peg	“We hold these truths to be self-evident
+5	ang	That all men are created equal”
+5	eliz	That all men are created equal”
+5	peg	That all men are created equal”
+5	ang	And when I meet Thomas Jefferson,
+5	comp	Unh!
+5	ang	I’m ‘a compel him to include women in the sequel!
+5	wom	Work!
+5	eliz	Look around, look around
+5	eliz	At how lucky we are to be alive right now!
+5	eliz	Look around, look around
+5	peg	Look around, look around
+5	eliz	At how lucky we are to be alive right now!
+5	peg	At how lucky we are to be alive right now!
+5	ang	History is happening in Manhattan and we
+5	eliz	History is happening in Manhattan and we
+5	peg	History is happening in Manhattan and we
+5	ang	just happen to be in the greatest city in the world!
+5	eliz	just happen to be in the greatest city in the world!
+5	peg	just happen to be in the greatest city in the world!
+5	comp	In the greatest city in the world!
+5	ang	Cause I've been reading Common Sense by Thomas Payne.
+5	eliz	Look around, look around
+5	peg	Look around, look around
+5	men	Hey! Hey! Hey! Hey!
+5	ang	So men say that I’m intense or I’m insane.
+5	eliz	The revolutions happening in New York!
+5	peg	The revolutions happening in New York!
+5	men	Hey! Hey! Hey! Hey!
+5	ang	You want a revolution? I want a revelation
+5	wom	Look around, look around
+5	wom	the revolution's happening
+5	eliz	In New York!
+5	peg	In New York!
+5	ang	So listen to my declaration:
+5	ang	We hold these truths to be self-evident
+5	eliz	We hold these truths to be self-evident
+5	peg	We hold these truths to be self-evident
+5	wom	Hey! Hey!
+5	wom	Look around
+5	ang	That all men are created equal
+5	eliz	That all men are created equal
+5	peg	That all men are created equal
+5	wom	Hey! Hey!
+5	wom	Look around
+5	ang	Whoo!
+5	eliz	Whoo!
+5	peg	Whoo!
+5	wom	Hey! Hey!
+5	wom	At how lucky we are to be alive right now!
+5	wom	Hey! Hey!
+5	comp	Look around, look around
+5	comp	at how lucky we are to be alive right now!
+5	comp	History is happening in Manhattan and we just happen to be
+5	wom	In the greatest city in the world
+5	men	In the greatest city-
+5	comp	In the greatest city in the world!
+5	comp	Work! Work!
+5	ang	Angelica!
+5	comp	Work! Work!
+5	eliz	Eliza!
+5	comp	Work! Work!
+5	peg	And Peggy!
+5	ang	The Schuyler sisters!
+5	eliz	The Schuyler sisters!
+5	peg	The Schuyler sisters!
+5	comp	Work! Work!
+5	ang	We're looking for a mind at work!
+5	eliz	We're looking for a mind at work!
+5	peg	We're looking for a mind at work!
+5	comp	Work! Work!
+5	ang	Hey!
+5	eliz	Hey!
+5	peg	Hey!
+5	comp	Work! Work!
+5	ang	Hey!
+5	eliz	Hey!
+5	peg	Hey!
+5	comp	Work! Work!
+5	comp	Work! Work!
+5	ang	Whoa!
+5	eliz	Hey! Hey! Hey! Hey! Hey!
+5	peg	Hey! Hey! Hey! Hey! Hey!
+5	comp	Work! Work!
+5	eliz	In the greatest city in the world
+5	peg	In the greatest city in the world
+5	comp	Work! Work!
+5	ang	In the greatest city in the world
+5	comp	In the greatest city in the world!
+6	sea	Hear ye, hear ye! My name is Samuel Seabury,
+6	sea	and I present “Free Thoughts on the
+6	sea	Proceedings of the Continental Congress!”
+6	sea	Heed not the rabble who scream revolution,
+6	sea	they have not your interests at heart.
+6	mull	Oh my God. Tear this dude apart.
+6	sea	Chaos and bloodshed are not a solution.
+6	sea	Don’t let them lead you astray.
+6	sea	This Congress does not speak for me.
+6	burr	Let him be.
+6	sea	They’re playing a dangerous game.
+6	sea	I pray the king shows you his mercy.
+6	sea	For shame, for shame . . .
+6	ham	Yo!
+6	sea	Heed not the rabble
+6	ham	He’d have you all unravel at the sound of screams
+6	sea	who scream
+6	ham	but the revolution is comin'
+6	sea	revolution, they
+6	ham	The have-nots are gonna win this, it's
+6	sea	have not your interests at heart.
+6	ham	hard to listen to you with a straight face
+6	sea	Chaos and bloodshed are not a solution.
+6	ham	Chaos and bloodshed already haunt us,
+6	ham	honestly you shouldn't even talk.
+6	ham	And what about Boston?
+6	sea	Don’t let them lead you astray.
+6	ham	Look at the cost, n' all that we've lost n' you talk about Congress?!
+6	sea	This Congress does not speak for me.
+6	ham	My dog speaks more eloquently than thee!
+6	sea	They're playing a dangerous game.
+6	ham	But strangely your mange is the same.
+6	sea	I pray the king shows you his mercy.
+6	ham	Is he in Jersey?
+6	sea	For shame,
+6	ham	For the revolution!
+6	sea	For shame,
+6	comp	For the revolution!
+6	sea	Heed—
+6	ham	If you repeat yourself again I’m gonna—
+6	sea/ham	Scream—
+6	ham	Honestly, look at me, please don’t read!
+6	sea	Not your interests—
+6	ham	Don’t modulate the key then not debate with me!
+6	ham	Why should a tiny island across the sea regulate the price of tea?
+6	burr	Alexander, please!
+6	ham	Burr, I’d rather be divisive than indecisive,
+6	ham	drop the niceties.
+6	ens	Silence! A message from the Kng!
+6	ens	A message from the King!
+6	comp	A message from the King!
+7	kg	You say
+7	kg	the price of my love’s not a price that you’re willing to pay.
+7	kg	You cry
+7	kg	in your tea which you hurl in the sea when you see me go by.
+7	kg	Why so sad?
+7	kg	Remember we made an arrangement when you went away,
+7	kg	now you’re making me mad.
+7	kg	Remember, despite our estrangement, I’m your man.
+7	kg	You’ll be back.
+7	kg	Soon you’ll see.
+7	kg	You’ll remember you belong to me.
+7	kg	You’ll be back.
+7	kg	Time will tell.
+7	kg	You’ll remember that I served you well.
+7	kg	Oceans rise,
+7	kg	empires fall,
+7	kg	we have seen each other through it all,
+7	kg	and when push
+7	kg	comes to shove,
+7	kg	I will send a fully armed battalion
+7	kg	to remind you of my love!
+7	kg	Da da da dat da dat da da da da ya da
+7	kg	Da da dat dat da ya da!
+7	kg	Da da da dat da dat da da da da ya da,
+7	kg	Da da dat dat da…
+7	kg	You say our love is draining and you can’t go on.
+7	kg	You’ll be the one complaining when I am gone . . .
+7	kg	And no, don’t change the subject
+7	kg	cuz you’re my favorite subject.
+7	kg	My sweet, submissive subject,
+7	kg	my loyal, royal subject,
+7	kg	forever and ever and ever and ever and ever…
+7	kg	You’ll be back,
+7	kg	like before.
+7	kg	I will fight the fight and win the war
+7	kg	for your love,
+7	kg	for your praise,
+7	kg	and I’ll love you till my dying days.
+7	kg	When you’re gone
+7	kg	I’ll go mad,
+7	kg	so don’t throw away this thing we had.
+7	kg	Cuz when push comes to shove,
+7	kg	I will kill your friends and family to remind you of my love.
+7	kg	Da da da dat da dat da da da da ya da
+7	kg	Da da dat dat da ya da!
+7	kg	Da da da dat da dat da da da da ya da
+7	kg	Da da dat dat-
+7	kg	Everybody!
+7	ens	Da da da dat da dat da da da da ya da
+7	ens	Da da dat dat da ya da!
+7	ens	Da da da dat da dat da da da da ya da da da da
+7	ens	dat dat da ya da!
+8	comp	British Admiral Howe’s got troops on the water.
+8	comp	Thirty-two thousand troops in New York harbor.
+8	ens	Thirty-two thousand troops in New York harbor.
+8	ens	Thirty-two thousand troops in New York harbor.
+8	ens	When they surround our troops!
+8	ens	They surround our troops!
+8	ens	When they surround our troops!
+8	ham	As a kid in the Caribbean I wished for a war.
+8	ham	I knew that I was poor,
+8	ham	I knew it was the only way to--
+8	ham	Rise up!
+8	burr	Rise up!
+8	laur	Rise up!
+8	laf	Rise up!
+8	mull	Rise up!
+8	ham	If they tell my story
+8	ham	I am either gonna die on the battlefield in glory or--
+8	ham	Rise up!
+8	burr	Rise up!
+8	laur	Rise up!
+8	laf	Rise up!
+8	mull	Rise up!
+8	ham	We will fight for this land
+8	ham	but there’s only one man
+8	ham	who can give us a command so we can--
+8	ham	Rise up!
+8	burr	Rise up!
+8	laur	Rise up!
+8	laf	Rise up!
+8	mull	Rise up!
+8	ham	Understand? It’s the only way to--
+8	ham	Rise up! Rise up!
+8	burr	Rise up! Rise up!
+8	laur	Rise up! Rise up!
+8	laf	Rise up! Rise up!
+8	mull	Rise up! Rise up!
+8	ham	Here he comes!
+8	ens	Here comes the General!
+8	burr	Ladies and gentlemen!
+8	ens	Here comes the General!
+8	burr	The moment you’ve been waiting for!
+8	ens	Here comes the General!
+8	burr	The pride of Mount Vernon!
+8	ens	Here comes the general!
+8	burr	George Washington!
+8	wash	We are outgunned,
+8	ens	What?
+8	wash	outmanned,
+8	ens	What?
+8	wash	outnumbered, outplanned.
+8	ens	Buck, buck, buck, buck, buck!
+8	wash	We gotta make an all out stand
+8	wash	ayo, I'm gonna need a right-hand man.
+8	ens	Buck, buck, buck, buck, buck!
+8	wash	Check it—
+8	wash	Can I be real a second?
+8	wash	For just a millisecond?
+8	wash	Let down my guard and tell the people how I feel a second?
+8	wash	Now I’m the model of a modern major general,
+8	wash	the venerated Virginian veteran whose men are all
+8	wash	lining up, to put me up on a pedestal,
+8	wash	writin’ letters to relatives
+8	wash	embellishin’ my elegance and eloquence,
+8	wash	but the elephant is in the room,
+8	wash	the truth is in ya face when ya hear the British cannons go...
+8	ens	Boom!
+8	wash	Any hope of success is fleeting,
+8	wash	how can I keep leading when the people I’m leading keep retreating?
+8	wash	We put a stop to the bleeding as the British take Brooklyn,
+8	wash	knight takes rook, but look,
+8	wash	We are outgunned,
+8	ens	What?
+8	wash	outmanned,
+8	ens	What?
+8	wash	outnumbered, outplanned.
+8	ens	Buck, buck, buck, buck, buck!
+8	wash	We gotta make an all out stand
+8	wash	ayo, I'm gonna need a right-hand man.
+8	wash	Incoming!
+8	ham	They’re battering down the Battery
+8	ham	check the damages.
+8	mull	Rah!
+8	ham	We gotta stop ‘em and rob ‘em of their advantages.
+8	mull	Rah!
+8	ham	Let’s take a stand with the stamina God has granted us.
+8	ham	Hamilton won’t abandon ship,
+8	ham	Yo, let’s steal their cannons--
+8	mull	Shh-boom!
+8	comp	Boom!
+8	wash	Goes the cannon, watch the blood and the shit spray and...
+8	comp	Boom!
+8	wash	Goes the cannon, we're abandonin' Kips Bay and..
+8	comp	Boom!
+8	wash	There's another ship and...
+8	comp	Boom!
+8	wash	We just lost the southern tip and...
+8	comp	Boom!
+8	wash	We gotta run to Harlem quick, we can’t afford another slip.
+8	wash	Guns and horses giddyup,
+8	wash	I decide to divvy up
+8	wash	my forces, they’re skittish as the British cut the city up.
+8	wash	This close to giving up, facing mad scrutiny,
+8	wash	I scream in the face of this mass mutiny:
+8	wash	are these the men with which I am to defend America?
+8	wash	We ride at midnight, Manhattan in the distance.
+8	wash	I cannot be everywhere at once, people.
+8	wash	I’m in dire need of assistance . . .
+8	burr	Your excellency, sir!
+8	wash	Who are you?
+8	burr	Aaron Burr, Sir?
+8	burr	Permission to state my case?
+8	wash	As you were.
+8	burr	Sir,
+8	burr	I was a captain under General Montgomery
+8	burr	until he caught a bullet in the neck in Quebec,
+8	burr	and well, in summary
+8	burr	I think that I could be of some assistance.
+8	burr	I admire how you keep firing on the British from a distance.
+8	wash	Huh.
+8	burr	I have some questions, a couple of suggestions
+8	burr	on how to fight instead of fleeing west.
+8	wash	Yes?
+8	burr	Well--
+8	ham	Your excellency, you wanted to see me?
+8	wash	Hamilton, come in, have you met Burr?
+8	ham	Yes, sir.
+8	ham	We keep meeting.
+8	burr	We keep meeting.
+8	burr	As I was saying, sir, I look forward to seeing your strategy play out.
+8	wash	Burr?
+8	burr	Sir?
+8	wash	Close the door on your way out.
+8	ham	Have I done something wrong, sir?
+8	wash	On the contrary.
+8	wash	I called you here because our odds are beyond scary.
+8	wash	Your reputation precedes you, but I have to laugh.
+8	ham	Sir?
+8	wash	Hamilton, how come no one can get you on their staff?
+8	ham	Sir!
+8	wash	Don’t get me wrong, you’re a young man, of great renown.
+8	wash	I know you stole British cannons when we were still downtown.
+8	wash	Nathaniel Green and Henry Knox wanted to hire you...
+8	ham	To be their Secretary? I don’t think so.
+8	wash	Why’re you upset?
+8	ham	I’m not—
+8	wash	It’s alright, you want to fight, you’ve got a hunger.
+8	wash	I was just like you when I was younger.
+8	wash	Head full of fantasies of dyin’ like a martyr?
+8	ham	Yes.
+8	wash	Dying is easy, young man. Living is harder.
+8	ham	Why are you telling me this?
+8	wash	I’m being honest.
+8	wash	I’m working with a third of what our Congress has promised.
+8	wash	We are a powder keg about to explode,
+8	wash	I need someone like you to lighten the load. So?
+8	comp	I am not throwin’ away my shot!
+8	comp	I am not throwin’ away my shot!
+8	comp	Ayo, I’m just like my country,
+8	comp	I’m young, scrappy and hungry!
+8	ham	I am not throwin’ away my shot!
+8	wash	Son,
+8	comp	We are outgunned, outmanned!
+8	ham	You need all the help you can get.
+8	ham	I have some friends. Laurens, Mulligan,
+8	ham	Marquis de Lafayette, okay, what else?
+8	comp	Outnumbered, outplanned!
+8	ham	We’ll need some spies on the inside,
+8	ham	Some King’s men who might let some things slide.
+8	ham	I’ll write to Congress and tell ‘em we need supplies,
+8	comp	Boom!
+8	ang	Whoa, whoa, whoa...
+8	eliz	Whoa, whoa, whoa...
+8	peg	Whoa, whoa, whoa...
+8	ham	you rally the guys, master the element of surprise. 
+8	comp	Chicka-boom!
+8	ang	Whoa, whoa, whoa...
+8	eliz	Whoa, whoa, whoa...
+8	peg	Whoa, whoa, whoa...
+8	ham	I’ll rise above my station, organize your information
+8	ham	‘til we rise to the occasion of our new nation. Sir!
+8	ang	Whoa, whoa, whoa...
+8	eliz	Whoa, whoa, whoa...
+8	peg	Whoa, whoa, whoa...
+8	ens	Here comes the general!
+8	ham	Rise up!
+8	laur	What?
+8	laf	What?
+8	mull	What?
+8	ens	Here comes the general!
+8	ang	Rise up!
+8	eliz	Rise up!
+8	peg	Rise up!
+8	ham	Rise up!
+8	laur	What?
+8	laf	What?
+8	mull	What?
+8	ens	Here comes the general!
+8	ang	Rise up!
+8	eliz	Rise up!
+8	peg	Rise up!
+8	ham	Rise up!
+8	laur	What?
+8	laf	What?
+8	mull	What?
+8	ens	Here comes the general!
+8	ham	What?
+8	wash	And his right hand man!
+8	comp	Boom!
+9	burr	How does the bastard, orphan, son of a whore,
+9	burr	go on and on,
+9	burr	grow into more of a phenomenon?
+9	burr	Watch this obnoxious, arrogant, loudmouth bother
+9	burr	be seated at the right hand of the father.
+9	burr	Washington hires Hamilton right on sight,
+9	burr	But Hamilton still wants to fight, not write.
+9	burr	Now Hamilton’s skill with a quill is undeniable
+9	burr	But what do we have in common? We’re reliable with the
+9	men	Ladies!
+9	burr	There are so many to deflower.
+9	men	Ladies!
+9	burr	Looks! Proximity to power.
+9	men	Ladies!
+9	burr	They delighted and distracted him.
+9	burr	Martha Washington named her feral tomcat after him!
+9	ham	That’s true.
+9	comp	1780
+9	burr	A winter’s ball
+9	burr	and the Schuyler sisters are the envy of all.
+9	burr	Yo, if you can marry a sister, you’re rich, son.
+9	ham	Is it a question of if, Burr, or which one?
+10	ham	Hey
+10	burr	Hey
+10	laur	Hey
+10	ham	Hey
+10	burr	Hey
+10	laur	Hey
+10	ham	Hey hey
+10	burr	Hey hey
+10	laur	Hey hey
+10	ham	Hey hey hey hey
+10	burr	Hey hey hey hey
+10	laur	Hey hey hey hey
+10	eliz	Ohh, I do I do I do I dooo!
+10	wom	Hey hey hey hey
+10	eliz	Hey!
+10	wom	Hey hey hey hey
+10	eliz	Ohh, I do I do I do I dooo!
+10	wom	Hey hey hey hey
+10	eliz	Boy you got me helpless!
+10	wom	Hey hey hey hey
+10	eliz	Helpless!
+10	wom	Helpless!
+10	eliz	Look into your eyes, and the sky’s the limit I’m
+10	wom	Look into your eyes, and the sky’s the limit I’m
+10	eliz	helpless!
+10	wom	helpless!
+10	eliz	Down for the count, and I’m drownin’ in ‘em.
+10	wom	Down for the count, and I’m drownin’ in ‘em.
+10	eliz	I have never been the type to try and grab the spotlight.
+10	eliz	We were at a revel with some rebels on a hot night,
+10	eliz	laughin’ at my sister as she’s dazzling the room
+10	eliz	then you walked in and my heart went “Boom!”
+10	eliz	Tryin’ to catch your eye from the side of the ballroom,
+10	eliz	everybody’s dancin’ and the band’s top volume.
+10	eliz	Grind to the rhythm as we wine and dine.
+10	wom	Grind to the rhythm as we wine and dine.
+10	eliz	Grab my sister, and whisper, “Yo, this on'e mine."
+10	wom	Oooh!
+10	eliz	My sister made her way across the room to you
+10	wom	Oooh!
+10	eliz	and I got nervous, thinking "What's she gonna do?"
+10	wom	Oooh!
+10	eliz	She grabbed you by the arm, I'm thinkin' "I'm through"
+10	wom	Oooh!
+10	eliz	Then you look back at me and suddenly I'm helpless!
+10	wom	Helpless!
+10	eliz	Oh, look at those eyes,
+10	wom	Look into your eyes, and the sky's the limit I'm
+10	eliz	Oh! Yeah, I’m
+10	eliz	helpless,
+10	wom	I’m helpless!
+10	eliz	I know
+10	wom	Down for the count, And I’m drownin’ in ‘em.
+10	eliz	I’m so into you,
+10	eliz	I am so into you.
+10	wom	Look into your eyes, And the sky’s the limit I’m
+10	wom	helpless!
+10	eliz	I know,
+10	eliz	I’m down for the count And I’m drownin’ in ‘em.
+10	wom	Down for the count, And I’m drownin’ in ‘em
+10	ham	Where are you taking me?
+10	ang	I’m about to change your life.
+10	ham	Then by all means, lead the way.
+10	eliz	Elizabeth Schuyler. It’s a pleasure to meet you.
+10	ham	Schuyler?
+10	ang	My sister.
+10	eliz	Thank you for all your service.
+10	ham	If it takes fighting a war for us to meet, it will have been worth it.
+10	eliz	I’ll leave you to it.
+10	eliz	One week later
+10	wom	One week later
+10	eliz	I’m writin’ a letter nightly.
+10	eliz	Now my life gets better, every letter that you write me.
+10	eliz	Laughin’ at my sister, cuz she wants to form a harem.
+10	ang	I’m just sayin’, if you really loved me, you would share him.
+10	eliz	Ha! Two weeks later, In the living room stressin’,
+10	wom	Two weeks later,
+10	eliz	my father’s stonefaced while you’re askin' for his blessin’.
+10	wom	Blessin'
+10	eliz	I’m dying inside, as you wine and dine
+10	eliz	and I’m tryin’ not to cry,
+10	eliz	‘cause there’s nothing that your mind can’t do.
+10	wom	Oooh
+10	eliz	My father makes his way across the room to you.
+10	wom	Oooh
+10	eliz	I panic for a second, thinking, “we’re through”
+10	wom	Oooh
+10	eliz	But then he shakes your hand and says, “Be true”
+10	wom	Oooh
+10	eliz	And you turn back to me, smiling, and I’m
+10	eliz	Helpless!
+10	wom	Helpless!
+10	wom	Look into your eyes, and the sky’s the limit I’m
+10	eliz	Helpless!
+10	wom	Helpless!
+10	wom	Down for the count, and I’m drownin’ in ‘em I’m
+10	wom	helpless!
+10	eliz	That boy is mine,
+10	eliz	that boy is mine!
+10	wom	Look into your eyes, And the sky’s the limit I’m
+10	eliz	Helpless!
+10	wom	Helpless!
+10	eliz	Down for the count, And I’m drownin’ in ‘em
+10	wom	Down for the count, And I’m drownin’ in ‘em
+10	eliz	helpless!
+10	eliz	Down for the count, and I’m drownin’ in ‘em
+10	ham	Eliza, I don’t have a dollar to my name,
+10	ham	an acre of land, a troop to command, a dollop of fame.
+10	ham	All I have’s my honor, a tolerance for pain,
+10	ham	a couple of college credits and my top-notch brain.
+10	ham	Insane, your family brings out a different side of me,
+10	ham	Peggy confides in me, Angelica tried to take a bite of me,
+10	ham	no stress, my love for you is never in doubt.
+10	ham	We’ll get a little place in Harlem and we’ll figure it out.
+10	ham	I’ve been livin’ without a family since I was a child.
+10	ham	My father left, my mother died, I grew up buckwild.
+10	ham	But I’ll never forget my mother’s face, that was real,
+10	ham	and long as I’m alive, Eliza, swear to God,
+10	ham	you’ll never feel so…
+10	wom	Helpless!
+10	eliz	I do I do I do I do!
+10	ham	Eliza…
+10	wom	Helpless!
+10	eliz	I do I do I do I do!
+10	ham	I’ve never felt so-
+10	wom	Helpless!
+10	eliz	Hey! Yeah, yeah!
+10	wom	Down for the count and I’m drownin’ in ‘em
+10	eliz	Down for the count, I’m-
+10	wom	Helpless!
+10	ham	My life is gon’ be fine cuz Eliza’s in it.
+10	eliz	I look into your eyes, and the sky’s the limit I’m
+10	wom	Helpless!
+10	eliz	…drownin’ in ‘em.
+10	wom	Down for the count, and I’m drownin’ in ‘em.
+10	wom	In New York, you can be a new man…
+10	wom	in New York, you can be a new man…
+10	wom	In New York, you can be a new man…
+10	eliz	Helpless.
+11	laur	Alright, alright. That’s what I’m talkin’ about!
+11	laur	Now everyone give it up for the maid of honor,
+11	laur	Angelica Schuyler!
+11	ang	A toast to the groom!
+11	men	To the groom!
+11	men	To the groom!
+11	ens	To the groom!
+11	ang	To the bride!
+11	wom	To the bride!
+11	ens	To the bride!
+11	men	To the bride!
+11	ang	From your sister,
+11	men	Angelica!
+11	ens	Angelica!
+11	men	Angelica!
+11	ang	who is always by your side.
+11	ens	By your side!
+11	ang	To your union,
+11	wom	To the union!
+11	men	To the union!
+11	wom	To the revolution!
+11	men	To the revolution!
+11	ang	and the hope that you provide.
+11	men	You provide!
+11	ens	You provide!
+11	ang	May you always...
+11	ham	Always–
+11	men	Always–
+11	wom	Always–
+11	ang	be satisfied.
+11	ham	Rewind–
+11	men	Rewind–
+11	wom	Rewind–
+11	ang	I remember that night, I just might
+11	ang	regret that night for the rest of my days.
+11	ang	I remember those soldier boys
+11	ang	tripping over themselves to win our praise.
+11	ang	I remember that dreamlike candlelight
+11	ang	like a dream that you can’t quite place,
+11	ang	but Alexander, I’ll never forget the first time I saw your face.
+11	ang	I have never been the same,
+11	ang	Intelligent eyes in a hunger-pang frame,
+11	ang	And when you said “Hi,” I forgot my dang name,
+11	ang	set my heart aflame, ev’ry part aflame,
+11	comp	This is not a game…
+11	ham	You strike me as a woman who has never been satisfied.
+11	ang	I’m sure I don’t know what you mean. You forget yourself.
+11	ham	You’re like me. I’m never satisfied.
+11	ang	Is that right?
+11	ham	I have never been satisfied.
+11	ang	My name is Angelica Schuyler.
+11	ham	Alexander Hamilton.
+11	ang	Where’s your fam’ly from?
+11	ham	Unimportant. There’s a million things I haven’t done but
+11	ham	just you wait, just you wait…
+11	ang	So so so—
+11	ang	so this is what it feels like to match wits
+11	ang	with someone at your level! What the hell is the catch? It’s
+11	ang	the feeling of freedom, of seein’ the light,
+11	ang	it’s Ben Franklin with a key and a kite! You see it, right?
+11	ang	The conversation lasted two minutes, maybe three minutes,
+11	ang	ev’rything we said in total agreement,
+11	ang	it’s a dream and it’s a bit of a dance,
+11	ang	a bit of a posture, it’s a bit of a stance.
+11	ang	He’s a bit of a flirt, but I’m ‘a give it a chance.
+11	ang	I asked about his fam’ly, did you see his answer?
+11	ang	His hands started fidgeting, he looked askance?
+11	ang	He’s penniless, he’s flying by the seat of his pants.
+11	ang	Handsome, boy, does he know it!
+11	ang	Peach fuzz, and he can’t even grow it!
+11	ang	I wanna take him far away from this place,
+11	ang	then I turn and see my sister’s face and she is...
+11	eliz	Helpless…
+11	ang	And I know she is...
+11	eliz	Helpless…
+11	ang	And her eyes are just…
+11	eliz	Helpless…
+11	ang	And I realize
+11	ang	Three fundamental truths at the exact same time…
+11	comp	Three fundamental truths at the exact same time…
+11	ham	Where are you taking me?
+11	ang	I’m about to change your life.
+11	ham	Then by all means, lead the way.
+11	comp	Number one!
+11	ang	I’m a girl in a world in which
+11	ang	my only job is to marry rich.
+11	ang	My father has no sons so I’m the one
+11	ang	who has to social climb for one,
+11	ang	so I’m the oldest and the wittiest and the
+11	ang	gossip in New York City is insidious,
+11	ang	Alexander is penniless,
+11	ang	Ha! That doesn’t mean I want him any less.
+11	ang	Elizabeth Schuyler. It’s a pleasure to meet you.
+11	ham	Schuyler?
+11	ang	My sister.
+11	comp	Number two!
+11	ang	He’s after me cuz I’m a Schuyler sister.
+11	ang	That elevates his status, I’d
+11	ang	have to be naïve to set that aside,
+11	ang	maybe that is why I introduce him to Eliza,
+11	ang	now that’s his bride.
+11	ang	Nice going, Angelica, he was right,
+11	ang	You will never be satisfied.
+11	ang	Thank you for all your service.
+11	ham	If it takes fighting a war for us to meet, it will have been worth it.
+11	ang	I’ll leave you to it.
+11	comp	Number three!
+11	ang	I know my sister like I know my own mind,
+11	ang	you will never find anyone as trusting or as kind.
+11	ang	If I tell her that I love him she’d be silently resigned,
+11	ang	he’d be mine.
+11	ang	She would say, “I’m fine”
+11	ang	She’d be lying.
+11	comp	She’d be lying.
+11	ang	But when I fantasize at night
+11	ang	it’s Alexander’s eyes,
+11	ang	as I romanticize what might
+11	ang	have been if I hadn’t sized him up so quickly.
+11	ang	At least my dear Eliza’s his wife;
+11	ang	at least I keep his eyes in my life…
+11	ang	To the groom!
+11	men	To the groom!
+11	men	To the groom!
+11	ens	To the groom!
+11	ang	To the bride!
+11	wom	To the bride!
+11	men	To the bride!
+11	ens	To the bride!
+11	ang	From your sister,
+11	men	Angelica!
+11	men	Angelica!
+11	eliz	Angelica!
+11	wom	Angelica!
+11	ang	who is always by your side.
+11	men	By your side.
+11	eliz	By your side.
+11	wom	By your side.
+11	ang	To your union,
+11	ens	To the union!
+11	ens	To the revolution!
+11	ang	and the hope that you provide.
+11	men	You provide!
+11	ens	You provide!
+11	ang	May you always
+11	ens	Always–
+11	ang	be satisfied.
+11	ham	Be satisfied,
+11	men	Be satisfied,
+11	eliz	be satisfied.
+11	wom	be satisfied.
+11	ham	be satisfied.
+11	men	be satisfied.
+11	ang	And I know
+11	men	be satisfied.
+11	ens	be satisfied.
+11	men	be satisfied.
+11	men	Be satisfied.
+11	ang	She’ll be happy as his bride.
+11	men	Be satisfied.
+11	men	Be satisfied.
+11	ens	Be satisfied.
+11	men	Be satisfied.
+11	ang	And I know
+11	men	be satisfied.
+11	men	be satisfied.
+11	wom	be satisfied.
+11	ang	He will never be satisfied.
+11	ang	I will never be satisfied.
+12	laur	I may not live to see our glory!
+12	mull	I may not live to see our glory!
+12	laf	I may not live to see our glory!
+12	laur	But I’ve seen wonders great and small.
+12	mull	I’ve seen wonders great and small.
+12	laf	I’ve seen wonders great and small.
+12	laur	Cuz if the tomcat can get married,
+12	mull	If Alexander can get married—
+12	laf	If Alexander can get married—
+12	laur	There’s hope for our ass, after all!
+12	laf	Raise a glass to freedom.
+12	laur	Hey!
+12	laur	Something you will never see again!
+12	mull	No matter what she tells you.
+12	laf	Let’s have another round tonight!
+12	laur	Raise a glass to the four of us!
+12	ham	Ho!
+12	laf	Ho!
+12	mull	To the newly not poor of us!
+12	ham	Woo!
+12	laur	Woo!
+12	laf	Woo!
+12	laf	We’ll tell the story of tonight.
+12	laur	Let’s have another round—
+12	ham	Well, if it isn’t Aaron Burr.
+12	burr	Sir!
+12	ham	I didn’t think that you would make it.
+12	burr	To be sure.
+12	laf	Burr!
+12	mull	Burr!
+12	burr	I came to say congratulations.
+12	mull	Spit a verse, Burr!
+12	burr	I see the whole gang is here.
+12	laf	You are the worst, Burr!
+12	ham	Ignore them. Congrats to you, Lieutenant Colonel.
+12	ham	I wish I had your command instead of manning George’s journal.
+12	burr	No, you don’t.
+12	ham	Yes, I do.
+12	burr	Now, be sensible.
+12	burr	From what I hear, you’ve made yourself indispensible.
+12	laur	Well, well, I heard
+12	laur	you’ve got a special someone on the side, Burr.
+12	ham	Is that so?
+12	laur	What are you tryin’ to hide, Burr?
+12	burr	I should go.
+12	ham	No, these guys should go.
+12	laf	What?
+12	laur	No!
+12	ham	Leave us alone.
+12	mull	Man…
+12	ham	It’s alright, Burr.
+12	ham	I wish you’d brought this girl with you tonight, Burr.
+12	burr	You’re very kind, but I’m afraid it’s unlawful, sir.
+12	ham	What do you mean?
+12	burr	She’s married.
+12	ham	I see.
+12	burr	She’s married to a British officer.
+12	ham	Oh shit…
+12	burr	Congrats again, Alexander. Smile more.
+12	burr	I’ll see you on the other side of the war.
+12	ham	I will never understand you.
+12	ham	If you love this woman, go get her! What are you waiting for?
+12	burr	I’ll see you on the other side of the war.
+12	ham	I’ll see you on the other side of the war.
+13	burr	Theodosia writes me a letter ev’ry day.
+13	burr	I’m keeping her bed warm while her husband is away.
+13	burr	He’s on the British side in Georgia.
+13	burr	He’s tryin’ to keep the colonies in line.
+13	burr	He can keep all of Georgia.
+13	burr	Theodosia, she’s mine.
+13	burr	Love doesn’t discriminate
+13	burr	between the sinners and the saints,
+13	burr	it takes and it takes and it takes
+13	burr	and we keep loving anyway.
+13	burr	We laugh and we cry
+13	burr	and we break
+13	burr	and we make our mistakes.
+13	burr	And if there’s a reason I’m by her side
+13	burr	when so many have tried
+13	burr	then I’m willing to wait for it.
+13	burr	I’m willing to wait for it.
+13	burr	My grandfather was a fire and brimstone preacher,
+13	men	Preacher
+13	men	Preacher
+13	burr	But there are things that the homilies and hymns won’t teach ya.
+13	men	Teach ya,
+13	men	teach ya,
+13	burr	My mother was a genius,
+13	wom	Genius
+13	burr	my father commanded respect.
+13	men	Respect
+13	burr	When they died they left no instructions.
+13	burr	Just a legacy to protect.
+13	burr	Death doesn’t discriminate
+13	ens	Death doesn’t discriminate
+13	burr	between the sinners and the saints,
+13	ens	between the sinners and the saints,
+13	burr	it takes and it takes and it takes
+13	ens	it takes and it takes and it takes
+13	burr	and we keep living anyway.
+13	ens	and we keep living anyway.
+13	burr	We rise and we fall
+13	ens	We rise and we fall
+13	burr	and we break
+13	ens	and we break
+13	burr	and we make our mistakes.
+13	ens	and we make our mistakes.
+13	burr	And if there’s a reason I’m still alive
+13	ens	And if there’s a reason I’m still alive
+13	burr	when everyone who loves me has died
+13	ens	when everyone who loves me has died
+13	burr	I’m willing to wait for it.
+13	ens	I’m willing to wait for it.
+13	burr	I’m willing to wait for it.
+13	ens	I’m willing to wait for it.
+13	burr	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	burr	I am the one thing in life I can control
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	burr	I am inimitable
+13	burr	I am an original
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	burr	I’m not falling behind or running late
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	ens	Wait for it
+13	burr	I’m not standing still,
+13	burr	I am lying in wait
+13	ens	Wait
+13	ens	Wait
+13	ens	Wait
+13	burr	Hamilton faces an endless uphill climb
+13	ens	Climb
+13	ens	Climb
+13	ens	Climb
+13	burr	He has something to prove
+13	burr	he has nothing to lose
+13	ens	Lose
+13	ens	Lose
+13	ens	Lose
+13	ens	Lose
+13	burr	Hamilton’s pace is relentless,
+13	burr	he wastes no time
+13	ens	Time
+13	ens	Time
+13	ens	Time
+13	burr	What is it like in his shoes?
+13	burr	Hamilton doesn’t hesitate.
+13	burr	He exhibits no restraint.
+13	burr	He takes and he takes and he takes
+13	burr	and he keeps winning anyway.
+13	burr	He changes the game.
+13	burr	He plays and he raises the stakes.
+13	burr	And if there’s a reason
+13	burr	he seems to thrive when so few survive, then
+13	burr	Goddamnit-
+13	burr	I'm willing to wait for it.
+13	comp	I'm willing to wait for it.
+13	comp	Wait for it
+13	comp	Wait for...
+13	burr	I'm willing to wait for it…
+13	comp	I'm willing to--
+13	burr	Life doesn't discriminate
+13	comp	Life doesn't discriminate
+13	burr	between the sinners and the saints,
+13	comp	between the sinners and the saints,
+13	burr	it takes and it takes and it takes.
+13	comp	it takes and it takes and it takes.
+13	burr	We rise
+13	comp	and we keep living anyway,
+13	comp	we rise and we fall
+13	comp	and we break
+13	comp	and we make our mistakes.
+13	burr	We fall
+13	burr	and if there's a reason I’m still alive
+13	comp	and if there's a reason I’m still alive
+13	burr	when so many have died,
+13	comp	when so many have died,
+13	burr	then I’m willin' to--
+13	comp	then I’m willin' to--
+13	burr	Wait for it...
+13	wom	Wait for it… 
+13	men	Wait for it….
+13	burr	Wait for it...
+13	wom	Wait for it…
+13	men	Wait for it…
+13	wom	Wait for it…
+13	men	Wait for it…
+13	wom	Wait for it…
+13	men	Wait for it…
+13	wom	Wait for it…
+13	men	Wait...
+14	eliz	Stay alive...
+14	ang	Stay alive...
+14	eliz	Stay alive...
+14	wom	Stay alive...
+14	ham	I have never seen the General so despondent.
+14	ham	I have taken over writing all his correspondence.
+14	ham	Congress writes, “George, attack the British forces.”
+14	ham	I shoot back, we have resorted to eating our horses.
+14	ham	Local merchants deny us equipment, assistance,
+14	ham	they only take British money, so sing a song of sixpence.
+14	wash	The cavalry’s not coming.
+14	ham	Sir!
+14	wash	Alex, listen. There’s only one way for us to win this.
+14	wash	Provoke outrage, outright.
+14	ham	That’s right.
+14	wash	Don’t engage, strike by night.
+14	wash	Remain relentless ‘til their troops take flight.
+14	ham	Make it impossible to justify the cost of the fight.
+14	wash	Outrun.
+14	ham	Outrun.
+14	wash	Outlast.
+14	ham	Outlast.
+14	wash	Hit ‘em quick, get out fast.
+14	ham	Chick-a-plao!
+14	wash	Stay alive ‘til this horror show is past.
+14	wash	We’re gonna fly a lot of flags half-mast.
+14	ham	Raise a glass!
+14	laur	Raise a glass!
+14	laf	Raise a glass!
+14	mull	I go back to New York and my apprenticeship.
+14	laf	I ask for French aid, I pray that France has sent a ship.
+14	laur	I stay at work with Hamilton,
+14	laur	we write essays against slavery,
+14	laur	and every day’s a test of our camaraderie and bravery.
+14	ham	We cut supply lines, we steal contraband,
+14	ham	we pick and choose our battles and places to take a stand.
+14	ham	And ev’ry day,
+14	ham	“Sir, entrust me with a command,”
+14	ham	and ev’ry day,
+14	wash	No.
+14	ham	He dismisses me out of hand.
+14	ang	Stay alive…
+14	eliz	Stay alive…
+14	ham	Instead of me, he promotes Charles Lee.
+14	lee	Charels Lee
+14	ham	Makes him second-incommand:
+14	lee	I’m a General. Whee!!!!
+14	ham	Yeah. He’s not the choice I would have gone with.
+14	ham	He shits the bed at the Battle of Monmouth.
+14	laur	He shits the bed at the Battle of Monmouth.
+14	laf	He shits the bed at the Battle of Monmouth.
+14	wash	Ev’ryone attack!
+14	lee	Retreat!
+14	wash	Attack!
+14	lee	Retreat!
+14	wash	What are you doing, Lee? Get back on your feet!
+14	lee	But there’s so many of them!
+14	wash	I’m sorry, is this not your speed?!
+14	wash	Hamilton!
+14	ham	Ready, sir!
+14	wash	Have Lafayette take the lead!
+14	ham	Yes, sir!
+14	laur	A thousand soldiers die in a hundred degree heat.
+14	laf	As we snatch a stalemate from the jaws of defeat.
+14	ham	Charles Lee was left behind without a pot to piss in.
+14	ham	He started sayin’ this to anybody who would listen:
+14	lee	Washington cannot be left alone to his devices
+14	lee	indecisive, from crisis to crisis.
+14	lee	The best thing he can do for the revolution is turn n’
+14	lee	go back to plantin’ tobacco in Mount Vernon.
+14	comp	Oo!!
+14	wash	Don’t do a thing. History will prove him wrong.
+14	ham	But, sir!
+14	wash	We have a war to fight, let’s move along.
+14	laur	Strong words from Lee, someone oughta hold him to it.
+14	ham	I can’t disobey direct orders.
+14	laur	Then I’ll do it.
+14	laur	Alexander, you’re the closest friend I’ve got.
+14	ham	Laurens, do not throw away your shot.
+15	men	One, two, three, four,
+15	comp	five, six, seven, eight, nine…
+15	ham	It’s the Ten Duel Commandments.
+15	laur	It’s the Ten Duel Commandments.
+15	burr	It’s the Ten Duel Commandments.
+15	lee	It’s the Ten Duel Commandments.
+15	comp	It’s the Ten Duel Commandments.
+15	comp	Number one!
+15	laur	The challenge: demand satisfaction.
+15	laur	If they apologize, no need for further action.
+15	comp	Number two!
+15	laur	If they don’t, grab a friend, that’s your second.
+15	ham	Your lieutenant when there’s reckoning to be reckoned.
+15	comp	Number three!
+15	lee	Have your seconds meet face to face.
+15	burr	Negotiate a peace…
+15	ham	Or negotiate a time and place.
+15	burr	This is commonplace, ‘specially ‘tween recruits.
+15	comp	Most disputes die, and no one shoots.
+15	comp	Number four!
+15	laur	If they don’t reach a peace, that’s alright.
+15	laur	Time to get some pistols and a doctor on site.
+15	ham	You pay him in advance, you treat him with civility.
+15	burr	You have him turn around so he can have deniability.
+15	comp	Five!
+15	lee	Duel before the sun is in the sky.
+15	comp	Pick a place to die where it’s high and dry,
+15	comp	number six!
+15	ham	Leave a note for your next of kin.
+15	ham	Tell ‘em where you been. Pray that hell or heaven lets you in.
+15	comp	Seven!
+15	lee	Confess your sins, ready for the moment
+15	lee	of adrenaline when you finally face your opponent.
+15	comp	Number eight!
+15	ham	Your last chance to negotiate.
+15	laur	Your last chance to negotiate.
+15	burr	Your last chance to negotiate.
+15	lee	Your last chance to negotiate.
+15	ham	Send in your seconds, see if they can set the record straight…
+15	laur	Send in your seconds, see if they can set the record straight…
+15	burr	Send in your seconds, see if they can set the record straight…
+15	lee	Send in your seconds, see if they can set the record straight…
+15	burr	Alexander.
+15	ham	Aaron Burr, sir.
+15	burr	Can we agree that duels are dumb and immature?
+15	ham	Sure.
+15	ham	But your man has to answer for his words, Burr.
+15	burr	With his life? We both know that’s absurd, sir.
+15	ham	Hang on, how many men died because Lee was inexperienced and ruinous?
+15	burr	Okay, so we’re doin’ this.
+15	comp	Number nine!
+15	ham	Look ‘em in the eye, aim no higher.
+15	ham	Summon all the courage you require.
+15	ham	Then count
+15	men	One two three four Five six seven eight nine
+15	ham	Number
+15	burr	Number
+15	comp	Ten paces!
+15	ham	Fire!
+15	burr	Fire!
+16	ham	Lee, do you yield?
+16	burr	You shot him in the side!
+16	burr	Yes, he yields!
+16	laur	I’m satisfied.
+16	burr	Yo, we gotta clear the field!
+16	ham	Go! We won.
+16	comp	Here comes the General!
+16	burr	This should be fun.
+16	wash	What is the meaning of this? Mr. Burr,
+16	wash	get a medic for the General.
+16	burr	Yes, sir.
+16	wash	Lee, you will never agree with me,
+16	wash	but believe me, these young men don’t speak for me.
+16	wash	Thank you for your service.
+16	burr	Let’s ride!
+16	wash	Hamilton!
+16	ham	Sir!
+16	wash	Meet me inside.
+16	comp	Meet him inside! Meet him inside!
+16	comp	Meet him inside, meet him, meet him inside!
+16	wash	Son—
+16	ham	Don’t call me son.
+16	wash	This war is hard enough without infighting—
+16	ham	Lee called you out. We called his bluff.
+16	wash	You solve nothing, you aggravate our allies to the south.
+16	ham	You’re absolutely right. John should have shot him in the mouth.
+16	ham	That would’ve shut him up.
+16	wash	Son—
+16	ham	I’m notcha son—
+16	wash	Watch your tone.
+16	wash	I am not a maiden in need of defending, I am grown.
+16	ham	Charles Lee, Thomas Conway,
+16	ham	these men take your name and they rake it through the mud.
+16	wash	My name’s been through a lot, I can take it.
+16	ham	Well, I don’t have your name. I don’t have your titles.
+16	ham	I don’t have your land.
+16	ham	But, if you—
+16	wash	No—
+16	ham	If you gave me command of a battalion,
+16	ham	a group of men to lead,
+16	ham	I could fly above my station after the war.
+16	wash	Or you could die and we need you alive.
+16	ham	I’m more than willing to die—
+16	wash	Your wife needs you alive, son, I need you alive—
+16	ham	Call me son one more time—
+16	wash	Go home, Alexander.
+16	wash	That’s an order from your commander.
+16	ham	Sir—
+16	wash	Go home.
+17	eliz	Look around, look around
+17	eliz	at how lucky we are to be alive right now.
+17	eliz	Look around, look around…
+17	ham	How long have you known?
+17	eliz	A month or so.
+17	ham	Eliza, you should have told me.
+17	eliz	I wrote to the General a month ago.
+17	ham	No.
+17	eliz	I begged him to send you home.
+17	ham	You should have told me.
+17	eliz	I’m not sorry.
+17	eliz	I knew you’d fight until the war was won
+17	ham	The war’s not done.
+17	eliz	But you deserve a chance to meet your son.
+17	eliz	Look around, look around
+17	eliz	at how lucky we are to be alive right now.
+17	ham	Will you relish being a poor man’s wife,
+17	ham	unable to provide for your life?
+17	eliz	I relish being your wife.
+17	eliz	Look around, look around
+17	eliz	Look at where you are.
+17	eliz	Look at where you started.
+17	eliz	The fact that you’re alive is a miracle.
+17	eliz	Just stay alive, that would be enough.
+17	eliz	And if this child
+17	eliz	Shares a fraction of your smile
+17	eliz	or a fragment of your mind,
+17	eliz	Look out world!
+17	eliz	That would be enough.
+17	eliz	I don’t pretend to know
+17	eliz	the challenges you’re facing.
+17	eliz	The worlds you keep erasing and creating in your mind.
+17	eliz	But I’m not afraid.
+17	eliz	I know who I married.
+17	eliz	So long as you come home at the end of the day
+17	eliz	that would be enough.
+17	eliz	We don’t need a legacy.
+17	eliz	We don’t need money.
+17	eliz	If I could grant you peace of mind,
+17	eliz	If you could let me inside your heart...
+17	eliz	Oh, let me be a part of the narrative
+17	eliz	in the story they will write someday.
+17	eliz	Let this moment be the first chapter:
+17	eliz	where you decide to stay
+17	eliz	and I could be enough
+17	eliz	and we could be enough
+17	eliz	that would be enough.
+18	burr	How does a ragtag volunteer army in need of a shower
+18	burr	somehow defeat a global superpower?
+18	burr	How do we emerge victorious from the quagmire?
+18	burr	Leave the battlefield waving Betsy Ross’ flag higher?
+18	burr	Yo. Turns out we have a secret weapon!
+18	burr	An immigrant you know and love who’s unafraid to step in!
+18	burr	He’s constantly confusin’, confoundin’ the British henchmen.
+18	burr	Ev’ryone give it up for America’s favorite fighting Frenchman!
+18	comp	Lafayette!
+18	laf	I’m takin this horse by the reins makin’
+18	laf	redcoats redder with bloodstains.
+18	comp	Lafayette!
+18	laf	And I’m never gonna stop until I make ‘em
+18	laf	drop and burn ‘em up and scatter their remains, I’m
+18	comp	Lafayette!
+18	laf	Watch me engagin’ em! Escapin’ em! Enragin’ em! I’m-
+18	comp	Lafayette!
+18	laf	I go to France for more funds.
+18	comp	Lafayette!
+18	laf	I come back with more guns
+18	laf	And ships
+18	laf	And so the balance shifts.
+18	wash	We rendezvous with Rochambeau, consolidate their gifts.
+18	laf	We can end this war at Yorktown, cut them off at sea, but
+18	laf	for this to succeed, there’s someone else we need:
+18	wash	I know.
+18	wash	Hamilton!
+18	comp	Hamilton!
+18	laf	Sir, he knows what to do in a trench.
+18	laf	ingenuitive and fluent in French, I mean—
+18	wash	Hamilton!
+18	comp	Hamilton!
+18	laf	Sir, you’re gonna have to use him eventually,
+18	laf	what’s he gonna do on the bench? I mean—
+18	wash	Hamilton!
+18	comp	Hamilton!
+18	laf	No one has more resilience
+18	laf	or matches my practical tactical brilliance—
+18	wash	Hamilton!
+18	comp	Hamilton!
+18	laf	You wanna fight for your land back?
+18	comp	Hamilton!
+18	wash	I need my right hand man back!
+18	wom	Hamilton!
+18	laf	Get your right hand man back!
+18	men	Get your right hand man back!
+18	wom	Hamilton!
+18	laf	you know you gotta get ya right hand man back
+18	men	you know you gotta get ya right hand man back
+18	wom	Hamilton!
+18	laf	I mean you gotta put some thought into the letter
+18	laf	but the sooner the better to 
+18	laf	get your right hand man back!
+18	ens	Hamilton,
+18	ens	Hamilton!
+18	wash	Alexander Hamilton,
+18	wash	troops are waiting in the field for you.
+18	wash	If you join us right now, together we can turn the tide.
+18	wash	Oh, Alexander Hamilton,
+18	wash	I have soldiers who will yield for you.
+18	wash	If we manage to get this right,
+18	wash	they’ll surrender by early light.
+18	wash	The world will never be the same, Alexander…
+19	wash	I was younger then you are now
+19	wash	when I was given my first command.
+19	wash	I led my men straight into a massacre.
+19	wash	I witnessed their deaths firsthand.
+19	wash	I made every mistake,
+19	wash	I felt the shame rise in me,
+19	wash	And even now I lie awake,
+19	wash	Knowing history has its eyes on me
+19	laur	Whoa…
+19	mull	Whoa…
+19	laur	Whoa…
+19	mull	Whoa…
+19	laur	Whoa…
+19	mull	Whoa…
+19	laur	Yeah
+19	mull	Yeah
+19	wash	History has its eyes on me.
+19	comp	Whoa…
+19	comp	Whoa….
+19	comp	Whoa…
+19	comp	Yeah
+19	wash	Let me tell you what I wish I’d known
+19	wash	when I was young and dreamed of glory:
+19	wash	You have no control:
+19	wash	Who lives, who dies, who tells your story.
+19	comp	Who lives, who dies, who tells your story.
+19	wash	I know that we can win.
+19	wash	I know that greatness lies in you.
+19	wash	But remember from here on in,
+19	wash	History has its eyes on you.
+19	ham	History has its eyes on you.
+19	men	History has its eyes on you.
+19	ens	Whoa…
+19	ens	Whoa…
+19	ens	Whoa…
+19	comp	History has its eyes on you.
+20	comp	The battle of Yorktown. 1781.
+20	laf	Monsieur Hamilton.
+20	ham	Monsieur Lafayette.
+20	laf	In command where you belong.
+20	ham	How you say, no sweat.
+20	ham	Finally on the field. We’ve had quite a run.
+20	laf	Immigrants:
+20	ham	We get the job done.
+20	laf	We get the job done.
+20	ham	So what happens if we win?
+20	laf	I go back to France,
+20	laf	I bring freedom to my people if I’m given the chance.
+20	ham	We’ll be with you when you do.
+20	laf	Go lead your men.
+20	ham	See you on the other side.
+20	laf	‘Til we meet again, let’s go!
+20	ens	I am not throwin’ away my shot!
+20	ens	I am not throwin’ away my shot!
+20	ens	Hey yo, I’m just like my country,
+20	ens	I’m young, scrappy and hungry,
+20	ens	and I’m not throwing away my shot!
+20	ens	I am not throwin’ away my shot!
+20	ham	‘Til the world turns upside down...
+20	ens	‘Til the world turns upside down!
+20	ham	I imagine death so much it feels more like a memory.
+20	ham	This is where it gets me:
+20	ham	on my feet,
+20	ham	the enemy ahead of me.
+20	ham	If this is the end of me, at least I have a friend with me,
+20	ham	weapon in my hand, a command, and my men with me.
+20	ham	Then I remember my Eliza’s expecting me...
+20	ham	not only that, my Eliza’s expecting.
+20	ham	We gotta go, gotta get the job done,
+20	ham	gotta start a new nation, gotta meet my son!
+20	ham	Take the bullets out your gun!
+20	ens	What?
+20	ham	The bullets out your gun!
+20	ens	What?
+20	ham	We move under cover and we move as one
+20	ham	through the night, we have one shot to live another day.
+20	ham	We cannot let a stray gunshot give us away.
+20	ham	We will fight up close, seize the moment and stay in it.
+20	ham	It’s either that or meet the business end of a bayonet.
+20	ham	The code word is ‘Rochambeau,’ dig me?
+20	ens	Rochambeau!
+20	ham	You have your orders now, go, man, go!
+20	ham	And so the American experiment begins
+20	ham	with my friends all scattered to the winds.
+20	ham	Laurens is in South Carolina, redefining brav’ry.
+20	ham	We’ll never be free until we end slavery!
+20	laur	We’ll never be free until we end slavery!
+20	ham	When we finally drive the British away,
+20	ham	Lafayette is there waiting—
+20	ham	In Chesapeake Bay!
+20	laf	In Chesapeake Bay!
+20	ham	How did we know that this plan would work?
+20	ham	We had a spy on the inside. That’s right,
+20	ham	Hercules Mulligan!
+20	comp	Hercules Mulligan!
+20	mull	A tailor spyin’ on the British government!
+20	mull	I take their measurements, information and
+20	mull	then I smuggle it!
+20	comp	Up
+20	mull	To my brother’s revolutionary covenant
+20	mull	I’m runnin’ with the Sons of Liberty and I am lovin’ it!
+20	mull	See, that’s what happens when you up against the ruffians.
+20	mull	We in the shit now, somebody gotta shovel it!
+20	mull	Hercules Mulligan, I need no introduction,
+20	mull	when you knock me down I get the fuck back up again!
+20	comp	Left! Right! Hold!
+20	comp	Go!
+20	comp	What! What! What!
+20	ham	After a week of fighting, a young man in a red coat stands on a parapet.
+20	laf	We lower our guns as he frantically waves a white handkerchief.
+20	mull	And just like that, it’s over. We tend to our wounded, we count our dead.
+20	laur	Black and white soldiers wonder alike if this really means freedom.
+20	wash	Not. Yet.
+20	ham	We negotiate the terms of surrender.
+20	ham	I see George Washington smile.
+20	ham	We escort their men out of Yorktown.
+20	ham	They stagger home single file.
+20	ham	Tens of thousands of people flood the streets.
+20	ham	There are screams and church bells ringing.
+20	ham	And as our fallen foes retreat,
+20	ham	I hear the drinking song they’re singing…
+20	men	The world turned upside down.
+20	comp	The world turned upside down,
+20	comp	the world turned upside down,
+20	comp	the world turned upside down,
+20	comp	down,
+20	comp	down, down, down.
+20	laf	Freedom for America, freedom for France!
+20	comp	Down, down, down.
+20	ham	Gotta start a new nation,
+20	ham	gotta meet my son.
+20	comp	Down, down, down.
+20	mull	We won!
+20	laf	We won!
+20	laur	We won!
+20	laf	We won!
+20	mull	We won!
+20	ham	We won!
+20	laur	We won!
+20	laf	We won!
+20	mull	We won!
+20	wash	We won!
+20	comp	The world turned upside down!
+21	kg	They say
+21	kg	the price of my war’s not a price that they’re willing to pay.
+21	kg	Insane.
+21	kg	You cheat with the French, now I’m fighting
+21	kg	with France and with Spain.
+21	kg	I’m so blue.
+21	kg	I thought that we’d made an arrangement
+21	kg	when you went away,
+21	kg	You were mine to subdue.
+21	kg	Well, even despite our estrangement, I’ve got
+21	kg	a small query for you:
+21	kg	What comes next?
+21	kg	You’ve been freed.
+21	kg	Do you know how hard it is to lead?
+21	kg	You’re on your own.
+21	kg	Awesome. Wow.
+21	kg	Do you have a clue what happens now?
+21	kg	Oceans rise.
+21	kg	Empires fall.
+21	kg	It’s much harder when it’s all your call.
+21	kg	All alone, across the sea.
+21	kg	When your people say they hate you,
+21	kg	don’t come crawling back to me.
+21	kg	Da da da dat da dat da da da
+21	kg	Da ya da
+21	kg	Da da dat
+21	kg	Da da ya da. . .
+21	kg	You’re on your own . . .
+22	burr	Dear Theodosia, what to say to you?
+22	burr	You have my eyes. You have your mother’s name.
+22	burr	When you came into the world, you cried and
+22	burr	it broke my heart.
+22	burr	I’m dedicating every day to you.
+22	burr	Domestic life was never quite my style.
+22	burr	When you smile,
+22	burr	you knock me out, I fall apart.
+22	burr	And I thought I was so smart.
+22	burr	You will come of age with our young nation.
+22	burr	We’ll bleed and fight for you, we’ll make it right for you.
+22	burr	If we lay a strong enough foundation
+22	burr	we’ll pass it on to you, we’ll give the world to
+22	burr	you, and you’ll blow us all away…
+22	burr	someday, someday.
+22	burr	Yeah, you’ll blow us all away,
+22	burr	someday, someday.
+22	ham	Oh Philip, when you smile I am undone.
+22	ham	My son.
+22	ham	Look at my son. Pride is not the word I’m looking for.
+22	ham	There is so much more inside me now.
+22	ham	Oh Philip, you outshine the morning sun.
+22	ham	My son.
+22	ham	When you smile, I fall apart.
+22	ham	And I thought I was so smart.
+22	ham	My father wasn’t around.
+22	burr	My father wasn’t around.
+22	ham	I swear that I'll be around for you.
+22	ham	I’ll do whatever it takes.
+22	burr	I’ll make a million mistakes.
+22	ham	I’ll make the world safe and sound for you
+22	burr	I’ll make the world safe and sound for you
+22	ham	will come of age with our young nation.
+22	burr	will come of age with our young nation.
+22	ham	We’ll bleed and fight for you, we’ll make it
+22	burr	We’ll bleed and fight for you, we’ll make it
+22	ham	right for you.
+22	burr	right for you.
+22	ham	If we lay a strong enough foundation
+22	burr	If we lay a strong enough foundation
+22	ham	we’ll pass it on to you, we’ll give the world to you,
+22	burr	we’ll pass it on to you, we’ll give the world to you,
+22	ham	and you’ll blow us all away...
+22	burr	and you’ll blow us all away...
+22	ham	someday, someday.
+22	burr	someday, someday.
+22	ham	Yeah, you’ll blow us all away,
+22	burr	Yeah, you’ll blow us all away,
+22	ham	someday, someday.
+22	burr	someday, someday.
+23	burr	After the war I went back to New York.
+23	ham	After the war I went back to New York.
+23	burr	I finished up my studies and I practiced law.
+23	ham	I practiced law, Burr worked next door.
+23	burr	Even though we started at the very same time,
+23	burr	Alexander Hamilton began to climb.
+23	burr	How to account for his rise to the top?
+23	burr	Maaaaan, the man is non-stop!
+23	ham	Gentlemen of the jury, I’m curious, bear with me.
+23	ham	This is the first murder trial of our brand-new nation.
+23	ham	The liberty behind deliberation–
+23	burr	Non-stop!
+23	ens	Non-stop!
+23	ham	I intend to prove beyond a shadow of a doubt
+23	ham	with my assistant counsel—
+23	burr	Co-counsel.
+23	burr	Hamilton, sit down.
+23	burr	Our client Levi Weeks is innocent. Call your first witness.
+23	burr	That’s all you had to say!
+23	ham	Okay!
+23	ham	One more thing–
+23	burr	Why do you assume you’re the smartest in the room?
+23	burr	Why do you assume you’re the smartest in the room?
+23	burr	Why do you assume you’re the smartest in the room?
+23	burr	Soon that attitude may be your doom!
+23	ens	Awwww!
+23	burr	Why do you write like you’re running out of time?
+23	ens	Why do you write like you’re running out of time?
+23	burr	Write day and night like you’re running out of time?
+23	burr	Ev’ry day you fight, like you’re running out of time.
+23	ens	Ev’ry day you fight, like you’re running out of time.
+23	burr	Keep on fighting. In the meantime—
+23	ens	Non-stop!
+23	ham	Corruption’s such an old song that we can sing
+23	ham	along in harmony and nowhere is it stronger than in Albany.
+23	ham	This colony’s economy’s increasingly stalling and
+23	ham	Honestly that’s why public service seems to be calling me.
+23	brr	He’s just non-stop!
+23	ens	He’s just non-stop!
+23	ham	I practiced the law, I practic’ly perfected it.
+23	ham	I’ve seen injustice in the world and I’ve corrected it.
+23	ham	Now for a strong central democracy,
+23	ham	If not, then I’ll be Socrates
+23	ham	Throwing verbal rocks at these mediocrities.
+23	ens	Awww!
+23	burr	Hamilton, at the Constitutional Convention:
+23	ham	I was chosen for the Constitutional Convention.
+23	burr	There as a New York junior delegate:
+23	ham	Now what I’m going to say may sound indelicate
+23	comp	Awwww!
+23	burr	Goes and proposes his own form of government!
+23	comp	What?
+23	burr	His own plan for a new form of government!
+23	comp	What?
+23	burr	Talks for six hours! The convention is listless!
+23	man1	Bright young man…
+23	man2	Yo, who the f is this?
+23	burr	Why do you always say what you believe?
+23	burr	Why do you always say what you believe?
+23	comp	Why do you always say what you believe?
+23	burr	Ev’ry proclamation guarantees
+23	burr	free ammunition for your enemies!
+23	comp	Awww!
+23	burr	Why do you write like it’s going out of style?
+23	men	Why do you write like it’s going out of style?
+23	wom	Going out of style,
+23	wom	hey!
+23	burr	Write day and night like it’s going out of style?
+23	men	Write day and night like it’s going out of style?
+23	wom	Going out of style,
+23	wom	hey!
+23	burr	Ev’ry day you fight like it’s going out of style.
+23	comp	Ev’ry day you fight like it’s going out of style.
+23	burr	Do what you do.
+23	comp	Do what you do.
+23	burr	Alexander?
+23	ham	Aaron Burr, sir.
+23	burr	It’s the middle of the night.
+23	ham	Can we confer, sir?
+23	burr	Is this a legal matter?
+23	ham	Yes, and it’s important to me.
+23	burr	What do you need?
+23	ham	Burr, you’re a better lawyer than me.
+23	burr	Okay.
+23	ham	I know I talk too much, I’m abrasive.
+23	ham	You’re incredible in court. You’re succinct, persuasive.
+23	ham	My client needs a strong defense. You’re the solution.
+23	burr	Who’s your client?
+23	ham	The new U.S. Constitution?
+23	burr	No.
+23	ham	Hear me out.
+23	burr	No way!
+23	ham	A series of essays, anonymously published,
+23	ham	defending the document to the public.
+23	burr	No one will read it.
+23	ham	I disagree.
+23	burr	And if it fails?
+23	ham	Burr, that’s why we need it.
+23	burr	The constitution’s a mess.
+23	ham	So it needs amendments.
+23	burr	It’s full of contradictions.
+23	ham	So is independence.
+23	ham	We have to start somewhere.
+23	burr	No. No way.
+23	ham	You’re making a mistake.
+23	burr	Good night.
+23	ham	Hey.
+23	ham	What are you waiting for?
+23	ham	What do you stall for?
+23	burr	What?
+23	ham	We won the war.
+23	ham	What was it all for?
+23	ham	Do you support this constitution?
+23	burr	Of course.
+23	ham	Then defend it.
+23	burr	And what if you’re backing the wrong horse?
+23	ham	Burr, we studied and we fought and we killed
+23	ham	for the notion of a nation we now get to build.
+23	ham	For once in your life, take a stand with pride.
+23	ham	I don’t understand how you stand to the side.
+23	burr	I’ll keep all my plans close to my chest.
+23	ens	Wait for it, wait for it, wait…
+23	burr	I’ll wait here and see which way the wind will blow.
+23	ens	which way the wind will blow.
+23	burr	I’m taking my time, watching the afterbirth of a nation,
+23	ens	I’m taking my time, watching the afterbirth of a nation,
+23	burr	watching the tension grow.
+23	ens	watching the tension grow.
+23	ang	I am sailing off to London. I’m accompanied by someone
+23	ang	who always pays.
+23	ang	I have found a wealthy husband who will keep
+23	ang	me in comfort for all my days.
+23	ang	He is not a lot of fun, but there’s no one who
+23	ang	can match you for turn of phrase.
+23	ang	My Alexander.
+23	ham	Angelica.
+23	ens	Don’t forget to write.
+23	eliz	Look at where you are.
+23	eliz	Look at where you started.
+23	eliz	The fact that you’re alive is a miracle.
+23	eliz	Just stay alive, that would be enough.
+23	eliz	And if your wife could share a fraction of your time,
+23	eliz	if I could grant you peace of mind,
+23	eliz	would that be enough?
+23	burr	Alexander joins forces with James Madison
+23	burr	and John Jay to write a series of essays
+23	burr	defending the new United States Constitution,
+23	burr	entitled The Federalist Papers.
+23	burr	The plan was to write a total of twenty-five essays, 
+23	burr	the work divided evenly among the three men.
+23	burr	In the end, they wrote eighty-five essays,
+23	burr	in the span of six months.
+23	burr	John Jay got sick after writing five. 
+23	burr	James Madison wrote twenty-nine. 
+23	burr	Hamilton wrote the other fifty-one.
+23	burr	How do you write like you’re running out of time?
+23	wom	Running out of time?
+23	burr	Write day and night like you’re running out of time?
+23	wom	Running out of time?
+23	burr	Ev’ry day you fight, like you’re running out of time,
+23	men	Ev’ry day you fight, like you’re running out of time,
+23	wom	Running out of time?
+23	burr	like you’re running out of time,
+23	men	like you’re running out of time,
+23	wom	Running out of time?
+23	burr	are you running out of time?
+23	men	are you running out of time?
+23	wom	Awwww!
+23	comp	How do you write like tomorrow won’t arrive?
+23	comp	How do you write like you need it to survive?
+23	comp	How do you write ev’ry second you’re alive?
+23	comp	Ev’ry second you’re alive?
+23	comp	Ev’ry second you’re alive?
+23	wash	They are asking me to lead.
+23	wash	I am doing the best I can
+23	wash	to get the people that I need,
+23	wash	I’m asking you to be my right hand man.
+23	ham	Treasury or State?
+23	wash	I know it’s a lot to ask,
+23	ham	Treasury or State?
+23	wash	To leave behind the world you know…
+23	ham	Sir, do you want me to run the Treasury or State department?
+23	wash	Treasury.
+23	ham	Let’s go.
+23	eliz	Alexander…
+23	ham	I have to leave.
+23	eliz	Alexander–
+23	ham	Look around, look around 
+23	ham	at how lucky we are to be alive right now.
+23	eliz	Helpless…
+23	ham	They are asking me to lead.
+23	eliz	Look around, isn’t this enough?
+23	ang	He will never be satisfied,
+23	eliz	What would be enough
+23	ang	he will never be satisfied,
+23	eliz	to be satisfied,
+23	ang	satisfied, 
+23	eliz	satisfied, 
+23	ang	satisfied
+23	eliz	satisfied
+23	wash	History has its eyes on you
+23	burr	Why do you assume you’re the smartest in the room?
+23	burr	Why do you assume you’re the smartest in the room?
+23	eliz	Look around,
+23	eliz	look around!
+23	ens	Non-stop!
+23	burr	Why do you assume you’re the smartest in the room? 
+23	ang	He will never be satisfied,
+23	eliz	Isn’t this enough?
+23	ang	satisfied,
+23	ens	Non-stop!
+23	eliz	What would be enough?
+23	ang	satisfied…
+23	burr	Soon that attitude’s gonna be your doom!
+23	wash	History has its  eyes on you
+23	laur	History has its  eyes on you
+23	laf	History has its  eyes on you
+23	mull	History has its  eyes on you
+23	ens	Non-stop!
+23	burr	Why do you fight like you’re running out of time?
+23	ens	Non-stop!
+23	ang	Why do you fight like
+23	eliz	Why do you fight like
+23	burr	Why do you fight like
+23	ang	history has its eyes on you…
+23	eliz	history has its eyes on you…
+23	burr	history has its eyes on you…
+23	wash	history has its eyes on you…
+23	laur	history has its eyes on you…
+23	laf	history has its eyes on you…
+23	mull	history has its eyes on you…
+23	ens	history has its eyes on you…
+23	ham	I am not throwin’ away my shot!
+23	men	Just you wait!
+23	ham	I am not throwin’ away my shot!
+23	comp	Just you wait!
+23	ham	I am Alexander Hamilton!
+23	comp	Alexander Hamilton
+23	comp	Hamilton, just you wait!
+23	ham	I am not throwin’ away my shot!
+24	comp	Seventeen. Se- se- seventeen...
+24	comp	Se- se- seventeen...
+24	burr	1789
+24	burr	How does the bastard orphan,
+24	burr	immigrant decorated war vet
+24	burr	unite the colonies through more debt?
+24	burr	Fight the other founding fathers til he has to forfeit?
+24	burr	Have it all, lose it all,
+24	burr	you ready for more yet?
+24	burr	Treasury Secretary. Washington’s the President,
+24	burr	ev’ry American experiment sets a precedent.
+24	burr	Not so fast. Someone came along to resist him.
+24	burr	Pissed him off until we had a two-party system.
+24	burr	You haven’t met him yet, you haven’t had the chance,
+24	burr	‘cause he’s been kickin’ ass as the ambassador to France
+24	burr	but someone’s gotta keep the American promise.
+24	burr	You simply must meet Thomas. Thomas!
+24	comp	Thomas Jefferson’s coming home!
+24	comp	Thomas Jefferson’s coming home!
+24	comp	Thomas Jefferson’s coming home!
+24	comp	Thomas Jefferson’s coming home!
+24	comp	Thomas Jefferson’s coming home
+24	comp	Lord he's been off in Paris for so long!
+24	comp	Aaa-ooo!
+24	comp	Aaa-ooo!
+24	jef	France is following us to revolution,
+24	jef	there is no more status quo.
+24	jef	But the sun comes up and the world still spins.
+24	ens	Aaa-ooo!
+24	jef	I helped Lafayette draft a declaration,
+24	jef	then I said, ‘I gotta go.
+24	jef	I gotta be in Monticello.’ Now the work at home begins…
+24	ens	Aaa-ooo!
+24	jef	So what’d I miss?
+24	jef	What’d I miss?
+24	jef	Virginia, my home sweet home, I wanna give you a kiss.
+24	jef	I’ve been in Paris meeting lots of different ladies...
+24	jef	I guess I basic’lly missed the late eighties...
+24	jef	I traveled the wide, wide world and came back to this…
+24	ens	Aaa-ooo!
+24	jef	There’s a letter on my desk from the President.
+24	jef	Haven’t even put my bags down yet.
+24	jef	Sally be a lamb, darlin’, won’tcha open it?
+24	jef	It says the President’s assembling a cabinet
+24	jef	and that I am to be the Secretary of State,
+24	jef	great!
+24	jef	And that I’m already Senate-approved...
+24	jef	I just got home and now I’m headed up to New York.
+24	ens	Headin’ to New York!
+24	ens	Headin’ to New York!
+24	jef	Lookin’ at the rolling fields
+24	jef	I can’t believe that we are free.
+24	ens	Believe that we are free
+24	jef	Ready to face whatever’s awaiting me in N.Y.C.
+24	ens	Me in N.Y.C.
+24	jef	But who’s waitin’ for me when I step in the place?
+24	jef	My friend James Madison, red in the face.
+24	jef	He grabs my arm and I respond, "What’s goin’ on?”
+24	ens	Aaa-ooo!
+24	mad	Thomas, we are engaged in a battle for our nation’s very soul.
+24	mad	Can you get us out of the mess we’re in?
+24	ens	Aaa-ooo!
+24	mad	Hamilton’s new financial plan is nothing less than government control.
+24	mad	I’ve been fighting for the South alone.
+24	mad	Where have you been?
+24	ens	Aaa-ooo!
+24	jef	Uh...France.
+24	mad	We have to win.
+24	jef	What’d I miss?
+24	ens	Wha? Wha? What’d I miss?
+24	jef	What’d I miss?
+24	ens	I’ve come home to this?
+24	jef	Headfirst into a political abyss!
+24	ens	Headfirst, into the abyss!
+24	jef	I have my first cabinet meeting today,
+24	ens	Chik-a-pow!
+24	jef	I guess I better think of something to say,
+24	jef	I’m already on my way,
+24	ens	On my way
+24	jef	let’s get to the bottom of this…
+24	jef	What did I miss?
+24	ens	Ahhh ah!
+24	wash	Mr. Jefferson, welcome home.
+24	ham	Mr. Jefferson? Alexander Hamilton.
+24	wash	Mr. Jefferson, welcome home.
+24	ens	Mr. Jefferson, welcome home.
+24	comp	Mr. Jefferson, welcome home
+24	comp	Sir, you’ve been off in Paris for so long!
+24	jef	So what did I miss?
+25	wash	Ladies and gentlemen,
+25	wash	you coulda been anywhere in the world tonight,
+25	wash	but you’re here with us in New York City.
+25	wash	Are you ready for a cabinet meeting???
+25	wash	The issue on the table:
+25	wash	Secretary Hamilton’s plan to assume state debt
+25	wash	and establish a national bank.
+25	wash	Secretary Jefferson, you have the floor.
+25	jef	‘Life, liberty and the pursuit of happiness.’
+25	jef	We fought for these ideals; we shouldn’t settle for less.
+25	jef	These are wise words, enterprising men quote ‘em.
+25	jef	Don’t act surprised, you guys, cuz I wrote ‘em.
+25	jef	Oww
+25	mad	Oww
+25	jef	But Hamilton forgets
+25	jef	his plan would have the government assume state’s debts.
+25	jef	Now, place your bets as to who that benefits:
+25	jef	the very seat of government where Hamilton sits.
+25	ham	Not true!
+25	jef	Ooh, if the shoe fits, wear it.
+25	jef	If New York’s in debt—
+25	jef	why should Virginia bear it?
+25	jef	Uh! Our debts are paid, I’m afraid.
+25	jef	Don’t tax the South cuz we got it made in the shade.
+25	jef	In Virginia, we plant seeds in the ground.
+25	jef	We create. You just wanna move our money around.
+25	jef	This financial plan is an outrageous demand,
+25	jef	and it’s too many damn pages for any man to understand.
+25	jef	Stand with me in the land of the free
+25	jef	and pray to God we never see Hamilton’s candidacy.
+25	jef	Look, when Britain taxed our tea, we got frisky.
+25	jef	Imagine what gon’ happen when you try to tax our whisky.
+25	wash	Thank you, Secretary Jefferson. Secretary Hamilton, your response.
+25	ham	Thomas. That was a real nice declaration.
+25	ham	Welcome to the present, we’re running a real nation.
+25	ham	Would you like to join us, or stay mellow,
+25	ham	Doin’ whatever the hell it is you do in Monticello?
+25	ham	If we assume the debts, the union gets
+25	ham	A new line of credit, a financial diuretic.
+25	ham	How do you not get it? If we’re aggressive and competitive
+25	ham	The union gets a boost. You’d rather give it a sedative?
+25	ham	A civics lesson from a slaver. Hey neighbor,
+25	ham	Your debts are paid cuz you don’t pay for labor.
+25	ham	“We plant seeds in the South. We create.”
+25	ham	Yeah, keep ranting,
+25	ham	we know who’s really doing the planting.
+25	ham	And another thing, Mr. Age of Enlightenment,
+25	ham	Don’t lecture me about the war, you didn’t fight in it.
+25	ham	You think I’m frightened of you, man?
+25	ham	We almost died in a trench
+25	ham	while you were off getting high with the French.
+25	ham	Thomas Jefferson, always hesitant with the President,
+25	ham	reticent—there isn’t a plan he doesn’t jettison.
+25	ham	Madison, you’re mad as a hatter, son, take your medicine.
+25	ham	Damn, you’re in worse shape than the national debt is in,
+25	ham	sittin’ there useless as two shits.
+25	ham	Hey, turn around, bend over, I’ll show you where my shoe fits.
+25	wash	Excuse me? Jefferson, Madison, take a walk!
+25	wash	Hamilton, take a walk!
+25	wash	We’ll reconvene after a brief recess.
+25	wash	Hamilton!
+25	ham	Sir!
+25	wash	A word.
+25	mad	You don’t have the votes.
+25	jef	You don’t have the votes.
+25	mad	You don’t have the votes.
+25	jef	Aha-ha-ha ha!
+25	jef	You’re gonna need congressional approval
+25	mad	You’re gonna need congressional approval
+25	jef	and you don’t have the votes.
+25	mad	and you don’t have the votes.
+25	jef	Such a blunder sometimes it makes me wonder
+25	mad	Why he even brings the thunder…
+25	ham	I’m sorry, these Virginians are birds of a feather.
+25	wash	Young man, I’m from Virginia, so watch your mouth.
+25	ham	So we let Congress get held hostage by the South?
+25	wash	You need the votes.
+25	ham	No, we need bold strokes. We need this plan.
+25	wash	No, you need to convince more folks.
+25	ham	James Madison won’t talk to me, that’s a nonstarter.
+25	wash	Winning was easy, young man. Governing’s harder.
+25	ham	They’re being intransigent.
+25	wash	You have to find a compromise.
+25	ham	But they don’t have a plan, they just hate mine!
+25	wash	Convince them otherwise.
+25	ham	What happens if I don’t get congressional approval?
+25	wash	I imagine they’ll call for your removal.
+25	ham	Sir—
+25	wash	Figure it out, Alexander. That’s an order from your commander.
+26	eliz	Un deux trois quatre
+26	eliz	Cinq six sept huit neuf.
+26	phil	Un deux trois quatre
+26	phil	Cinq six sept huit neuf.
+26	eliz	Good!
+26	eliz	Un deux trois quatre
+26	eliz	Cinq six sept huit neuf.
+26	phil	Un deux trois quatre
+26	phil	Cinq six sept huit neuf.
+26	eliz	Sept huit neuf–
+26	phil	Sept huit neuf–
+26	eliz	Sept huit neuf–
+26	phil	Sept huit neuf–
+26	eliz	One two three four
+26	phil	One two three four
+26	eliz	five six seven eight nine!
+26	phil	five six seven eight nine!
+26	ham	My dearest, Angelica,
+26	ham	“tomorrow and tomorrow and tomorrow
+26	ham	creeps in this petty pace from day to day”
+26	ham	I trust you’ll understand the reference to
+26	ham	another Scottish tragedy without my having
+26	ham	to name the play.
+26	ham	They think me Macbeth, and ambition is my folly,
+26	ham	I’m a polymath, a pain in the ass, a massive pain,
+26	ham	Madison is Banquo, Jefferson’s Macduff
+26	ham	And Birnam Wood is Congress on its way to Dunsinane.
+26	ham	And there you are, an ocean away.
+26	ang	And there you are, an ocean away.
+26	ham	Do you have to live an ocean away?
+26	ang	Do you have to live an ocean away?
+26	ham	Thoughts of you subside,
+26	ang	Thoughts of you subside,
+26	ham	then I get another letter,
+26	ang	then I get another letter,
+26	ham	I cannot put the notion away…
+26	ang	I cannot put the notion away…
+26	eliz	Take a break.
+26	ham	I am on my way.
+26	eliz	There’s a little surprise before supper
+26	eliz	and it cannot wait.
+26	ham	I’ll be there in just a minute, save my plate.
+26	eliz	Alexander—
+26	ham	Okay, okay—
+26	eliz	Your son is nine years old today.
+26	eliz	He has something he’d like to say.
+26	eliz	He’s been practicing all day.
+26	eliz	Philip, take it away—
+26	phil	Daddy, daddy, look—
+26	phil	My name is Philip.
+26	phil	I am a poet.
+26	phil	I wrote this poem just to show it.
+26	phil	And I just turned nine.
+26	phil	You can write rhymes, but you can’t write mine.
+26	ham	What!
+26	phil	I practice French and play piano with my mother.
+26	ham	Uh huh!
+26	phil	I have a sister but I want a little brother.
+26	ham	Okay!
+26	phil	My daddy’s trying to start America’s bank.
+26	phil	Un deux trois quatre cinq!
+26	ham	Bravo!
+26	eliz	Take a break.
+26	ham	Hey, our kid is pretty great.
+26	eliz	Run away with us for the summer.
+26	eliz	Let’s go upstate.
+26	ham	Eliza, I’ve got so much on my plate.
+26	ham	We can all go stay with my father.
+26	ham	There’s a lake I know…
+26	ham	I know.
+26	eliz	In a nearby park.
+26	ham	I’d love to go.
+26	eliz	You and I can go when the night gets dark…
+26	ham	I will try to get away.
+26	ang	My dearest Alexander,
+26	ang	You must get through to Jefferson.
+26	ang	Sit down with him and compromise,
+26	ang	don’t stop ‘til you agree
+26	ang	your fav’rite older sister,
+26	ang	Angelica, reminds you
+26	ang	there’s someone in your corner all the way across the sea.
+26	ang	In a letter I received from you two weeks ago
+26	ang	I noticed a comma in the middle of a phrase.
+26	ang	It changed the meaning. Did you intend this?
+26	ang	One stroke and you’ve consumed my waking days.
+26	ang	It says:
+26	ham	“My dearest Angelica”
+26	ang	“My dearest Angelica”
+26	ang	With a comma after “dearest.” you’ve written
+26	ham	“My dearest, Angelica.”
+26	ang	“My dearest, Angelica.”
+26	ang	Anyway, all this to say
+26	ang	I’m coming home this summer
+26	ang	at my sister’s invitation,
+26	ang	I’ll be there with your fam’ly
+26	ang	if you make your way upstate.
+26	ang	I know you’re very busy,
+26	ang	I know your work’s important,
+26	ang	but I’m crossing the ocean and I just can’t wait.
+26	ham	You won’t be an ocean away.
+26	ang	You won’t be an ocean away.
+26	ham	You will only be a moment away…
+26	ang	You will only be a moment away…
+26	eliz	Alexander, come downstairs. Angelica’s arriving today!
+26	eliz	Angelica!
+26	ang	Eliza!
+26	ham	The Schuyler sisters!
+26	ang	Alexander.
+26	hi	Hi.
+26	ang	It’s good to see your face.
+26	eliz	Angelica, tell this man
+26	eliz	John Adams spends the summer with his family.
+26	ham	Angelica, tell my wife
+26	ham	John Adams doesn’t have a real job anyway.
+26	ang	…you’re not joining us? Wait.
+26	ham	I’m afraid I cannot join you upstate.
+26	ang	Alexander, I came all this way.
+26	eliz	She came all this way–
+26	ang	All this way–
+26	eliz	Take a break.
+26	ang	Take a break.
+26	ham	You know I have to get my plan through Congress.
+26	eliz	Run away with us for the summer.
+26	ang	Run away with us for the summer.
+26	eliz	Let’s go upstate.
+26	ang	Let’s go upstate.
+26	ham	I lose my job if I don’t get my plan through Congress.
+26	eliz	We can all go stay with our father.
+26	ang	We can all go stay with our father.
+26	eliz	There’s a lake I know
+26	ang	I know I’ll miss your face–
+26	eliz	In a nearby park
+26	ang	Screw your courage to the sticking place–
+26	eliz	You and I can go
+26	ang	Eliza’s right–
+26	ang	Take a break.
+26	eliz	Take a break and get away–
+26	ang	Run away with us for the summer–
+26	ang	Let’s go upstate.
+26	eliz	Let’s go upstate where we can stay.
+26	ang	We can all go stay with our father,
+26	ang	if you take your time,
+26	eliz	Look around, look around
+26	ang	you will make your mark.
+26	eliz	at how lucky we are to be alive right now–
+26	ang	Close your eyes and dream–
+26	eliz	We can go–
+26	ang	when the night gets dark.
+26	eliz	When the night gets dark.
+26	ang	Take a break.
+26	eliz	Take a break.
+26	ham	I have to get my plan through Congress.
+26	ham	I can’t stop until I get this plan through Congress.
+27	burr	There’s nothing like summer in the city.
+27	burr	Someone under stress meets someone looking pretty.
+27	burr	There’s trouble in the air, you can smell it.
+27	burr	and Alexander’s by himself. I’ll let him tell it.
+27	ham	I hadn’t slept in a week.
+27	ham	I was weak, I was awake.
+27	ham	You never seen a bastard orphan
+27	ham	more in need of a break.
+27	ham	Longing for Angelica.
+27	ham	Missing my wife.
+27	ham	That’s when Miss Maria Reynolds walked into my life,
+27	ham	she said:
+27	mar	I know you are a man of honor,
+27	mar	I’m so sorry to bother you at home
+27	mar	but I don’t know where to go,
+27	mar	and I came here all alone...
+27	ham	She said:
+27	mar	My husband’s doin’ me wrong
+27	mar	beatin’ me, cheatin’ me, mistreatin’ me...
+27	mar	Suddenly he’s up and gone.
+27	mar	I don’t have the means to go on.
+27	ham	So I offered her a loan, I offered to walk her home,
+27	ham	she said
+27	mar	You’re too kind, sir.
+27	ham	I gave her thirty bucks that I had socked away,
+27	ham	she lived a block away, she said:
+27	mar	This one’s mine, sir.
+27	ham	Then I said, “well, I should head back home,”
+27	ham	she turned red, she led me to her bed,
+27	ham	let her legs spread and said:
+27	mar	Stay?
+27	ham	Hey...
+27	mar	Hey...
+27	ham	That’s when I began to pray:
+27	ham	Lord, show me how to say no to this.
+27	ham	I don’t know how to say no to this.
+27	ham	But my God, she looks so helpless
+27	ham	And her body’s saying, “hell, yes”
+27	mar	Whoa…
+27	ham	Nooo, show me how to say no to this.
+27	ham	Say no to this.
+27	ham	I don’t know how to say no to this.
+27	ham	Say no to this.
+27	ens	Say no to this.
+27	ham	In my mind, I’m tryin’ to go
+27	ens	Go! Go! Go!
+27	ham	Then her mouth is on mine, and I don’t say...
+27	ens	No! No!
+27	ens	Say no to this!
+27	ens	No! No!
+27	ens	Say no to this!
+27	ens	No! No!
+27	ens	Say no to this!
+27	ens	No! No!
+27	ens	Say no to this!
+27	ham	I wish I could say that was the last time.
+27	ham	I said that last time. It became a pastime.
+27	ham	A month into this endeavor I received a letter
+27	ham	from a Mr. James Reynolds, even better, it said:
+27	reyn	Dear Sir, I hope this letter finds you in good health,
+27	reyn	and in a prosperous enough position to put wealth
+27	reyn	in the pockets of people like me: down on their luck.
+27	reyn	You see, that was my wife who you decided to
+27	ham	Fuuuu—
+27	reyn	Uh-oh! You made the wrong sucker a cuckold,
+27	reyn	so time to pay the piper for the pants you unbuckled.
+27	reyn	And hey, you can keep seein’ my whore wife
+27	reyn	if the price is right: if not I’m telling your wife.
+27	ham	I hid the letter and I raced to her place,
+27	ham	screamed “How could you?!” in her face,
+27	ham	she said:
+27	mar	No, sir!
+27	ham	Half dressed, apologetic. A mess, she looked pathetic,
+27	ham	she cried:
+27	mar	Please don’t go, sir!
+27	ham	So was your whole story a setup?
+27	mar	I don’t know about any letter!
+27	ham	Stop crying Goddamnit, get up!
+27	mar	I didn’t know any better
+27	ham	I am ruined...
+27	mar	Please don’t leave me with him helpless.
+27	ham	I am helpless—how could I do this?
+27	mar	Just give him what he wants and you can have me.
+27	ham	I don’t want you
+27	mar	Whatever you want,
+27	ham	I don’t want you
+27	mar	If you pay,
+27	ham	I don’t…
+27	mar	You can stay.
+27	ham	Lord, show me how to say no to this.
+27	ens	Say no to this!
+27	mar	Tonight
+27	ham	I don’t know how to say no to this.
+27	ens	Say no to this!
+27	ham	Cuz the situation’s helpless.
+27	mar	Helpless.
+27	ham	And her body’s screaming, “Hell, yes”
+27	mar	Whoa!
+27	ham	No, show me how to say no to this.
+27	ens	Say no to this!
+27	ham	How can I say no to this?
+27	mar	How can you say no to this?
+27	ens	Say no to this!
+27	ham	There is nowhere I can go.
+27	ens	Go! Go! Go!
+27	ham	When her body’s on mine
+27	ham	I do not say...
+27	ens	No!
+27	ens	No!
+27	ens	Say no to this!
+27	ham	Yes.
+27	mar	Yes!
+27	ens	No!
+27	ens	No!
+27	ham	Yes.
+27	mar	Yes!
+27	ens	Say no to this!
+27	ham	Yes.
+27	mar	Yes!
+27	ens	No!
+27	ens	No!
+27	ens	Say no to this!
+27	ham	Yes.
+27	mar	Yes!
+27	ens	No!
+27	ens	No!
+27	ens	Say no to this!
+27	ham	Say no to this.
+27	ham	I don’t say no to this,
+27	mar	Don’t say no to this.
+27	ham	there is nowhere I can go.
+27	mar	Go go go…
+27	reyn	So?
+27	ham	Nobody needs to know.
+28	burr	Ah, Mister Secretary.
+28	ham	Mister Burr, sir.
+28	burr	Didja hear the news about good old General Mercer?
+28	ham	No.
+28	burr	You know Clermont Street?
+28	ham	Yeah.
+28	burr	They renamed it after him. The Mercer legacy is secure.
+28	ham	Sure.
+28	burr	And all he had to do was die.
+28	ham	That’s a lot less work.
+28	burr	We oughta give it a try.
+28	ham	Ha.
+28	burr	Now how’re you gonna get your debt plan through?
+28	ham	I guess I’m gonna fin’ly have to listen to you.
+28	burr	Really?
+28	ham	Talk less.
+28	ham	Smile more.
+28	burr	Ha.
+28	ham	Do whatever it takes to get my plan on the Congress floor.
+28	burr	Now, Madison and Jefferson are merciless.
+28	ham	Well, hate the sin, love the sinner.
+28	mad	Hamilton!
+28	ham	I’m sorry Burr, I’ve gotta go.
+28	burr	But—
+28	ham	Decisions are happening over dinner.
+28	burr	Two Virginians and an immigrant walk into a room.
+28	burr	Diametric’ly opposed, foes.
+28	ens	Diametric’ly opposed, foes.
+28	burr	They emerge with a compromise, having
+28	burr	opened doors that were previously closed,
+28	ens	Previously closed,
+28	ens	Bros.
+28	burr	The immigrant emerges with unprecedented financial power,
+28	burr	a system he can shape however he wants.
+28	burr	The Virginians emerge with the nation’s capital.
+28	burr	And here’s the pièce de résistance:
+28	burr	No one else was in the room where it happened.
+28	burr	The room where it happened.
+28	burr	The room where it happened.
+28	burr	No one else was in the room where it happened.
+28	ens	The room where it happened.
+28	burr	The room where it happened.
+28	burr	The room where it happened.
+28	ens	The room where it happened.
+28	burr	No one really knows how the game is played.
+28	burr	The game is played.
+28	burr	The art of the trade, how the sausage gets made.
+28	ens	How the sausage gets made.
+28	burr	We just assume that it happens.
+28	ens	Assume that it happens.
+28	burr	But no one else is in the room where it happens.
+28	ens	The room where it happens.
+28	burr	Thomas claims—
+28	comp	Thomas claims—
+28	jef	Alexander was on Washington’s doorstep one day
+28	jef	in distress ‘n disarray.
+28	burr	Thomas claims—
+28	comp	Thomas claims—
+28		JEFFERSON
+28	jef	Alexander said—
+28		HAMILTON
+28	ham	I’ve nowhere else to turn!
+28	jef	And basic’ly begged me to join the fray.
+28	burr	Thomas claims—
+28	comp	Thomas claims—
+28	jef	I approached Madison and said–
+28	jef	“I know you hate ‘im, but let’s hear what he has to say.”
+28	burr	Thomas claims—
+28	comp	Thomas claims—
+28	jef	Well, I arranged the meeting.
+28	jef	I arranged the menu, the venue, the seating,
+28	burr	But!
+28	burr	No one else was in the room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	No one else was in the room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	No one really knows how the parties get to yes.
+28	comp	Parties get to yes.
+28	burr	The pieces that are sacrificed in ev’ry game of chess.
+28	comp	Ev’ry game of chess.
+28	burr	We just assume that it happens.
+28	comp	Assume that it happens.
+28	burr	But no one else is in the room where it happens.
+28	comp	The room where it happens.
+28	burr	Meanwhile—
+28	comp	Meanwhile—
+28	burr	Madison is grappling with the fact that not
+28	burr	ev’ry issue can be settled by committee.
+28	comp	Meanwhile—
+28	burr	Congress is fighting over where to put the capital—
+28	comp	[screams]
+28	burr	It isn’t pretty.
+28	burr	Then Jefferson approaches with a dinner and invite,
+28	burr	And Madison responds with Virginian insight:
+28	mad	Maybe we can solve one problem with another
+28	mad	and win a victory for the Southerners, in other words—
+28	jef	Oh-ho!
+28	mad	A quid pro quo.
+28	jef	I suppose.
+28	jef	Actually, I would.
+28	mad	Wouldn’t you like to work a little closer to home?
+28	mad	Well, I propose the Potomac.
+28	jef	And you’ll provide him his votes?
+28	mad	Well, we’ll see how it goes.
+28	jef	Let’s go.
+28	burr	No!
+28	comp	–one else was in the room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	No one else was in the room where it happened.
+28	comp	No one else was in the room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	The room where it happened.
+28	comp	The room where it happened.
+28	burr	My God!
+28	burr	In God we trust.
+28	comp	In God we trust.
+28	burr	But we’ll never really know what got discussed.
+28	comp	But we’ll never really know what got discussed.
+28	burr	Click-boom then it happened.
+28	comp	Click-boom then it happened.
+28	burr	And no one else was in the room where it happened.
+28	comp	Alexander Hamilton!
+28	burr	What did they say to you to get you to sell
+28	burr	New York City down the river?
+28	comp	Alexander Hamilton!
+28	burr	Did Washington know about the dinner?
+28	burr	Was there Presidential pressure to deliver?
+28	comp	Alexander Hamilton!
+28	burr	Or did you know, even then, it doesn’t matter
+28	burr	where you put the U.S. Capital?
+28	ham	Cuz we’ll have the banks,
+28	ham	we’re in the same spot.
+28	burr	You got more than you gave.
+28	ham	And I wanted what I got.
+28	ham	When you got skin in the game, you stay in the game.
+28	ham	But you don’t get a win unless you play in the game.
+28	ham	Oh, you get love for it. You get hate for it.
+28	ham	You get nothing if you...
+28	ham	Wait for it, wait for it, wait!
+28	comp	Wait for it, wait for it, wait!
+28	ham	God help and forgive me,
+28	ham	I wanna build something that’s gonna outlive me.
+28	ham	What do you want, Burr?
+28	jef	What do you want, Burr?
+28	mad	What do you want, Burr?
+28	wash	What do you want, Burr?
+28	comp	What do you want, Burr?
+28	ham	What do you want, Burr?
+28	jef	What do you want, Burr?
+28	mad	What do you want, Burr?
+28	wash	What do you want, Burr?
+28	comp	What do you want, Burr?
+28	ham	If you stand for nothing, Burr, what do you fall for?
+28	jef	If you stand for nothing, Burr, what do you fall for?
+28	mad	If you stand for nothing, Burr, what do you fall for?
+28	wash	If you stand for nothing, Burr, what do you fall for?
+28	comp	What do you want?
+28	burr	I wanna be in the room where it happens.
+28	burr	The room where it happens.
+28	burr	I wanna be in the room where it happens.
+28	burr	The room where it happens.
+28	burr	I wanna be in the room where it happens.
+28	comp	I wanna be in the room where it happens.
+28	comp	The room where it happens.
+28	comp	The room where it happens.
+28	comp	I wanna be in the room where it happens.
+28	comp	The room where it happens.
+28	comp	The room where it happens.
+28	burr	I wanna be in the room...
+28	comp	I wanna be in the room where it happens.
+28	burr	Oh
+28	comp	The room where it happens.
+28	burr	Oh
+28	comp	The room where it happens.
+28	burr	I wanna be
+28	burr	I wanna be
+28	comp	I wanna be in the room where it happens.
+28	burr	I've got to be
+28	comp	The room where it happens.
+28	burr	I've got to be in the room
+28	comp	The room where it happens.
+28	burr	in that big ol' room
+28	comp	The art of the compromise—
+28	burr	Hold your nose and close your eyes.
+28	comp	We want our leaders to save the day–
+28	burr	But we don’t get a say in what they trade away.
+28	comp	We dream of a brand new start–
+28	burr	But we dream in the dark for the most part.
+28	burr	Dark as a tomb where it happens.
+28	comp	Dark as a tomb where it happens.
+28	burr	I’ve got to be in the room...
+28	comp	The room where it happens
+28	burr	I’ve got to be...
+28	comp	The room where it happens
+28	burr	I’ve got to be...
+28	comp	The room where it happens
+28	burr	Oh, I’ve got to be in the room where it happens...
+28	comp	The room where it happens
+28	burr	I’ve got to be, I’ve gotta be,
+28	comp	The room where it happens
+28	burr	I’ve gotta be in the room!
+28	comp	I wanna be in the room where it happens!
+28	burr	Click-boom!
+28	comp	Click-boom!
+29	phil	Look! Grampa’s in the paper!
+29	phil	‘War Hero Philip Schuyler loses Senate seat to young upstart Aaron Burr!’
+29	phil	Grampa just lost his seat in the Senate.
+29	eliz	Sometimes that’s how it goes.
+29	phil	Daddy’s gonna find out any minute.
+29	eliz	I’m sure he already knows.
+29	phil	Further down,
+29	phil	Further down,
+29	eliz	Further down,
+29	phil	“Let’s meet the newest Senator from New York…”
+29	eliz	New York—
+29	phil	Our Senator!...
+29	eliz	Our Senator!...
+29	ham	Burr!
+29	ham	Since when are you a Democratic-Republican?
+29	burr	Since being one put me on the up and up again.
+29	ham	No one knows who you are or what you do.
+29	burr	They don’t need to know me. They don’t like you.
+29	ham	Excuse me?
+29	burr	Oh, Wall Street thinks you’re great.
+29	burr	You’ll always be adored by the things you create.
+29	burr	But upstate,
+29	ham	Wait.
+29	burr	People think you’re crooked!
+29	burr	And Schuyler’s seat was up for grabs, so I took it.
+29	ham	I’ve always considered you a friend.
+29	burr	I don’t see why that has to end!
+29	ham	You changed parties to run against my father-in-law.
+29	burr	I changed parties to seize the opportunity I saw.
+29	burr	I swear, your pride will be the death of us all!
+29	burr	Beware: it goeth before the fall...
+30	wash	The issue on the table: France is on the verge
+30	wash	of war with England. Do we provide aid and
+30	wash	troops to our French allies or do we stay out of it?
+30	wash	Remember, my decision on this matter
+30	wash	is not subject to congressional approval.
+30	wash	The only person you have to convince is me.
+30	wash	Secretary Jefferson, you have the floor, sir.
+30	jef	When we were on death’s door, when we were needy,
+30	jef	we made a promise, we signed a treaty.
+30	jef	We needed money and guns and half a chance.
+30	jef	Who provided those funds?
+30	mad	France.
+30	jef	In return, they didn’t ask for land,
+30	jef	only a promise that we’d lend a hand
+30	jef	and stand with them if they fought against oppressors,
+30	jef	and revolution is messy but now is the time to stand.
+30	jef	Stand with our brothers as they fight against tyranny.
+30	jef	I know that Alexander Hamilton is here and he
+30	jef	would rather not have this debate.
+30	jef	I’ll remind you that he is not Secretary of State.
+30	jef	He knows nothing of loyalty,
+30	jef	smells like new money, dresses like fake royalty,
+30	jef	desperate to rise above his station,
+30	jef	everything he does betrays the ideals of our nation.
+30	ens	Ooh!!
+30	jef	Hey, and if ya don’t know, now ya know, Mr. President.
+30	wash	Thank you, Secretary Jefferson. Secretary
+30	wash	Hamilton, your response.
+30	ham	You must be out of your Goddamn mind if you think
+30	ham	the President is gonna bring the nation to the brink
+30	ham	of meddling in the middle of a military mess,
+30	ham	a game of chess, where France is Queen and Kingless.
+30	ham	We signed a treaty with a King whose head is now in a basket.
+30	ham	Would you like to take it out and ask it?
+30	ham	“Should we honor our treaty, King Louis’ head?”
+30	ham	“Uh… do whatever you want, I’m super dead.”
+30	wash	Enough. Hamilton is right.
+30	jef	Mr. President—
+30	wash	We’re too fragile to start another fight.
+30	jef	But sir, do we not fight for freedom?
+30	wash	Sure, when the French figure out who’s gonna lead ‘em.
+30	jeaf	The people are leading—
+30	wash	The people are rioting.
+30	wash	There’s a difference. Frankly, it’s a little disquieting
+30	wash	you would let your ideals blind you to reality.
+30	wash	Hamilton.
+30	ham	Sir.
+30	wash	Draft a statement of neutrality.
+30	jef	Did you forget Lafayette?
+30	ham	What?
+30	jef	Have you an ounce of regret?
+30	jef	You accumulate debt, you accumulate power,
+30	jef	yet in their hour of need, you forget.
+30	ham	Lafayette’s a smart man, he’ll be fine.
+30	ham	And before he was your friend, he was mine.
+30	ham	If we try to fight in every revolution in the world, we never stop.
+30	ham	Where do we draw the line?
+30	jef	So quick-witted.
+30	ham	Alas, I admit it.
+30	jef	I bet you were quite a lawyer.
+30	ham	My defendants got acquitted.
+30	jef	Huh. Well, someone oughta remind you.
+30	ham	What?
+30	jef	You’re nothing without Washington behind you.
+30	wash	Hamilton!
+30	jef	Daddy’s calling.
+31	burr	It must be nice, it must be nice
+31	burr	to have Washington on your side
+31	burr	It must be nice, it must be nice
+31	burr	to have Washington on your side.
+31	jef	Ev’ry action has its equal, opposite reactions.
+31	jef	Thanks to Hamilton, our cab’net’s fractured into factions.
+31	jef	Try not to crack under the stress,
+31	jef	we’re breaking down like fractions.
+31	jef	We smack each other in the press,
+31	jef	and we don’t print retractions.
+31	jef	I get no satisfaction witnessing his fits of passion.
+31	jef	The way he primps and preens and dresses
+31	jef	like the pits of fashion.
+31	jef	Our poorest citizens, our farmers, live ration to ration
+31	jef	as Wall Street robs ‘em blind in search of chips to cash in.
+31	jef	This prick is askin’ for someone to bring him to task.
+31	jef	Somebody gimme some dirt on this vacuous mass so we can at last unmask him.
+31	jef	I’ll pull the trigger on him, someone load the gun and cock it.
+31	jef	While we were all watching, he got Washington in his pocket.
+31	jef	It must be nice, it must be nice
+31	burr	It must be nice, it must be nice
+31	jef	to have Washington on your side.
+31	burr	to have Washington on your side.
+31	jef	It must be nice, it must be nice
+31	burr	It must be nice, it must be nice
+31	jef	to have Washington on your side.
+31	burr	to have Washington on your side.
+31	jef	Look back at the Bill of Rights.
+31	burr	Look back at the Bill of Rights.
+31	jef	Which I wrote.
+31	jef	The ink hasn’t dried.
+31	mad	The ink hasn’t dried.
+31	burr	The ink hasn’t dried.
+31	jef	It must be nice, it must be nice
+31	mad	It must be nice, it must be nice
+31	burr	It must be nice, it must be nice
+31	jef	to have Washington on your side.
+31	mad	to have Washington on your side.
+31	burr	to have Washington on your side.
+31	mad	So he’s doubled the size of the government.
+31	mad	Wasn’t the trouble with much our previous government size?
+31	burr	Look in his eyes!
+31	jef	See how he lies.
+31	mad	Follow the scent of his enterprise.
+31	jef	Centralizing national credit and making American credit competitive.
+31	med	If we don’t stop it we aid and abet it.
+31	jef	I have to resign.
+31	mad	Somebody has to stand up for the South!
+31	burr	Somebody has to stand up to his mouth!
+31	jef	If there’s a fire you’re trying to douse,
+31	jef	You can’t put it out from inside the house.
+31	mad	You can’t put it out from inside the house.
+31	jef	I’m in the cabinet. I am complicit in
+31	jef	watching him grabbin’ at power and kiss it.
+31	jef	If Washington isn’t gon’ listen to disciplined dissidents,
+31	jef	this is the difference:
+31	jef	This kid is out!
+31	mad	Oh!
+31	burr	Oh!
+31	jef	Oh!
+31	mad	This immigrant isn’t somebody we chose.
+31	burr	This immigrant isn’t somebody we chose.
+31	jef	This immigrant isn’t somebody we chose.
+31	mad	Oh!
+31	burr	Oh!
+31	jef	Oh!
+31	jef	This immigrant’s keeping us all on our toes.
+31	mad	This immigrant’s keeping us all on our toes.
+31	burr	This immigrant’s keeping us all on our toes.
+31	jef	Oh!
+31	mad	Oh!
+31	burr	Oh!
+31	jef	Let’s show these Federalists who they’re up against!
+31	mad	Let’s show these Federalists who they’re up against!
+31	burr	Let’s show these Federalists who they’re up against!
+31	jef	Oh!
+31	mad	Oh!
+31	burr	Oh!
+31	jef	Southern motherfuckin’ Democratic-Republicans!
+31	mad	Southern motherfuckin’ Democratic-Republicans!
+31	burr	Democratic-Republicans!
+31	jef	Oh!
+31	mad	Oh!
+31	burr	Oh!
+31	ens	Oh!
+31	jef	Let’s follow the money and see where it goes.
+31	mad	Let’s follow the money and see where it goes.
+31	burr	Let’s follow the money and see where it goes.
+31	ens	Oh!
+31	jef	Because every second the Treasury grows.
+31	mad	Because every second the Treasury grows.
+31	burr	Because every second the Treasury grows.
+31	ens	Oh!
+31	jef	If we follow the money and see where it leads,
+31	mad	If we follow the money and see where it leads,
+31	burr	If we follow the money and see where it leads,
+31	jef	get in the weeds, look for the seeds of Hamilton’s misdeeds.
+31	mad	get in the weeds, look for the seeds of Hamilton’s misdeeds.
+31	burr	get in the weeds, look for the seeds of Hamilton’s misdeeds.
+31	jef	It must be nice. It must be nice.
+31	mad	It must be nice. It must be nice.
+31	burr	It must be nice. It must be nice.
+31	mad	Follow the money and see where it goes.
+31	jef	It must be nice. It must be nice.
+31	mad	It must be nice. It must be nice.
+31	burr	It must be nice. It must be nice.
+31	jef	The emperor has no clothes.
+31	jef	We won’t be invisible. We won’t be denied.
+31	mad	We won’t be invisible. We won’t be denied.
+31	burr	We won’t be invisible. We won’t be denied.
+31	jef	Still,
+31	mad	Still,
+31	burr	Still,
+31	jef	it must be nice, it must be nice
+31	mad	it must be nice, it must be nice
+31	burr	it must be nice, it must be nice
+31	jef	to have Washington on your side.
+31	mad	to have Washington on your side.
+31	burr	to have Washington on your side.
+32	ham	Mr. President, you asked to see me?
+32	wash	I know you’re busy.
+32	ham	What do you need, sir? Sir?
+32	wash	I wanna give you a word of warning.
+32	ham	Sir, I don’t know what you heard,
+32	ham	But whatever it is, Jefferson started it.
+32	wash	Thomas Jefferson resigned this morning.
+32	ham	You’re kidding.
+32	wash	I need a favor.
+32	ham	Whatever you say, sir, Jefferson will pay for his behavior.
+32	wash	Shh. Talk less.
+32	ham	I’ll use the press,
+32	ham	I’ll write under a pseudonym, you’ll see what I can do to him—
+32	wash	I need you to draft an address.
+32	ham	Yes! He resigned. You can finally speak your mind—
+32	wash	No, he’s stepping down so he can run for President.
+32	ham	Ha. Good luck defeating you, sir.
+32	wash	I’m stepping down. I’m not running for President.
+32	ham	I’m sorry, what?
+32	wash	One last time.
+32	wash	Relax, have a drink with me
+32	wash	one last time.
+32	wash	Let’s take a break tonight
+32	wash	and then we’ll teach them how to say goodbye,
+32	wash	to say goodbye.
+32	wash	You and I.
+32	ham	No, sir, why?
+32	wash	I wanna talk about neutrality.
+32	ham	Sir, with Britain and France on the verge of
+32	ham	war, is this the best time—
+32	wash	I want to warn against partisan fighting.
+32	ham	But—
+32	wash	Pick up a pen, start writing.
+32	wash	I wanna talk about what I have learned.
+32	wash	The hard-won wisdom I have earned.
+32	ham	As far as the people are concerned,
+32	ham	you have to serve, you could continue to serve—
+32	wash	No! One last time
+32	wash	the people will hear from me
+32	wash	and if we get this right
+32	wash	we’re gonna teach ‘em how to say goodbye.
+32	wash	You and I—
+32	ham	Mr. President, they will say you’re weak.
+32	wash	No, they will see we’re strong.
+32	ham	Your position is so unique.
+32	wash	So I’ll use it to move them along.
+32	ham	Why do you have to say goodbye?
+32	wash	If I say goodbye, the nation learns to move on.
+32	wash	It outlives me when I’m gone.
+32	wash	Like the scripture says:
+32	wash	“Everyone shall sit under their own vine and fig tree
+32	wash	and no one shall make them afraid.”
+32	wash	They’ll be safe in the nation we’ve made.
+32	wash	I wanna sit under my own vine and fig tree.
+32	wash	A moment alone in the shade,
+32	wash	at home in this nation we’ve made.
+32	wash	One last time.
+32	ham	One last time.
+32	ham	Though, in reviewing the incidents of
+32	ham	my administration, I am unconscious of
+32	ham	intentional error, I am nevertheless too
+32	ham	sensible of my defects not to think it probable
+32	ham	that I may have committed many errors.
+32	ham	I shall also carry with me
+32	ham	The hope that my country will
+32	wash	The hope
+32	ham	view them with indulgence;
+32	wash	View them with indulgence
+32	ham	And that,
+32	ham	after forty-five years of my life
+32	wash	After forty-five years of my life
+32	ham	dedicated to its service with an upright zeal,
+32	wash	dedicated to its service with an upright zeal
+32	ham	the faults of incompetent abilities
+32	ham	will be consigned to oblivion,
+32	wash	Consigned to oblivion,
+32	ham	as I myself must soon be
+32	wash	as I myself must soon be
+32	ham	to the mansions of rest.
+32	wash	to the mansions of rest.
+32	ham	I anticipate with pleasing expectation
+32	wash	I anticipate with pleasing expectation
+32	ham	that retreat in which I promise myself to realize
+32	wash	that retreat in which I promise myself to realize
+32	ham	the sweet enjoyment of partaking,
+32	wash	the sweet enjoyment of partaking,
+32	ham	in the midst of my fellow-citizens,
+32	wash	in the midst of my fellow-citizens,
+32	ham	the benign influence of good laws
+32	wash	the benign influence of good laws
+32	ham	Under a free government, the
+32	wash	Under a free government, the
+32	ham	ever-favorite object of my heart,
+32	wash	ever-favorite object of my heart,
+32	ham	and the happy reward, as I trust,
+32	wash	and the happy reward, as I trust,
+32	ham	Of our mutual cares, labors, and dangers.
+32	wash	Of our mutual cares, labors, and dangers.
+32	wash	One last time.
+32	wom	George Washington’s going home!
+32	ham	Teach ‘em how to say goodbye.
+32	wash	You and I
+32	comp	George Washington’s going home
+32	wash	Going home
+32	comp	George Washington’s going home
+32	wash	History has its eyes on you
+32	comp	George Washington’s going home
+32	comp	George Washington’s going home
+32	wash	We’re gonna teach ‘em how to say goodbye!
+32	comp	Teach ‘em how to say goodbye!
+32	wash	Teach ‘em how to say goodbye!
+32	comp	Teach 'em how!
+32	wash	To say goodbye!
+32	comp	Say goodbye!
+32	wash	Say goodbye!
+32	comp	Say goodbye!
+32	wash	One last time!
+32	comp	One last time!
+33	kg	They say
+33	kg	George Washington’s yielding his power and stepping away.
+33	kg	‘Zat true?
+33	kg	I wasn’t aware that was something a person could do.
+33	kg	I’m perplexed.
+33	kg	Are they gonna keep on replacing whoever’s in charge?
+33	kg	If so, who’s next?
+33	kg	There’s nobody else in their country who looms quite as large . . .
+33	kg	A sentinel whispers in King George’s ear.
+33	kg	John Adams?!
+33	kg	I know him.
+33	kg	That can’t be.
+33	kg	That’s that little guy who spoke to me
+33	kg	all those years ago.
+33	kg	What was it, eighty-five?
+33	kg	That poor man, they’re gonna eat him alive!
+33	kg	Oceans rise.
+33	kg	Empires fall.
+33	kg	Next to Washington, they all look small.
+33	kg	All alone,
+33	kg	watch them run.
+33	kg	They will tear each other into pieces,
+33	kg	Jesus Christ, this will be fun!
+33	kg	Da da da dat da dat da da da da ya da
+33	kg	Da da da dat dat da ya daaaaa!
+33	kg	“President John Adams”
+33	kg	Good Luck.
+34	burr	How does Hamilton, the short-tempered, protean creator
+34	burr	of the Coast Guard, founder of the New York Post,
+34	burr	ardently abuse his cab’net post,
+34	burr	destroy his reputation?
+34	burr	Welcome, folks, to
+34	burr	The Adams administration!
+34	comp	The Adams administration!
+34	burr	Jefferson’s the runner-up, which makes him the Vice President.
+34	jef	Washington can’t help you now, no more mister nice President.
+34	burr	Adams fires Hamilton.
+34	burr	Privately calls him “creole bastard” in his taunts.
+34	jef	Say what?!
+34	burr	Hamilton publishes his response.
+34	ham	Sit down, John, you fat motherf-
+34	burr	Hamilton is out of control.
+34	mad	This is great! He’s out of power. He holds no
+34	mad	office. And he just destroyed President John Adams,
+34	mad	the only other significant member of his party.
+34	jef	Hamilton’s a host unto himself.
+34	jef	As long as he can hold a pen, he’s a threat.
+34	jef	Let’s let him know what we know.
+35	ham	Mr. Vice President.
+35	ham	Mr. Madison.
+35	ham	Senator Burr.
+35	ham	What is this?
+35	jef	We have the check stubs. From separate accounts...
+35	mad	Almost a thousand dollars, paid in different amounts...
+35	burr	To a Mr. James Reynolds way back in seventeen ninety-one.
+35	ham	Is that what you have? Are you done?
+35	mad	You are uniquely situated by virtue of your position—
+35	jef	Though ‘virtue’ is not a word I’d apply to this situation—
+35	mad	To seek financial gain, to stray from your sacred mission—
+35	jef	And the evidence suggests you’ve engaged in speculation—
+35	burr	An immigrant embezzling our government funds—
+35	jef	I can almost see the headline, your career is done.
+35	mad	I can almost see the headline, your career is done.
+35	burr	I hope you saved some money for your daughter and sons .
+35	jef	Ya best g’wan run back where ya come from.
+35	mad	Ya best g’wan run back where ya come from.
+35	burr	Ya best g’wan run back where ya come from.
+35	ham	Ha! You don’t even know what you’re asking me to confess.
+35	jef	Confess.
+35	mad	Confess.
+35	burr	Confess.
+35	ham	You got nothing. I don’t have to tell you anything at all.
+35	ham	Unless.
+35	jef	Unless?
+35	mad	Unless?
+35	burr	Unless?
+35	ham	If I can prove that I never broke the law,
+35	ham	do you promise not to tell another soul what you saw?
+35	burr	No one else was in the room where it happened.
+35	ham	Is that a yes?
+35	jef	Um, yes.
+35	mad	Um, yes.
+35	burr	Um, yes.
+35	burr	“Dear Sir, I hope this letter finds you in good health
+35	burr	and in a prosperous enough position to put wealth
+35	burr	in the pockets of people like me: down on their luck.
+35	burr	You see, it was my wife who you decided to –”
+35	jef	Whaaaat –
+35	ham	She courted me.
+35	ham	Escorted me to bed and when she had me in a corner
+35	ham	that’s when Reynolds extorted me for a sordid fee.
+35	ham	I paid him quarterly.
+35	ham	I may have mortally wounded my prospects
+35	ham	but my papers are orderly!
+35	ham	As you can see I kept a record of every check
+35	ham	in my checkered history.
+35	ham	Check it again against your list n’ see consistency.
+35	ham	I never spent a cent that wasn’t mine,
+35	ham	you sent the dogs after my scent, that’s fine.
+35	ham	Yes, I have reasons for shame
+35	ham	but I have not committed treason and sullied my good name.
+35	ham	As you can see I have done nothing to provoke legal action.
+35	ham	Are my answers to your satisfaction?
+35	jef	My God.
+35	mad	Gentlemen, let’s go.
+35	ham	So?
+35	jef	The people won’t know what we know.
+35	mad	The people won’t know what we know.
+35	ham	Burr!
+35	ham	How do I know you won’t use this against me
+35	ham	the next time we go toe to toe?
+35	burr	Alexander, rumors only grow.
+35	burr	And we both know what we know.
+36	ham	In the eye of a hurricane there is quiet
+36	ham	for just a moment, a yellow sky.
+36	ham	When I was seventeen a hurricane destroyed my town.
+36	ham	I didn’t drown.
+36	ham	I couldn’t seem to die.
+36	ham	I wrote my way out,
+36	ham	wrote everything down far as I could see.
+36	ham	I wrote my way out.
+36	ham	I looked up and the town had its eyes on me.
+36	ham	They passed a plate around.
+36	ham	Total strangers
+36	ham	moved to kindness by my story.
+36	ham	Raised enough for me to book passage on a ship
+36	ham	that was New York bound...
+36	ham	I wrote my way out of hell.
+36	ham	I wrote my way to revolution.
+36	ham	I was louder than the crack in the bell.
+36	ham	I wrote Eliza love letters until she fell.
+36	ham	I wrote about The Constitution and defendedb it well.
+36	ham	And in the face of ignorance and resistance,
+36	ham	I wrote financial systems into existence.
+36	ham	And when my prayers to God were met with indifference,
+36	ham	I picked up a pen, I wrote my own deliverance.
+36	ham	In the eye of a hurricane there is quiet
+36	ham	for just a moment, a yellow sky.
+36	ham	I was twelve when my mother died.
+36	ham	She was holding me.
+36	ham	We were sick and she was holding me.
+36	ham	I couldn’t seem to die.
+36	burr	Wait for it,
+36	burr	wait for it,
+36	burr	wait for it...
+36	ham	I’ll write my way out...
+36	burr	Wait for it,
+36	ens	Wait for it,
+36	burr	wait for it,
+36	ens	wait for it,
+36	burr	wait for it,
+36	ens	wait for it...
+36	ham	Write ev’rything down, far as I can see...
+36	ham	I’ll write my way out...
+36	burr	Wait for it,
+36	ens	Wait for it,
+36	burr	wait for it,
+36	ens	wait for it,
+36	burr	wait for it,
+36	ens	wait for it,
+36	ham	Overwhelm them with honesty.
+36	wash	History has its eyes on you.
+36	ang	History has its eyes on you.
+36	eliz	History has its eyes on you.
+36	mar	History has its eyes on you.
+36	burr	wait...
+36	ens	wait...
+36	ham	This is the eye of the hurricane,
+36	ham	this is the only way I can protect my legacy...
+36	comp	Wait for it, wait for it, wait for it, wait...
+36	ham	The Reynolds Pamphlet.
+37	comp	The Reynolds Pamphlet.
+37	jef	Have you read this?
+37	mad	Have you read this?
+37	ang	Have you read this?
+37	burr	Alexander Hamilton had a torrid affair.
+37	jef	Alexander Hamilton had a torrid affair.
+37	mad	Alexander Hamilton had a torrid affair.
+37	burr	And he wrote it down right there.
+37	jef	And he wrote it down right there.
+37	mad	And he wrote it down right there.
+37	mad	Highlights!
+37	ham	“The charge against me
+37	jef	“The charge against me
+37	ham	is a connection with one James Reynolds!
+37	jef	is a connection with one James Reynolds!
+37	reyn	James Reynolds!
+37	ham	For purposes of improper speculation.
+37	jef	For purposes of improper speculation.
+37	ham	My real crime is an amorous connection with his wife
+37	jef	My real crime is an amorous connection with his wife
+37	burr	My real crime is an amorous connection with his wife
+37	ham	for a considerable time with his knowing consent
+37	jef	for a considerable time with his knowing consent
+37	jef	Damn!
+37	mad	Damn!
+37	burr	Damn!
+37	ham	“I had frequent meetings with her.
+37	jef	“I had frequent meetings with her.
+37	mad	“I had frequent meetings with her.
+37	ham	Most of them at my own house.”
+37	jef	Most of them at my own house.”
+37	mad	Most of them at my own house.”
+37	burr	At his own house!
+37	mad	At his own house!
+37	man3	Damn!
+37	ham	“Mrs. Hamilton with our children being absent on a visit to her father.”
+37	jef	“Mrs. Hamilton with our children being absent on a visit to her father.”
+37	mad	No…
+37	burr	No…
+37	comp	Boooo!
+37	mad	Have you read this?
+37	burr	Have you read this?
+37	jef	Well, he’s never gon’ be President now.
+37	mad	Never gon’ be President now.
+37	burr	Never gon’ be President now.
+37	jef	Well, he’s never gon’ be President now.
+37	mad	Never gon’ be President now.
+37	burr	Never gon’ be President now.
+37	jef	He’s never gon’ be President now.
+37	mad	Never gon’ be President now.
+37	burr	Never gon’ be President now.
+37	jef	That’s one less thing to worry about.
+37	jef	That’s one less thing to worry about!
+37	mad	That’s one less thing to worry about!
+37	burr	That’s one less thing to worry about!
+37	ang	I came as soon as I heard.
+37	jef	What?!
+37	ham	Angelica—
+37	comp	All the way from London?!
+37	comp	Damn.
+37	ham	Angelica, thank God.
+37	ham	Someone who understands what I’m
+37	ham	struggling here to do.
+37	ang	I’m not here for you.
+37	ens	Oooooh!
+37	ang	I know my sister like I know my own mind,
+37	ang	you will never find anyone as trusting or as kind.
+37	ang	I love my sister more than anything in this life,
+37	ang	I will choose her happiness over mine every time.
+37	ang	Put what we had aside.
+37	ang	I’m standing at her side.
+37	ang	You could never be satisfied.
+37	ang	God, I hope you’re satisfied.
+37	jef	Well, he’s never gon’ be President now. 
+37	mad	Well, he’s never gon’ be President now. 
+37	burr	Well, he’s never gon’ be President now. 
+37	men	Never gon’ be President now.
+37	jef	Well, he’s never gon’ be President now. 
+37	mad	Well, he’s never gon’ be President now. 
+37	burr	Well, he’s never gon’ be President now. 
+37	men	Never gon’ be President now.
+37	jef	Well, he’s never gon’ be President now. 
+37	mad	Well, he’s never gon’ be President now. 
+37	burr	Well, he’s never gon’ be President now. 
+37	men	Never gon’ be President now.
+37	jef	That’s one less thing to worry about.
+37	mad	That’s one less thing to worry about.
+37	burr	That’s one less thing to worry about.
+37	men	That’s one less thing to worry about.
+37	jef	Hey! At least he was honest with our money!
+37	mad	Hey! At least he was honest with our money!
+37	ham	Hey! At least I was honest with our money!
+37	wom	Well he's never goin' be president now.
+37	men	Well he's never goin' be president now.
+37	wom	Well he's never goin' be president now.
+37	men	Well he's never goin' be president now.
+37	wom	Well he's never goin' be president now.
+37	jef	Hey! At least he was honest with our money!
+37	mad	Hey! At least he was honest with our money!
+37	ham	Hey! At least I was honest with our money!
+37	men	Well he's never goin' be president now.
+37	wom	That's one less thing to worry about.
+37	comp	That's one less thing to worry about!
+37	comp	The Reynolds Pamphlet.
+37	jef	Have you read this?
+37	mad	Have you read this?
+37	burr	Have you read this?
+37	jef	You ever see somebody ruin their own life?
+37	mad	You ever see somebody ruin their own life?
+37	burr	You ever see somebody ruin their own life?
+37	comp	His poor wife.
+38	eliz	I saved every letter you wrote me.
+38	eliz	From the moment I read them
+38	eliz	I knew you were mine.
+38	eliz	You said you were mine.
+38	eliz	I thought you were mine.
+38	eliz	Do you know what Angelica said
+38	eliz	when we saw your first letter arrive?
+38	eliz	She said,
+38	eliz	“Be careful with that one, love.
+38	eliz	He will do what it takes to survive.”
+38	eliz	You and your words flooded my senses.
+38	eliz	Your sentences left me defenseless.
+38	eliz	You built me palaces out of paragraphs,
+38	eliz	you built cathedrals.
+38	eliz	I’m re-reading the letters you wrote me.
+38	eliz	I’m searching and scanning for answers
+38	eliz	in every line,
+38	eliz	for some kind of sign,
+38	eliz	and when you were mine
+38	eliz	the world seemed to
+38	eliz	Burn.
+38	eliz	Burn.
+38	eliz	You published the letters she wrote you.
+38	eliz	You told the whole world how you brought
+38	eliz	this girl into our bed.
+38	eliz	In clearing your name, you have ruined our lives.
+38	eliz	Do you know what Angelica said
+38	eliz	When she read what you’d done?
+38	eliz	She said,
+38	eliz	“You have married an Icarus.
+38	eliz	He has flown too close to the sun.”
+38	eliz	You and your words, obsessed with your legacy...
+38	eliz	Your sentences border on senseless,
+38	eliz	and you are paranoid in every paragraph
+38	eliz	how they perceive you,
+38	eliz	You, you, you...
+38	eliz	I’m erasing myself from the narrative.
+38	eliz	Let future historians wonder
+38	eliz	how Eliza reacted when you broke her heart.
+38	eliz	You have torn it all apart.
+38	eliz	I am watching it
+38	eliz	burn.
+38	eliz	Watching it burn.
+38	eliz	The world has no right to my heart.
+38	eliz	The world has no place in our bed.
+38	eliz	They don’t get to know what I said.
+38	eliz	I’m burning the memories,
+38	eliz	Burning the letters that might have redeemed you.
+38	eliz	You forfeit all rights to my heart.
+38	eliz	You forfeit the place in our bed.
+38	eliz	You sleep in your office instead,
+38	eliz	with only the memories
+38	eliz	of when you were mine.
+38	eliz	I hope that you burn.
+39	phil	Meet the latest graduate of King’s College!
+39	phil	I prob’ly shouldn’t brag, but, dag, I amaze and astonish!
+39	phil	The scholars say I got the same virtuosity and brains as my pops!
+39	phil	The ladies say my brain’s not where the resemblance stops!
+39	phil	I’m only nineteen but my mind is older,
+39	phil	gotta be my own man, like my father, but bolder.
+39	phil	I shoulder his legacy with pride,
+39	phil	I used to hear him say that someday I would—
+39	ens	Blow us all away.
+39	phil	Ladies, I’m lookin for a Mr. George Eacker.
+39	phil	Made a speech last week, our Fourth of July speaker.
+39	phil	He disparaged my father’s legacy in front of a crowd.
+39	phil	I can’t have that, I’m making my father proud.
+39	wom1	I saw him just up Broadway a couple of blocks.
+39	wom1	He was goin’ to see a play.
+39	phil	Well, I’ll go visit his box.
+39	wom2	God, you’re a fox.
+39	phil	And y’all look pretty good in ya’ frocks.
+39	phil	How ‘bout when I get back, we all strip down to our socks?
+39	wom1	Ok!
+39	wom2	Ok!
+39	comp	Blow us all away!
+39	phil	George!
+39	eack	Shh.
+39	phil	George!
+39	eack	Shh! I’m tryin’ to watch the show!
+39	phil	Ya’ shoulda watched your mouth before you
+39	phil	talked about my father though!
+39	eack	I didn’t say anything that wasn’t true.
+39	eack	You father’s a scoundrel, and so, it seems, are you.
+39	ens	Ooooooooooh!
+39	phil	It’s like that?
+39	eack	Yeah, I don’t fool around.
+39	eack	I’m not your little schoolboy friends.
+39	phil	See you on the dueling ground.
+39	phil	That is, unless you wanna step outside and go now.
+39	eack	I know where to find you, piss off.
+39	eack	I’m watchin’ this show now.
+39	phil	Pops, if you had only heard the shit he said about you
+39	phil	I doubt you would have let it slide and I was not about to—
+39	ham	Slow down.
+39	phil	I came to ask you for advice. This is my very first duel.
+39	phil	They don’t exactly cover this subject in boarding school.
+39	ham	Did your friends attempt to negotiate a peace?
+39	phil	He refused to apologize, we had to let the peace talks cease.
+39	ham	Where is this happening?
+39	phil	Across the river, in Jersey.
+39	ham	Everything is legal in New Jersey...
+39	phil	Everything is legal in New Jersey...
+39	ham	Alright. So this is what you’re gonna do:
+39	ham	Stand there like a man until Eacker is in front of you.
+39	ham	When the time comes, fire your weapon in the air.
+39	ham	This will put an end to the whole affair.
+39	phil	But what if he decides to shoot? Then I’m a goner.
+39	ham	No. He’ll follow suit if he’s truly a man of honor.
+39	ham	To take someone’s life, that is something you can’t shake.
+39	ham	Philip, your mother can’t take another heartbreak.
+39	phil	Father—
+39	ham	Promise me. You don’t want this young man’s blood on your conscience.
+39	phil	Okay, I promise.
+39	ham	Come back home when you’re done.
+39	ham	Take my guns. Be smart. Make me proud, son.
+39	phil	My name is Philip
+39	phil	I am a poet
+39	phil	I’m a little nervous, but I can’t show it.
+39	phil	I’m sorry, I’m a Hamilton with pride.
+39	phil	You talk about my father, I cannot let it slide.
+39	phil	Mister Eacker! How was the rest of your show?
+39	eack	I’d rather skip the pleasantries. Let’s go.
+39	eack	Grab your pistol.
+39	phil	Confer with your men.
+39	phil	The duel will commence after we count to ten.
+39	ens	Count to ten!
+39	phil	Look ‘em in the eye, aim no higher.
+39	phil	Summon all the courage you require.
+39	phil	Then slowly and clearly aim your gun towards the sky—
+39	men	One two three four
+39	ens	Five six seven —
+40	wom	Stay alive…
+40	wom	Stay alive...
+40	ham	Where’s my son?
+40	doc	Mr. Hamilton, come in.
+40	doc	They brought him in a half an hour ago.
+40	doc	He lost a lot of blood on the way over.
+40	wom	Stay alive....
+40	ham	Is he alive?
+40	doc	Yes. But you have to understand
+40	doc	the bullet entered just above his hip and
+40	doc	lodged in his right arm.
+40	ham	Can I see him please?
+40	doc	I’m doing ev’rything I can but the wound was
+40	doc	already infected when he arrived–
+40	ham	Philip.
+40	phil	Pa.
+40	phil	I did exactly as you said, Pa.
+40	phil	I held my head up high.
+40	ham	I know, I know. Shh.
+40	phil	I know, I know.
+40	ham	High.
+40	phil	Shh.
+40	ham	I know you did ev’rything just right.
+40	phil	Even before we got to ten–
+40	ham	Shh.
+40	phil	I was aiming for the sky.
+40	ham	I know, I know.
+40	ham	I know, I know.
+40	ham	I know,
+40	phil	I was aiming for the sky.
+40	ham	Save your strength and stay alive…
+40	men	Stay alive…
+40	eliz	No!
+40	ham	Eliza.
+40	eliz	Is he breathing? Is he going to survive this?
+40	ham	Stay alive…
+40	eliz	Who did this, Alexander, did you know?
+40	phil	Mom, I’m so sorry for forgetting what you taught me.
+40	eliz	My son—
+40	phil	We played piano.
+40	eliz	I taught you piano.
+40	phil	You would put your hands on mine.
+40	eliz	You changed the melody every time.
+40	phil	Ha. I would always change the line.
+40	eliz	Shh. I know, I know.
+40	phil	I would always change the line.
+40	eliz	I know, I know.
+40	eliz	Un deux trois quatre
+40	eliz	Cinq six sept huit neuf.
+40	phil	Un deux trois quatre
+40	phil	Cinq six sept huit neuf.
+40	eliz	Good.
+40	eliz	Un deux trois quatre
+40	eliz	Cinq six sept huit neuf.
+40	phil	Un deux trois…
+40	eliz	Sept huit neuf–
+40	eliz	Sept huit…
+41	ang	There are moments that the words don’t reach.
+41	ang	There is suffering too terrible to name.
+41	ang	You hold your child as tight as you can
+41	ang	and push away the unimaginable.
+41	ang	The moments when you’re in so deep,
+41	ang	it feels easier to just swim down.
+41	ang	The Hamiltons move uptown
+41	ens	The Hamiltons move uptown
+41	ang	and learn to live with the unimaginable.
+41	ens	and learn to live with the unimaginable.
+41	ham	I spend hours in the garden.
+41	ham	I walk alone to the store,
+41	ham	and it’s quiet uptown.
+41	ham	I never liked the quiet before.
+41	ham	I take the children to church on Sunday,
+41	ham	a sign of the cross at the door,
+41	ham	and I pray.
+41	ham	That never used to happen before.
+41	ang	If you see him in the street,
+41	wom	If you see him in the street,
+41	ang	walking by himself, talking to himself,
+41	wom	walking by himself, talking to himself,
+41	ang	have pity.
+41	wom	have pity.
+41	ham	Philip, you would like it uptown.
+41	ham	It’s quiet uptown.
+41	ang	He is working through the unimaginable.
+41	wom	He is working through the unimaginable.
+41	men	His hair has gone grey. He passes every day.
+41	men	They say he walks the length of the city.
+41	ham	You knock me out, I fall apart.
+41	comp	Can you imagine?
+41	ham	Look at where we are.
+41	ham	Look at where we started.
+41	ham	I know I don’t deserve you, Eliza.
+41	ham	But hear me out. That would be enough.
+41	ham	If I could spare his life,
+41	ham	If I could trade his life for mine,
+41	ham	he’d be standing here right now
+41	ham	and you would smile,
+41	ham	and that would be enough.
+41	ham	I don’t pretend to know
+41	ham	the challenges we’re facing.
+41	ham	I know there’s no replacing what we’ve lost
+41	ham	and you need time.
+41	ham	But I’m not afraid,
+41	ham	I know who I married.
+41	ham	Just let me stay here by your side,
+41	ham	That would be enough.
+41	comp	If you see him in the street,
+41	comp	walking by her side, talking by her side,
+41	comp	have pity.
+41	ham	Eliza, do you like it uptown? It’s quiet uptown.
+41	comp	He is trying to do the unimaginable.
+41	comp	See them walking in the park, long after dark,
+41	comp	taking in the sights of the city.
+41	ham	Look around, look around, Eliza.
+41	comp	They are trying to do the unimaginable.
+41	ang	There are moments that the words don’t reach.
+41	ang	There is a grace too powerful to name.
+41	ang	We push away what we can never understand,
+41	ang	we push away the unimaginable.
+41	ang	They are standing in the garden,
+41	ang	Alexander by Eliza’s side.
+41	ang	She takes his hand.
+41	eliz	It’s quiet uptown.
+41	comp	Forgiveness. Can you imagine?
+41	comp	Forgiveness. Can you imagine?
+41	comp	If you see him in the street,
+41	comp	walking by her side, talking by her side,
+41	comp	have pity.
+41	comp	They are going through the unimaginable.
+42	comp	The election of 1800.
+42		JEFFERSON
+42	jef	Can we get back to politics?
+42		MADISON
+42	mad	Please?
+42	jef	Yo. Ev’ry action has an equal, opposite reaction.
+42	jef	John Adams shat the bed. I love the guy, but he’s in traction.
+42	jef	Poor Alexander Hamilton? He is missing in action.
+42	jef	So now I’m facing—
+42	jef	Aaron Burr!
+42	mad	Aaron Burr!
+42	jef	With his own faction.
+42	mad	He’s very attractive in the North. New Yorkers like his chances.
+42	jef	He’s not very forthcoming on any particular stances.
+42	mad	Ask him a question: it glances off,
+42	mad	he obfuscates, he dances.
+42	jef	And they say I’m a Francophile:
+42	jef	at least they know I know where France is!
+42	mad	Thomas that’s the problem, see,
+42	mad	they see Burr as a less extreme you.
+42	jef	Ha!
+42	mad	You need to change course,
+42	mad	a key endorsement might redeem you.
+42	jef	Who did you have in mind?
+42	mad	Don’t laugh.
+42	jef	Who is it?
+42	mad	You used to work on the same staff.
+42	jef	Whaaaat.
+42	mad	It might be nice, it might be nice
+42	mad	to get Hamilton on your side.
+42	jef	It might be nice, it might be nice
+42	mad	It might be nice, it might be nice
+42	jef	To get Hamilton on your side.
+42	mad	To get Hamilton on your side.
+42	burr	Talk less!
+42	ens	Burr!
+42	burr	Smile more!
+42	ens	Burr!
+42	burr	Don’t let ‘em know what you’re against or what you’re for!
+42	ens	Burr!
+42	burr	Shake hands with him!
+42	ens	Burr!
+42	burr	Charm her!
+42	ens	Burr!
+42	burr	It’s eighteen hundred, ladies, tell your husbands: vote for Burr!
+42	ens	Burr!
+42	vot1	I don’t like Adams.
+42	vot2	Well, he’s gonna lose, that’s just defeatist.
+42	vot3	And Jefferson–
+42	vot4	In love with France!
+42	vot5	In love with France!
+42	vot6	Yeah, he’s so elitist!
+42	vot8	I like that Aaron Burr!
+42	vot9	I can’t believe we’re here with him!
+42	vot10	He seems approachable…?
+42	vot11	Like you could grab a beer with him!
+42	ens	Dear Mr. Hamilton: your fellow Fed’ralists
+42	ens	would like to know how you’ll be voting.
+42	ham	It’s quiet uptown.
+42	ens	Dear Mr. Hamilton: John Adams doesn’t stand a chance,
+42	ens	so who are you promoting?
+42	ham	It’s quiet uptown.
+42	men	Jefferson or Burr?
+42	wom	Jefferson or Burr?
+42	men	We know it’s lose-lose.
+42	wom	We know it’s lose-lose.
+42	men	Jefferson or Burr?
+42	wom	Jefferson or Burr?
+42	men	But if you had to choose
+42	wom	But if you had to choose
+42	ens	Dear Mr. Hamilton:
+42	men	Jefferson or Burr?
+42	wom	Jefferson or Burr?
+42	end	John Adams doesn’t stand a chance
+42	men	We know it’s lose-lose.
+42	wom	We know it’s lose-lose.
+42	ens	so who are you promoting?
+42	men	Jefferson or Burr?
+42	wom	Jefferson or Burr?
+42	ens	But if you had to choose
+42	men	But if you had to choose
+42	wom	But if you had to choose
+42	ham	Well, if it isn’t Aaron Burr. Sir!
+42	burr	Alexander!
+42	ham	You’ve created quite a stir, sir!
+42	burr	I’m going door to door!
+42	ham	You’re openly campaigning?
+42	burr	Sure!
+42	ham	That’s new.
+42	burr	Honestly, it’s kind of draining.
+42	ham	Burr–
+42	burr	Sir!
+42	ham	Is there anything you wouldn’t do?
+42	burr	No. I’m chasing what I want.
+42	burr	And you know what?
+42	ham	What?
+42	burr	I learned that from you.
+42	ens	If you had to choose
+42	ens	If you had to choose
+42	mad	It’s a tie!
+42	ens	If you had to choose
+42	ens	If you had to choose
+42	jef	It’s up to the delegates!
+42	ens	If you had to choose
+42	ens	If you had to choose
+42	jef	It’s up to Hamilton!
+42	mad	It’s up to Hamilton!
+42	ens	If you had to choose,
+42	ens	If you had to choose,
+42	mad	Jefferson or Burr?
+42	ens	If you had to choose,
+42	ens	Jefferson or Burr?
+42	mad	Choose, Choose, Choose!
+42	ens	Choose, Choose, Choose!
+42	ens	Choose, Choose, Choose!
+42	ham	Yo.
+42	ens	Oh!
+42	ham	The people are asking to hear my voice
+42	ens	Oh!
+42	ham	For the country is facing a difficult choice.
+42	ens	Oh!
+42	ham	And if you were to ask me who I’d promote –
+42	ens	Oh!
+42	ham	–Jefferson has my vote.
+42	jef	Oh!
+42	mad	Oh!
+42	ens	Oh!
+42	ham	I have never agreed with Jefferson once.
+42	jef	Oh!
+42	mad	Oh!
+42	ens	Oh!
+42	ham	We have fought on like seventy-five diff’rent fronts.
+42	jef	Oh!
+42	mad	Oh!
+42	ens	Oh!
+42	ham	But when all is said and all is done,
+42	ham	Jefferson has beliefs. Burr has none.
+42	ens	Oooooooooooooh.
+42	jef	Well, I’ll be damned.
+42	mad	Well, I’ll be damned.
+42	jef	Well, I’ll be damned.
+42	mad	Well, I’ll be damned.
+42	mad	Hamilton’s on your side.
+42	ens	Well, I’ll be damned.
+42	ens	Well, I’ll be damned.
+42	jef	And?
+42	mad	You won in a landslide.
+42	burr	Congrats on a race well-run.
+42	burr	I did give you a fight.
+42	jef	Uh-huh.
+42	burr	I look forward to our partnership.
+42	jef	Our partnership?
+42	burr	As your vice-President.
+42	jef	Ha. Yeah, right.
+42	jef	You hear this guy? Man openly campaigns
+42	jef	against me, talkin’ bout, “I look forward to our partnership.”
+42	mad	It’s crazy that the guy who comes in second becomes vice President.
+42	jef	Yeah, you know what? We can change that.
+42	jef	You know why?
+42	mad	Why?
+42	jef	‘cuz I’m the President.
+42	jef	Hey, Burr, when you see Hamilton,
+42	jef	thank him for the endorsement.
+43	burr	How does Hamilton, an arrogant, immigrant, orphan,
+43	burr	bastard, whoreson, somehow endorse
+43	burr	Thomas Jefferson, his enemy,
+43	burr	a man he’s despised since the beginning,
+43	burr	just to keep me from winning?
+43	burr	I wanna be in the room where it happens —
+43	burr	The room where it happens.
+43	comp	The room where it happens.
+43	burr	The room where it happens.
+43	comp	The room where it happens.
+43	burr	You’ve kept me from
+43	burr	the room where it happens.
+43	comp	The room where it happens.
+43	burr	For the last time.
+43	burr	Dear Alexander:
+43	burr	I am slow to anger,
+43	burr	but I toe the line
+43	burr	as I reckon with the effects
+43	burr	of your life on mine.
+43	burr	I look back on where I failed,
+43	burr	and in every place I checked,
+43	burr	the only common thread has been your disrespect.
+43	burr	Now you call me “amoral,” a “dangerous disgrace,”
+43	burr	if you’ve got something to say, name a time and place,
+43	burr	face to face.
+43	burr	I have the honor to be Your Obedient Servant,
+43	burr	A dot Burr.
+43	ham	Mr. Vice President,
+43	ham	I am not the reason no one trusts you.
+43	ham	No one knows what you believe.
+43	ham	I will not equivocate on my opinion,
+43	ham	I have always worn it on my sleeve.
+43	ham	Even if I said what you think I said,
+43	ham	you would need to cite a more specific grievance.
+43	ham	Here’s an itemized list of thirty years of disagreements.
+43	burr	Sweet Jesus.
+43	ham	Hey, I have not been shy.
+43	ham	I am just a guy in the public eye
+43	ham	Tryin’ to do my best for our republic.
+43	ham	I don’t wanna fight,
+43	ham	But I won’t apologize for doing what’s right.
+43	ham	I have the honor to be Your Obedient Servant,
+43	ham	A dot Ham.
+43	burr	Careful how you proceed, good man.
+43	burr	Intemperate indeed, good man.
+43	burr	Answer for the accusations I lay at your feet
+43	burr	or prepare to bleed, good man.
+43	ham	Burr, your grievance is legitimate.
+43	ham	I stand by what I said, every bit of it.
+43	ham	You stand only for yourself.
+43	ham	It’s what you do.
+43	ham	I can’t apologize because it’s true.
+43	burr	Then stand, Alexander.
+43	burr	Weehawken. Dawn.
+43	burr	Guns. Drawn.
+43	ham	You’re on.
+43	burr	I have the honor to be Your Obedient Servant,
+43	ham	I have the honor to be Your Obedient Servant,
+43	ham	A dot Ham.
+43	burr	A dot Burr.
+44	eliz	Alexander, come back to sleep.
+44	ham	I have an early meeting out of town.
+44	eliz	It’s still dark outside.
+44	ham	I know. I just need to write something down.
+44	eliz	Why do you write like you’re running out of time?
+44	ham	Shhh.
+44	eliz	Come back to bed. That would be enough.
+44	ham	I’ll be back before you know I’m gone.
+44	eliz	Come back to sleep.
+44	ham	This meeting’s at dawn.
+44	eliz	Well, I’m going back to sleep.
+44	ham	Hey. Best of wives and best of women.
+45	men	One two three four
+45	comp	Five six seven eight nine—
+45	burr	There are ten things you need to know.
+45	comp	Number one!
+45	burr	We rowed across the Hudson at dawn.
+45	burr	My friend, William P. Van Ness signed on as my—
+45	burr	Number two!
+45	comp	Number two!
+45	burr	Hamilton arrived with his crew:
+45	burr	Nathaniel Pendleton and a doctor that he knew.
+45	comp	Number three!
+45	burr	I watched Hamilton examine the terrain.
+45	burr	I wish I could tell you what was happ’ning in his brain.
+45	burr	This man has poisoned my political pursuits!
+45	comp	Most disputes die and no one shoots!
+45	comp	Number four!
+45	burr	Hamilton drew first position.
+45	burr	Looking,to the world, like a man on a mission.
+45	burr	This is a soldier with a marksman’s ability.
+45	burr	The doctor turned around so he could have deniability.
+45	comp	Five!
+45	burr	Now I didn’t know this at the time
+45	burr	But we were near the same spot your son died, is that why—
+45	phil	Near the same spot your son died, is that why—
+45	ham	Near the same spot my son died, is that why—
+45	comp	Six!
+45	burr	He examined his gun with such rigor?
+45	burr	I watched as he methodically fiddled with the trigger.
+45	comp	Seven!
+45	burr	Confession time? Here’s what I got:
+45	burr	My fellow soldiers’ll tell you I’m a terrible shot.
+45	comp	Number eight!
+45	burr	Your last chance to negotiate.
+45	ham	Your last chance to negotiate.
+45	men	Your last chance to negotiate.
+45	burr	Send in your seconds, see if they can set the
+45	ham	Send in your seconds, see if they can set the
+45	men	Send in your seconds, see if they can set the
+45	burr	record straight.
+45	ham	record straight.
+45	men	record straight.
+45	burr	They won’t teach you this in your classes,
+45	burr	but look it up, Hamilton was wearing his glasses.
+45	burr	Why? If not to take deadly aim?
+45	burr	It’s him or me, the world will never be the same.
+45	burr	I had only one thought before the slaughter:
+45	burr	This man will not make an orphan of my daughter.
+45	comp	Number nine!
+45	burr	Look him in the eye, aim no higher.
+45	burr	Summon all the courage you require.
+45	burr	Then count:
+45	comp	One two three four five six seven eight nine
+45	comp	Number ten paces! Fire!—
+45	ham	I imagine death so much it feels more like a memory.
+45	ham	Is this where it gets me, on my feet, sev’ral feet ahead of me?
+45	ham	I see it coming, do I run or fire my gun or let it be?
+45	ham	There is no beat, no melody.
+45	ham	Burr, my first friend, my enemy,
+45	ham	maybe the last face I ever see,
+45	ham	If I throw away my shot, is this how you remember me?
+45	ham	What if this bullet is my legacy?
+45	ham	Legacy. What is a legacy?
+45	ham	It’s planting seeds in a garden you never get to see.
+45	ham	I wrote some notes at the beginning of a song someone will sing for me.
+45	ham	America, you great unfinished symphony, you sent for me.
+45	ham	You let me make a difference.
+45	ham	A place where even orphan immigrants
+45	ham	can leave their fingerprints and
+45	ham	rise up.
+45	ham	I’m running out of time. I’m running, and my time’s up.
+45	ham	Wise up.
+45	ham	Eyes up.
+45	ham	I catch a glimpse of the other side.
+45	ham	Laurens leads a soldiers’ chorus on the other side.
+45	ham	My son is on the other side.
+45	ham	He’s with my mother on the other side.
+45	ham	Washington is watching from the other side.
+45	ham	Teach me how to say goodbye.
+45	ham	Rise up, rise up, rise up,
+45	ham	Eliza,
+45	ham	My love, take your time.
+45	ham	I’ll see you on the other side.
+45	ham	Raise a glass to freedom…
+45	burr	He aims his pistol at the sky—
+45	comp	He aims his pistol at the sky—
+45	burr	Wait!
+45	burr	I strike him right between his ribs.
+45	burr	I walk towards him, but I am ushered away.
+45	burr	They row him back across the Hudson.
+45	burr	I get a drink.
+45	comp	Aaaah
+45	comp	Aaaah
+45	comp	Aaaah
+45	burr	I hear wailing in the streets.
+45	comp	Aaaah
+45	comp	Aaaah
+45	comp	Aaaah
+45	burr	Somebody tells me, “You’d better hide.”
+45	comp	Aaaah
+45	comp	Aaaah
+45	comp	Aaaah
+45	burr	They say
+45	burr	Angelica and Eliza—
+45	ang	Angelica and Eliza—
+45	burr	Were both at his side when he died.
+45	burr	Death doesn’t discriminate
+45	burr	between the sinners and the saints,
+45	burr	it takes and it takes and it takes.
+45	burr	History obliterates.
+45	burr	In every picture it paints,
+45	burr	it paints me with all my mistakes.
+45	burr	When Alexander aimed at the sky,
+45	burr	he may have been the first one to die,
+45	burr	but I’m the one who paid for it.
+45	burr	I survived, but I paid for it.
+45	burr	Now I’m the villain in your history.
+45	burr	I was too young and blind to see...
+45	burr	I should’ve known.
+45	burr	I should’ve known
+45	burr	the world was wide enough for both Hamilton and me.
+45	burr	The world was wide enough for both Hamilton and me.
+46	wash	Let me tell you what I wish I’d known
+46	wash	when I was young and dreamed of glory.
+46	wash	You have no control:
+46	wash	Who lives, who dies, who tells your story?
+46	comp	Who lives, who dies, who tells your story?
+46	burr	President Jefferson:
+46	jef	I’ll give him this: his financial system is a
+46	jef	work of genius. I couldn’t undo it if I tried.
+46	jef	And I tried.
+46	wash	Who lives, who dies, who tells your story?
+46	comp	Who lives, who dies, who tells your story?
+46	burr	President Madison:
+46	mad	He took our country from bankruptcy to prosperity.
+46	mad	I hate to admit it, but he doesn’t get enough credit
+46	mad	for all the credit he gave us.
+46	wash	Who lives, who dies, who tells your story?
+46	comp	Who lives, who dies, who tells your story?
+46	ang	Every other founding father story gets told.
+46	ang	Every other founding father gets to grow old.
+46	burr	And when you’re gone, who remembers your name?
+46	burr	Who keeps your flame?
+46	burr	Who tells your story?
+46	men	Who tells your story?
+46	ang	Who tells your story?
+46	wom	Who tells your story?
+46	burr	Who tells your story?
+46	men	Who tells your story?
+46	ang	Your story?
+46	wom	Your story?
+46	wm	Eliza.
+46	eliz	I put myself back in the narrative.
+46	wom	Eliza.
+46	eliz	I stop wasting time on tears.
+46	eliz	I live another fifty years.
+46	eliz	It’s not enough.
+46	comp	Eliza.
+46	eliz	I interview every soldier who fought by your side.
+46	laur	She tells our story.
+46	laf	She tells our story.
+46	mull	She tells our story.
+46	eliz	I try to make sense of your thousands of pages of writings.
+46	eliz	You really do write like you’re running out of time.
+46	comp	Time.
+46	eliz	I rely on Angelica
+46	ang	Angelica.
+46	eliz	While she’s alive we tell your story.
+46	ang	We tell your story.
+46	eliz	She is buried in Trinity Church, near you.
+46	ang	Near you.
+46	eliz	When I needed her most, she was right on time.
+46	comp	Time.
+46	eliz	And I’m still not through.
+46	eliz	I ask myself, “What would you do if you had more time?”
+46	comp	Time.
+46	eliz	The Lord, in his kindness,
+46	eliz	He gives me what you always wanted.
+46	eliz	He gives me more time.
+46	comp	Time.
+46	eliz	I raise funds in D.C. for the Washington Monument.
+46	wash	She tells my story.
+46	eliz	I speak out against slavery.
+46	eliz	You could have done so much more if you only had time.
+46	comp	Time.
+46	eliz	And when my time is up, have I done enough?
+46	eliz	Will they tell our story?
+46	comp	Will they tell your story?
+46	eliz	Oh. Can I show you what I’m proudest of?
+46	comp	The orphanage.
+46	eliz	I establish the first private orphanage in New York City.
+46	comp	The orphanage.
+46	eliz	I help to raise hundreds of children.
+46	eliz	I get to see them growing up.
+46	comp	The orphanage.
+46	eliz	In their eyes I see you, Alexander.
+46	eliz	I see you every time.
+46	comp	Time.
+46	eliz	And when my time is up, have I done enough?
+46	eliz	Will they tell my story?
+46	comp	Will they tell your story?
+46	eliz	Oh, I can’t wait to see you again.
+46	eliz	It’s only a matter of time.
+46	comp	Time.
+46	comp	Will they tell your story?
+46	comp	Time…
+46	comp	Who lives, who dies, who tells your story?
+46	comp	Time…
+46	comp	Will they tell your story?
+46	comp	Time…
+46	comp	Who lives, who dies who tells your story?
