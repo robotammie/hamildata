@@ -536,7 +536,7 @@
 5	ang	Daddy doesn’t need to know.
 5	peg	Daddy said not to go downtown.
 5	eliz	Like I said, you’re free to go.
-5	ang	But–look around, look around, the
+5	ang	But-look around, look around, the
 5	ang	revolution’s happening in New York.
 5	eliz	New York.
 5	peg	New York.

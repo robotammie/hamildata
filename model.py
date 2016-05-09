@@ -73,9 +73,9 @@ class Line(db.Model):
     def __repr__(self):
         """define how model displays."""
 
-        return "<Line %s.%s - %s>" % (self.song_id,
+        return "<Line %s.%s - >" % (self.song_id,
                                       self.line_no,
-                                      self.lyrics)
+                                      )
 
 
 ###############################################################
