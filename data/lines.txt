@@ -704,8 +704,8 @@
 6	sea	For shame,
 6	comp	For the revolution!
 6	sea	Heed—
-6	ham	If you repeat yourself again I’m gonna—
-6	sea/ham	Scream—
+6	ham	If you repeat yourself again I’m gonna scream!
+6	sea	Scream—
 6	ham	Honestly, look at me, please don’t read!
 6	sea	Not your interests—
 6	ham	Don’t modulate the key then not debate with me!
@@ -2063,7 +2063,7 @@
 23	ham	along in harmony and nowhere is it stronger than in Albany.
 23	ham	This colony’s economy’s increasingly stalling and
 23	ham	Honestly that’s why public service seems to be calling me.
-23	brr	He’s just non-stop!
+23	burr	He’s just non-stop!
 23	ens	He’s just non-stop!
 23	ham	I practiced the law, I practic’ly perfected it.
 23	ham	I’ve seen injustice in the world and I’ve corrected it.
@@ -2552,7 +2552,7 @@
 26	ang	Eliza!
 26	ham	The Schuyler sisters!
 26	ang	Alexander.
-26	hi	Hi.
+26	ham	Hi.
 26	ang	It’s good to see your face.
 26	eliz	Angelica, tell this man
 26	eliz	John Adams spends the summer with his family.
@@ -2789,9 +2789,7 @@
 28	jef	in distress ‘n disarray.
 28	burr	Thomas claims—
 28	comp	Thomas claims—
-28		JEFFERSON
 28	jef	Alexander said—
-28		HAMILTON
 28	ham	I’ve nowhere else to turn!
 28	jef	And basic’ly begged me to join the fray.
 28	burr	Thomas claims—
@@ -3021,7 +3019,7 @@
 30	wash	We’re too fragile to start another fight.
 30	jef	But sir, do we not fight for freedom?
 30	wash	Sure, when the French figure out who’s gonna lead ‘em.
-30	jeaf	The people are leading—
+30	jef	The people are leading—
 30	wash	The people are rioting.
 30	wash	There’s a difference. Frankly, it’s a little disquieting
 30	wash	you would let your ideals blind you to reality.
@@ -3091,7 +3089,7 @@
 31	jef	See how he lies.
 31	mad	Follow the scent of his enterprise.
 31	jef	Centralizing national credit and making American credit competitive.
-31	med	If we don’t stop it we aid and abet it.
+31	mad	If we don’t stop it we aid and abet it.
 31	jef	I have to resign.
 31	mad	Somebody has to stand up for the South!
 31	burr	Somebody has to stand up to his mouth!
@@ -3827,9 +3825,7 @@
 41	comp	have pity.
 41	comp	They are going through the unimaginable.
 42	comp	The election of 1800.
-42		JEFFERSON
 42	jef	Can we get back to politics?
-42		MADISON
 42	mad	Please?
 42	jef	Yo. Ev’ry action has an equal, opposite reaction.
 42	jef	John Adams shat the bed. I love the guy, but he’s in traction.
@@ -3899,7 +3895,7 @@
 42	ens	Dear Mr. Hamilton:
 42	men	Jefferson or Burr?
 42	wom	Jefferson or Burr?
-42	end	John Adams doesn’t stand a chance
+42	ens	John Adams doesn’t stand a chance
 42	men	We know it’s lose-lose.
 42	wom	We know it’s lose-lose.
 42	ens	so who are you promoting?
@@ -4211,7 +4207,7 @@
 46	men	Who tells your story?
 46	ang	Your story?
 46	wom	Your story?
-46	wm	Eliza.
+46	wom	Eliza.
 46	eliz	I put myself back in the narrative.
 46	wom	Eliza.
 46	eliz	I stop wasting time on tears.

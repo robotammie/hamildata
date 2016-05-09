@@ -1,9 +1,11 @@
 """Utility file to seed hamildatabase from data in data/"""
 """All data pulled from http://atlanticrecords.com/HamiltonMusic/
-copyright Hmilton Broadway"""
+copyright Hmilton Broadway
+Data was cleaned in google sheets and then exported as .tsv files."""
 
 from model import Line, Song, Character, connect_to_db, db
 from server import app
+import codecs
 
 
 def load_songs():
@@ -59,18 +61,19 @@ def load_lines():
 
     Line.query.delete()
 
-    for row in open("data/lines.txt"):
+    # codecs library needed to strip BOM off the begining of the file
+    # unclear why google sheets included one on this file and not the others.
+    for row in codecs.open("data/lines.txt", "r", "utf-8-sig"):
         row = row.rstrip()
+
         song_id, char_code, lyrics = row.split("\t")
 
         line = Line(song_id=song_id,
                     char_code=char_code,
                     lyrics=lyrics)
 
-        # We need to add to the session or it won't ever be stored
         db.session.add(line)
 
-    # Once we're done, we should commit our work
     db.session.commit()
 
 

@@ -51,21 +51,22 @@ class Line(db.Model):
 
     __tablename__ = "lines"
 
+    # table data
     line_no = db.Column(db.Integer,
                         autoincrement=True,
                         primary_key=True)
     song_id = db.Column(db.Integer,
-                        db.ForeignKey('songs.song_id'),
+                        db.ForeignKey('songs.song_id'),  # foreign key
                         nullable=False)
     char_code = db.Column(db.String(5),
-                          db.ForeignKey('characters.char_code'),
+                          db.ForeignKey('characters.char_code'),  # foreign key
                           nullable=False)
     lyrics = db.Column(db.String(128),
                        nullable=False)
 
+    # link models to one another for easier querying
     song = db.relationship('Song',
                            backref=db.backref('lines', order_by=line_no))
-
     char = db.relationship('Character',
                            backref=db.backref('lines', order_by=char_code))
 

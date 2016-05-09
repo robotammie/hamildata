@@ -3,7 +3,7 @@ ham	Alexander Hamilton	Hamilton
 wash	George Washington	Washington
 laur	John Laurens	Laurens
 laf	Marquis de Lafayette	Lafayette
-mul	Hercules Mulligan	Mulligan
+mull	Hercules Mulligan	Mulligan
 eliz	Elizabeth Hamilton	Eliza
 ang	Angelica Schuyler	Angelica
 peg	Peggy Schuyler	Peggy
