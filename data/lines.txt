@@ -1,5 +1,4 @@
-﻿SONG	CHARACTER	LINE
-1	burr	How does a bastard, orphan, son of a whore 
+﻿1	burr	How does a bastard, orphan, son of a whore 
 1	burr	and a Scotsman, dropped in the middle of a forgotten
 1	burr	spot in the Caribbean by providence, impoverished, in squalor,
 1	burr	grow up to be a hero and a scholar?
