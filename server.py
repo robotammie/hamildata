@@ -19,7 +19,7 @@ def index():
 
     # TODO: create dummy homepage
 
-    return "When I grow up I want to be a webpage."
+    return render_template("homepage.html")
 
 
 ##########################################################

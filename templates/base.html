@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ratings</title>
+</head>
+
+<body>
+  Totally a Navbar
+
+  <br>
+  {% for message in get_flashed_messages() %}
+    {{ message }}
+  {% endfor %}
+  <hr>
+
+  {% block content %} put your content here {% endblock %}
+
+</body>
+</html>
