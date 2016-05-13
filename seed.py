@@ -1,7 +1,11 @@
-"""Utility file to seed hamildatabase from data in data/"""
-"""All data pulled from http://atlanticrecords.com/HamiltonMusic/
-copyright Hmilton Broadway
-Data was cleaned in google sheets and then exported as .tsv files."""
+"""
+Utility file to seed hamildatabase from data in data/
+
+All data pulled from http://atlanticrecords.com/HamiltonMusic/
+copyright Hamilton Broadway.
+
+Data was cleaned in google sheets and then exported as .tsv files.
+"""
 
 from model import Line, Song, Character, connect_to_db, db
 from server import app
