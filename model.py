@@ -75,7 +75,9 @@ class Line(db.Model):
 
         return "<Line %s.%s - %s>" % (self.song_id,
                                       self.line_no,
-                                      self.lyrics)
+                                      self.lyrics)  # WARNING: lyrics must be
+                                              # 100% ASCII characters for them
+                                              # to display in the command line.
 
 
 ###############################################################
