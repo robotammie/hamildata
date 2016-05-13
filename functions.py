@@ -6,6 +6,22 @@ import pprint
 
 
 def compute_jaccard_index(s1, s2):
+    """
+    Use set math to determine percentage of words two strings have in common by
+    dividing the number of words in common by number of total individual words.
+
+    >>> compute_jaccard_index("little pig, little pig", "three little pigs")
+    0.25
+
+    >>> compute_jaccard_index("little red riding hood", "big bad wolf")
+    0.0
+
+    Uppercase and punctuation should be ignored; contractions should count
+    as a single word, not two:
+    >>> compute_jaccard_index("I'm a Little Teapot?", "Just a little.")
+    0.4
+
+    """
     # select individual punctuation marks because re non-alphanumeric includes '
     # need to exclude ' in order to keep contractions together
     # question mark goes first so it doesn't delete numbers (don't know why)
@@ -30,25 +46,25 @@ def make_edge_list():
     # print "Creating Edge List..."
     all_lines = Line.query.all()
 
-    for line1 in all_lines:
+    for i in range(len(all_lines)):
+        line1 = all_lines[i]
         # print line1.line_no
-        for line2 in all_lines:
+        for line2 in all_lines[i+1:]:
             if compute_jaccard_index(line1.lyrics, line2.lyrics) > .34:
                 edges[line1] = edges.get(line1, [])
                 edges[line1].append(line2)
     return edges
 
 
-if __name__ == "__main__":
-    from server import app
-    connect_to_db(app)
-    # print "Connected"
+# if __name__ == "__main__":
+#     """Create Adjacency List"""
 
-    # In case edge list hasn't been created, create it
-    # edges = make_edge_list()
-    # print "Created."
+#     from server import app
+#     connect_to_db(app)
+#     print "Connected"
 
-    pprint.pprint(make_edge_list())
+#     # Print the edge list (ideally to a txt file)
+#     pprint.pprint(make_edge_list())
 
-else:
-    print "Never ran."
+# else:
+#     print "Never ran."
