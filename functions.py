@@ -3,6 +3,7 @@
 from model import Line, connect_to_db
 import re
 import pprint
+from fuzzywuzzy import fuzz
 
 
 def compute_jaccard_index(s1, s2):
@@ -43,9 +44,10 @@ def compute_jaccard_index(s1, s2):
 
 def make_edge_list(str_list):
     """
-    How to make doctests if the function input is database-dependent?
-    specifically, input is Line object.
+    Create a dictionary of similar lines for visualization.
 
+    Too complicated for a doctest.
+    TODO: incorporate this into a unit test later
     """
 
     # initiate empty dictionary
@@ -53,6 +55,7 @@ def make_edge_list(str_list):
 
     for i in range(len(str_list)):
         line1 = str_list[i]
+        # print line1
         # check only those lines after the one you're looking at
         # (to prevent duplicate matches)
         for line2 in str_list[i+1:]:
@@ -67,13 +70,15 @@ def make_edge_list(str_list):
 if __name__ == "__main__":
     """Create Adjacency List"""
 
+    # connect to database
     from server import app
     connect_to_db(app)
     print "Connected"
-    create master list of all lines in database
+    # create master list of all lines in database
     all_lines = Line.query.all()
     # Print the edge list (ideally to a txt file)
-    pprint.pprint(make_edge_list(all_lines))
+    edges = (make_edge_list(all_lines))
+    pprint.pprint(edges)
 
 else:
     print "Never ran."
