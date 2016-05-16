@@ -66,7 +66,7 @@ def make_edge_list(str_list):
     return edges
 
 
-def comp_songs(song1, song2):
+def comp_lines(song1, song2):
     """create a list of smilarities between two songs."""
 
     lines1 = Line.query.filter(Line.song_id == song1).all()
@@ -85,14 +85,39 @@ def comp_songs(song1, song2):
     return edges
 
 
+# def comp_songs():
+#     """
+#     Create a dictionary of similarities between songs.
 
+#     """
 
+#     song_ids = db.session.query(Song.song_id).all()
 
-# song_lines = {i[0]: Line.query.filter(Line.song_id == i[0]).all() for i in db.session.query(Song.song_id).all()}
+#     # create dictionary of song lines, sorted by song number
+#     song_lines = {s[0]: Line.query.filter(Line.song_id == s[0]).all() for s in song_ids}
 
-pprint(song_lines)
+#     # initiate empty dictionary
+#     edges = {}
 
-songnums = [17, 41]
+#     for song_id1 in song_lines:
+#         # for each item in the value list
+#         edges[song_id1] = {}
+#         skip = [song_id1]
+#         for line1 in song_lines[song_id1]:
+#             # for each key in song_lines THAT IS NOT SONG_ID1
+#                 for song_id2 in song_lines:
+#                     if song_id2 not in skip:
+#                         # for each line in the value list
+#                         for line2 in song_lines[song_id2]:
+#                             # if the two lines match
+#                             if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
+#                                 # iterate edges[songnum1][songnum2] by one
+#                                 # import pdb; pdb.set_trace()
+#                                 edges[song_id1][song_id2] = edges[song_id1].get(song_id2, 0)
+#                                 edges[song_id1][song_id2] += 1
+                                
+#         return edges
+
 
 if __name__ == "__main__":
     """Create Adjacency List"""
@@ -101,11 +126,10 @@ if __name__ == "__main__":
     from server import app
     connect_to_db(app)
     print "Connected"
-#     # create master list of all lines in database
-#     all_lines = Line.query.all()
-#     # Print the edge list (ideally to a txt file)
-#     edges = (make_edge_list(all_lines))
-#     pprint(edges)
+
+    all_lines = Line.query.all()
+    # Print the edge list (ideally to a txt file)
+    pprint.pprint(make_edge_list(all_lines))
 
 else:
     print "Never ran."
