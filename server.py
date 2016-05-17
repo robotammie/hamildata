@@ -1,8 +1,10 @@
 from jinja2 import StrictUndefined
 
-from flask import Flask, render_template, redirect, request, flash, session
+from flask import Flask, render_template, jsonify, redirect, request, flash, session
 
 from model import Line, Song, Character, connect_to_db, db
+
+import json
 
 # create fask application
 app = Flask(__name__)
@@ -19,7 +21,22 @@ def index():
 
     # TODO: create dummy homepage
 
-    return render_template("homepage.html")
+    return render_template("bundle_test.html")
+
+
+@app.route("/data.json")
+def get_graph_data():
+    # call helper functions
+
+    f = open('static/test_data.json')
+    content = f.read()
+    my_json = json.loads(content)
+
+    print type(my_json)
+
+    # nodes = make_nodes(f)
+    # paths = make_paths(nodes)
+    return jsonify({'data': my_json})
 
 
 ##########################################################
