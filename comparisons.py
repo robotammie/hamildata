@@ -3,6 +3,7 @@
 from model import Line, Song, Character, db, connect_to_db
 import re
 from pprint import pprint
+from difflib import SequenceMatcher
 
 
 def compute_jaccard_index(s1, s2):
@@ -41,28 +42,49 @@ def compute_jaccard_index(s1, s2):
     return common_words / all_words
 
 
+# def longest_match(s1, s2):
+#     """determine the longest number of consecutive words in common"""
+
+#     list1 = re.split("[?\s.,\-!\"]", s1.lower())
+#     list2 = re.split("[?\s.,\-!\"]", s2.lower())
+
+#     while '' in list1:
+#         list1.remove('')
+
+#     while '' in list2:
+#         list2.remove('')
+
+#     matcher = SequenceMatcher(None, list1, list2)
+
+#     match = matcher.find_longest_match(0, len(list1), 0, len(list2))
+
+#     return match.size
+
+
 def make_edge_list(str_list):
     """
     Create a dictionary of similar lines for visualization.
-
     Too complicated for a doctest.
     TODO: incorporate this into a unit test later
     """
-
     # initiate empty dictionary
     edges = {}
-
     for i in range(len(str_list)):
         line1 = str_list[i]
         # print line1
         # check only those lines after the one you're looking at
         # (to prevent duplicate matches)
         for line2 in str_list[i+1:]:
+            # match = longest_match(line1.lyrics, line2.lyrics)
+            # if match >= 2:
+
             # check jaccard similarity
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
-                # add similar lines to the adjacency list
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) == .50:
+
+               # add similar lines to the adjacency list
                 edges[line1] = edges.get(line1, [])
                 edges[line1].append(line2)
+                
     return edges
 
 
@@ -115,7 +137,7 @@ def comp_lines(song1, song2):
 #                                 # import pdb; pdb.set_trace()
 #                                 edges[song_id1][song_id2] = edges[song_id1].get(song_id2, 0)
 #                                 edges[song_id1][song_id2] += 1
-                                
+
 #         return edges
 
 
@@ -129,7 +151,7 @@ if __name__ == "__main__":
 
     all_lines = Line.query.all()
     # Print the edge list (ideally to a txt file)
-    pprint.pprint(make_edge_list(all_lines))
+    pprint(make_edge_list(all_lines))
 
 else:
     print "Never ran."
