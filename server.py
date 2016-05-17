@@ -28,7 +28,7 @@ def index():
 def get_graph_data():
     # call helper functions
 
-    f = open('static/test_data.json')
+    f = open('static/test_data_2.json')
     content = f.read()
     my_json = json.loads(content)
 
