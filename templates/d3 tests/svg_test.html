@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <h1>Hamilton Data</h1>
+    <style>
+
+        .chart circle {
+          fill-opacity: 0;
+          stroke: brown;
+          stroke-width: 1;
+        }
+
+        .chart line {
+          stroke: #222299;
+          stroke-width: 1;
+        }
+
+    </style>
+
+
+    <svg class="chart" width="420" height="120">
+      <g>
+        <rect width="40" height="19"></rect>
+        <text x="37" y="9.5" dy=".35em">4</text>
+      </g>
+      <>
+        <rect width="80" height="19"></rect>
+        <text x="77" y="9.5" dy=".35em">8</text>
+      </g>
+      <g transform="translate(0,40)">
+        <rect width="150" height="19"></rect>
+        <text x="147" y="9.5" dy=".35em">15</text>
+      </g>
+      <g transform="translate(0,60)">
+        <rect width="160" height="19"></rect>
+        <text x="157" y="9.5" dy=".35em">16</text>
+      </g>
+      <g transform="translate(0,80)">
+        <rect width="230" height="19"></rect>
+        <text x="227" y="9.5" dy=".35em">23</text>
+      </g>
+      <g transform="translate(0,100)">
+        <rect width="420" height="19"></rect>
+        <text x="417" y="9.5" dy=".35em">42</text>
+      </g>
+    </svg>
+
+    <div id="visualization">
+        <svg class="chart" width="300" height="300">
+            <circle cx="150" cy="150" r="100" />
+            <line x1="250" y1="150"
+                  x2="227" y2="87" />
+            <line x1="227" y1="87"
+                  x2="170" y2="52" />
+            <line x1="170" y1="52"
+                  x2="104" y2="60" />
+
+            Sorry, your browser does not support inline SVG.
+        </svg>  
+    </div>
+
+    <div id="data-bar">
+    </div>
+
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    var cx = 150;
+        cy = 150;
+        r = 100;
+        points = 7;
+
+    
+
+    // (250, 150)
+    // (227, 87)
+    // (170, 52)
+    // (104, 60)
+    // (58, 109)
+    // (53, 175)
+    // (91, 230)
+
+
+    </script>
+{% endblock %}
