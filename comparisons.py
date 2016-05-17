@@ -84,7 +84,7 @@ def make_edge_list(str_list):
                # add similar lines to the adjacency list
                 edges[line1] = edges.get(line1, [])
                 edges[line1].append(line2)
-                
+
     return edges
 
 
