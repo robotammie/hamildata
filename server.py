@@ -32,7 +32,7 @@ def get_graph_data():
     content = f.read()
     my_json = json.loads(content)
 
-    print type(my_json)
+    # print type(my_json)
 
     # nodes = make_nodes(f)
     # paths = make_paths(nodes)

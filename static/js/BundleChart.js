@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////
+// code template for bundle layout based on     //
+// https://github.com/d3/d3/wiki/Bundle-Layout  //
+//////////////////////////////////////////////////
+
+
 // VARIABLE INSTANTIATION
 
 var diameter = 600, // dimensions of svg element
@@ -13,7 +19,7 @@ var bundle = d3.layout.bundle(); // bundle layout
 
 var line = d3.svg.line.radial()
     .interpolate("bundle")
-    .tension(.0) // 0 is straight, 1 is super-curved
+    .tension(.1) // 0 is straight, 1 is super-curved
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 

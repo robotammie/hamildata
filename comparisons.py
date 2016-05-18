@@ -7,6 +7,7 @@ from pprint import pprint
 
 
 def compute_jaccard_index(s1, s2):
+    # FIXME: add credit for jaccard function
     """
     Use set math to determine percentage of words two strings have in common by
     dividing the number of words in common by number of total individual words.
@@ -34,7 +35,7 @@ def compute_jaccard_index(s1, s2):
     set_1.discard('')
     set_2.discard('')
 
-    # compute worsd in common between two strings
+    # compute words in common between two strings
     common_words = len(set_1.intersection(set_2))
     # compute total individual words across both strings
     all_words = float(len(set_1) + len(set_2) - common_words)
@@ -76,6 +77,7 @@ def make_json():
 
     data = []
 
+    # get song object, remember to add act # to name key:value pair
     songs = db.session.query(Song.song_id, Song.title).all()
 
     for song in songs:
@@ -89,6 +91,7 @@ def make_json():
 
         data.append(mydict)
 
+    # FIXME: look into json library for making ' into "
     return data
 
 
@@ -199,7 +202,7 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
-    pprint(make_json())
+    # pprint(make_json())
 
 else:
     print "Never ran."
