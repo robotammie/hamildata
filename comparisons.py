@@ -3,7 +3,7 @@
 from model import Line, Song, Character, db, connect_to_db
 import re
 from pprint import pprint
-from difflib import SequenceMatcher
+# from difflib import SequenceMatcher
 
 
 def compute_jaccard_index(s1, s2):
@@ -42,6 +42,83 @@ def compute_jaccard_index(s1, s2):
     return common_words / all_words
 
 
+def get_song_connections(song):
+    """
+    Create a list of songs with lyrical callbacks to the given song.
+
+    Too complicated for a doctest.
+    TODO: incorporate this into a unit test later
+    """
+
+    # initiate empty set (for duplicate checking)
+    links = set([])
+
+    # create lists of lines in the given song, and in all following songs
+    lines = Line.query.filter(Line.song_id == song).all()
+    all_lines = Line.query.filter(Line.song_id > song).all()
+
+    # compare all lines in the given song to all other lones in the play
+    for line1 in lines:
+        for line2 in all_lines:
+            # if they are lyrically similar, add the song number of the second song to our set of connectors
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= 0.75:
+                links.add(str(line2.song.act) + '.' + line2.song.title)
+
+    # return set to list form for future jsonification
+    return list(links)
+
+
+def make_json():
+    """
+    Create a list of dictionaries as required by d3 bundle layout
+
+    """
+
+    data = []
+
+    songs = db.session.query(Song.song_id, Song.title).all()
+
+    for song in songs:
+        song_id = song[0]
+        title = song[1]
+
+        mydict = {}
+        mydict["name"] = title
+        mydict["size"] = 0
+        mydict["imports"] = get_song_connections(song_id)
+
+        data.append(mydict)
+
+    return data
+
+
+# def make_edge_list(str_list):
+#     """
+#     Create a dictionary of similar lines for visualization.
+#     Too complicated for a doctest.
+#     TODO: incorporate this into a unit test later
+#     """
+#     # initiate empty dictionary
+#     edges = {}
+#     for i in range(len(str_list)):
+#         line1 = str_list[i]
+#         # print line1
+#         # check only those lines after the one you're looking at
+#         # (to prevent duplicate matches)
+#         for line2 in str_list[i+1:]:
+#             # match = longest_match(line1.lyrics, line2.lyrics)
+#             # if match >= 2:
+
+#             # check jaccard similarity
+#             if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
+
+#                # add similar lines to the adjacency list
+#                 edges[line1] = edges.get(line1, [])
+#                 edges[line1].append(line2)
+
+#     return edges
+
+
 # def longest_match(s1, s2):
 #     """determine the longest number of consecutive words in common"""
 
@@ -59,52 +136,6 @@ def compute_jaccard_index(s1, s2):
 #     match = matcher.find_longest_match(0, len(list1), 0, len(list2))
 
 #     return match.size
-
-
-def make_edge_list(str_list):
-    """
-    Create a dictionary of similar lines for visualization.
-    Too complicated for a doctest.
-    TODO: incorporate this into a unit test later
-    """
-    # initiate empty dictionary
-    edges = {}
-    for i in range(len(str_list)):
-        line1 = str_list[i]
-        # print line1
-        # check only those lines after the one you're looking at
-        # (to prevent duplicate matches)
-        for line2 in str_list[i+1:]:
-            # match = longest_match(line1.lyrics, line2.lyrics)
-            # if match >= 2:
-
-            # check jaccard similarity
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) == .50:
-
-               # add similar lines to the adjacency list
-                edges[line1] = edges.get(line1, [])
-                edges[line1].append(line2)
-
-    return edges
-
-
-def comp_lines(song1, song2):
-    """create a list of smilarities between two songs."""
-
-    lines1 = Line.query.filter(Line.song_id == song1).all()
-    lines2 = Line.query.filter(Line.song_id == song2).all()
-
-    edges = {}
-
-    for line1 in lines1:
-        for line2 in lines2:
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
-                # add similar lines to the adjacency list
-                edges[line1] = edges.get(line1, [])
-                edges[line1].append(line2)
-                # lines2.remove(line2)
-
-    return edges
 
 
 # def comp_songs():
@@ -141,6 +172,25 @@ def comp_lines(song1, song2):
 #         return edges
 
 
+def comp_lines(song1, song2):
+    """create a list of smilarities between two songs."""
+
+    lines1 = Line.query.filter(Line.song_id == song1).all()
+    lines2 = Line.query.filter(Line.song_id == song2).all()
+
+    edges = {}
+
+    for line1 in lines1:
+        for line2 in lines2:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
+                # add similar lines to the adjacency list
+                edges[line1] = edges.get(line1, [])
+                edges[line1].append(line2)
+                # lines2.remove(line2)
+
+    pprint(edges)
+
+
 if __name__ == "__main__":
     """Create Adjacency List"""
 
@@ -149,9 +199,7 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
-    all_lines = Line.query.all()
-    # Print the edge list (ideally to a txt file)
-    pprint(make_edge_list(all_lines))
+    pprint(make_json())
 
 else:
     print "Never ran."

@@ -21,14 +21,14 @@ def index():
 
     # TODO: create dummy homepage
 
-    return render_template("bundle_test.html")
+    return render_template("homepage.html")
 
 
 @app.route("/data.json")
 def get_graph_data():
     # call helper functions
 
-    f = open('static/test_data_2.json')
+    f = open('static/song_data.json')
     content = f.read()
     my_json = json.loads(content)
 

@@ -1,58 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
-
-.node { /* styling for node labels */
-  font: 300 8px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #aaa;
-}
-
-.node:hover { /* node label when being hovered over */
-  fill: #000;
-}
-
-.link { /* connecting lines */
-  stroke: steelblue;
-  stroke-opacity: .9;
-  stroke-width: .5px;
-  fill: none; /* color between lines? No. Never do this. */
-  pointer-events: hover;
-}
-
-.link:hover { /* link when being hovered over */
-  stroke: red;
-}
-
-/* bold nodes connected to the node being hovered over */
-.node:hover,
-.node--source,
-.node--target { 
-  font-weight: 700;
-}
-
-.node--source { /* make source green */
-  fill: #2ca02c;
-}
-
-.node--target { /* make target red */
-  fill: #d62728;
-}
-
-.link--source,
-.link--target { /* links when node is hovered over */
-  stroke-opacity: 1;
-  stroke-width: 2px;
-}
-
-.link--source { /* turn link in which node is a source red */
-  stroke: #d62728;
-}
-
-.link--target { /* turn link in which node is a target red */
-  stroke: #2ca02c;
-}
-
-</style>
+<style src="static/css/bundle_chart.css"></style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="static/js/BundleChart.js"></script>

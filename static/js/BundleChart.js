@@ -13,7 +13,7 @@ var bundle = d3.layout.bundle(); // bundle layout
 
 var line = d3.svg.line.radial()
     .interpolate("bundle")
-    .tension(1) // 0 is straight, 1 is super-curved
+    .tension(.0) // 0 is straight, 1 is super-curved
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
