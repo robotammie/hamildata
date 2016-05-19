@@ -33,11 +33,19 @@ def get_graph_data():
     return jsonify({'data': my_json})
 
 
-# @app.route("/get_lyrics.json")
-# def get_lyrics():
-#     """Get song lyrics to populate info box"""
+@app.route("/get_lyrics.json")
+def get_lyrics():
+    """Get song lyrics to populate info box"""
 
+    song_title = request.args.get('title')
 
+    song_lyrics = (db.session.query(Line.lyrics)
+                   .filter(Line.song_id == (db.session.query(Song.song_id)
+                                            .filter(Song.title == song_title).one()
+                                            )[0]
+                           ).all())
+
+    return jsonify({'lyrics': song_lyrics})
 
 
 ##########################################################
@@ -54,3 +62,5 @@ if __name__ == "__main__":
     # DebugToolbarExtension(app)
 
     app.run()
+
+  

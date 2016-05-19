@@ -104,9 +104,14 @@ function clicked(d) {
   $('#info-box').html('<h5>' + title + '</h5>');
 
   // AJAX request to server to get lyrics for given title
-  // $.get('/get_lyrics.json', title, function{
-  //                                 $('#info-box').append('<p>' + 'Success!' + '</p>');
-  //                               });
+  $.get('/get_lyrics.json', {'title': title}, function(results){
+                                              var songLyrics = ''
+                                              for (var i = 0; i < results.lyrics.length; i++) {
+                                                songLyrics = songLyrics.concat(results.lyrics[i][0], '<br>')
+                                                };
+                                              console.log(songLyrics);
+                                              $('#info-box').append('<p>' + songLyrics + '</p>');
+                                              });
 
 }
 
