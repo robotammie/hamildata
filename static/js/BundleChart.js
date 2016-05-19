@@ -101,16 +101,17 @@ function clicked(d) {
 
   // pull the song title from the node label and create a heading for the info box.
   var title = d3.select('.node--select')[0][0].innerHTML;
-  $('#info-box').html('<h5>' + title + '</h5>');
+  $('#info-box').html('<h4>' + title + '</h4>' + '<table id="lyrics"></table>');
 
   // AJAX request to server to get lyrics for given title
   $.get('/get_lyrics.json', {'title': title}, function(results){
+                                              // console.log(results);
                                               var songLyrics = ''
                                               for (var i = 0; i < results.lyrics.length; i++) {
-                                                songLyrics = songLyrics.concat(results.lyrics[i][0], '<br>')
+                                                songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ': </td><td> ', results.lyrics[i][1], '</tr>')
                                                 };
-                                              console.log(songLyrics);
-                                              $('#info-box').append('<p>' + songLyrics + '</p>');
+                                              // console.log(songLyrics);
+                                              $('#lyrics').append(songLyrics);
                                               });
 
 }
