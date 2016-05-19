@@ -42,13 +42,13 @@ def get_lyrics():
     song_title = request.args.get('title')
 
     # find all song lines from the given song
-    song_lines = (Line.query.filter(Line.song_id == (db.session.query(Song.song_id).filter(Song.title == song_title).one())[0]).all())
+    song_lines = (Line.query.filter(Line.song_id == (db.session.query(Song.song_id).filter(Song.title == song_title).one())[0]).order_by(Line.line_no).all())
 
     song_lyrics = []
 
     # pull character names and lyrics from the Line object
     for line in song_lines:
-        print line
+        # print line
         name = line.char.name
         lyrics = line.lyrics
 
