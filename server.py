@@ -42,7 +42,11 @@ def get_lyrics():
     song_title = request.args.get('title')
 
     # find all song lines from the given song
-    song_lines = (Line.query.filter(Line.song_id == (db.session.query(Song.song_id).filter(Song.title == song_title).one())[0]).order_by(Line.line_no).all())
+    song_lines = (Line.query
+                  .filter(Line.song_id == (db.session.query(Song.song_id)  # check that the song id for the line is the same as the song id
+                                           .filter(Song.title == song_title).one()  # for the song passed in by the AJAX query
+                                           )[0])
+                  .order_by(Line.line_no).all())  # sort by line number
 
     song_lyrics = []
 
