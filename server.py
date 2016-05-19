@@ -14,10 +14,9 @@ app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
 
 
-# route for homepage
 @app.route('/')
 def index():
-    """Homepage."""
+    """Render homepage."""
 
     return render_template("homepage.html")
 
@@ -26,10 +25,12 @@ def index():
 def get_graph_data():
     """pull pre-loaded song connections from json file"""
 
+    # open pre-loaded file of song connections
     f = open('static/song_data.json')
     content = f.read()
     my_json = json.loads(content)
 
+    # render json to homepage
     return jsonify({'data': my_json})
 
 
@@ -37,19 +38,24 @@ def get_graph_data():
 def get_lyrics():
     """Get song lyrics to populate info box"""
 
+    # get song title frm AJAX request
     song_title = request.args.get('title')
 
+    # find all song lines from the given song
     song_lines = (Line.query.filter(Line.song_id == (db.session.query(Song.song_id).filter(Song.title == song_title).one())[0]).all())
 
     song_lyrics = []
 
+    # pull character names and lyrics from the Line object
     for line in song_lines:
         print line
         name = line.char.name
         lyrics = line.lyrics
 
+        # append tuple to list of song lyrics
         song_lyrics.append((name, lyrics))
 
+    # pass list of tuples back to webpage
     return jsonify({'lyrics': song_lyrics})
 
 

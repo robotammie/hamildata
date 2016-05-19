@@ -15,6 +15,11 @@
   fill: brown;
 }
 
+.node--select { 
+  font-weight: 700;
+  fill: black;
+}
+
 .link { /* connecting lines */
   stroke: sienna;
   stroke-opacity: .9;

@@ -11,3 +11,8 @@ svg {
     padding-top: 5px;
     background-color: beige;
 }
+
+.song-title {  /* FIXME: doesn't work; find out why */
+    font-family: serif;
+    color: red;
+}

@@ -97,20 +97,21 @@ function clicked(d) {
       .classed("node--select", false)
 
   d3.select(this)
-      .classed("node--select", true); // give 
+      .classed("node--select", true); // give the selected node a class of node--select
 
   // pull the song title from the node label and create a heading for the info box.
   var title = d3.select('.node--select')[0][0].innerHTML;
-  $('#info-box').html('<h4>' + title + '</h4>' + '<table id="lyrics"></table>');
+  $('#info-box').html('<h4>' + title + '</h4 class="song-title">' + '<table id="lyrics"></table>');
 
-  // AJAX request to server to get lyrics for given title
+  // AJAX request to server to get character:lyric pairs for given title
   $.get('/get_lyrics.json', {'title': title}, function(results){
-                                              // console.log(results);
+                                              // initialize empty string
                                               var songLyrics = ''
+                                              // add a new row containing the character name and lyrics for each line
                                               for (var i = 0; i < results.lyrics.length; i++) {
-                                                songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ': </td><td> ', results.lyrics[i][1], '</tr>')
+                                                songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
                                                 };
-                                              // console.log(songLyrics);
+                                              // insert newly created list of rows into table tags
                                               $('#lyrics').append(songLyrics);
                                               });
 
