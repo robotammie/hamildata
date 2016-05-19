@@ -19,24 +19,25 @@ app.jinja_env.undefined = StrictUndefined
 def index():
     """Homepage."""
 
-    # TODO: create dummy homepage
-
     return render_template("homepage.html")
 
 
 @app.route("/data.json")
 def get_graph_data():
-    # call helper functions
+    """pull pre-loaded song connections from json file"""
 
     f = open('static/song_data.json')
     content = f.read()
     my_json = json.loads(content)
 
-    # print type(my_json)
-
-    # nodes = make_nodes(f)
-    # paths = make_paths(nodes)
     return jsonify({'data': my_json})
+
+
+# @app.route("/get_lyrics.json")
+# def get_lyrics():
+#     """Get song lyrics to populate info box"""
+
+
 
 
 ##########################################################

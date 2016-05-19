@@ -5,12 +5,15 @@ import re
 from pprint import pprint
 # from difflib import SequenceMatcher
 
+sensitivity = .75
 
 def compute_jaccard_index(s1, s2):
-    # FIXME: add credit for jaccard function
     """
     Use set math to determine percentage of words two strings have in common by
     dividing the number of words in common by number of total individual words.
+
+    Function based off Tamim Shahriar's compute_jaccard_index, found at
+    http://love-python.blogspot.com/2012/07/python-code-to-compute-jaccard-index.html'
 
     >>> compute_jaccard_index("little pig, little pig", "three little pigs")
     0.25
@@ -34,6 +37,12 @@ def compute_jaccard_index(s1, s2):
     # remove empty strings artifacts from punctuation
     set_1.discard('')
     set_2.discard('')
+    # set_1.discard('he')
+    # set_2.discard('he')
+    # set_1.discard('she')
+    # set_2.discard('she')
+    # set_1.discard('they')
+    # set_2.discard('they')
 
     # compute words in common between two strings
     common_words = len(set_1.intersection(set_2))
@@ -62,7 +71,7 @@ def get_song_connections(song):
     for line1 in lines:
         for line2 in all_lines:
             # if they are lyrically similar, add the song number of the second song to our set of connectors
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= 0.75:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
                 links.add(str(line2.song.act) + '.' + line2.song.title)
 
     # return set to list form for future jsonification
@@ -78,16 +87,14 @@ def make_json():
     data = []
 
     # get song object, remember to add act # to name key:value pair
-    songs = db.session.query(Song.song_id, Song.title).all()
+    songs = Song.query.all()
 
     for song in songs:
-        song_id = song[0]
-        title = song[1]
-
+        # initiate an empty dictionary, and populate it
         mydict = {}
-        mydict["name"] = title
+        mydict["name"] = song.title
         mydict["size"] = 0
-        mydict["imports"] = get_song_connections(song_id)
+        mydict["imports"] = get_song_connections(song.song_id)
 
         data.append(mydict)
 
@@ -185,7 +192,7 @@ def comp_lines(song1, song2):
 
     for line1 in lines1:
         for line2 in lines2:
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
                 # add similar lines to the adjacency list
                 edges[line1] = edges.get(line1, [])
                 edges[line1].append(line2)

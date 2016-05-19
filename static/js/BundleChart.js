@@ -13,21 +13,21 @@ var diameter = 600, // dimensions of svg element
 var cluster = d3.layout.cluster()
     .size([360, innerRadius]) // how many degrees, radius
     .sort(null)
-    .value(function(d) { return d.size; });
+    // .value(function(d) { return d.size; }); // this line doesn't seem to do anything
 
 var bundle = d3.layout.bundle(); // bundle layout
 
 var line = d3.svg.line.radial()
     .interpolate("bundle")
-    .tension(.1) // 0 is straight, 1 is super-curved
+    .tension(.05) // 0 is straight, 1 is super-curved
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
-  .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")");
+    .append("g")
+    .attr("transform", "translate(" + radius + "," + radius + ")"); // center the graph in the svg element
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
@@ -44,32 +44,36 @@ d3.json("/data.json", function(error, data) {
 
   link = link
       .data(bundle(links))
-    .enter().append("path")
+      .enter().append("path")
       .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
       .attr("class", "link")
       .attr("d", line);
 
   node = node
       .data(nodes.filter(function(n) { return !n.children; }))
-    .enter().append("text")
+      .enter().append("text")
       .attr("class", "node")
-      .attr("dy", ".31em")
+      .attr("dy", ".31em") // center text on node
       .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
       .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
-      .on("mouseout", mouseouted);
+      .on("mouseout", mouseouted)
+      .on("click", clicked);
 });
 
 function mouseovered(d) {
   node
-      .each(function(n) { n.target = n.source = false; });
+      // .each(function(n) { n.target = n.source = false; });
 
   link
       .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
       .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
-    .filter(function(l) { return l.target === d || l.source === d; })
+      .filter(function(l) { return l.target === d || l.source === d; })
       .each(function() { this.parentNode.appendChild(this); });
+
+  d3.select(this)
+      .classed("node--hover", true);
 
   node
       .classed("node--target", function(n) { return n.target; })
@@ -82,8 +86,28 @@ function mouseouted(d) {
       .classed("link--source", false);
 
   node
+      .classed("node--hover", false)
       .classed("node--target", false)
       .classed("node--source", false);
+}
+
+function clicked(d) {
+  // give the selected node a new class, for easy jquery selection.
+  node
+      .classed("node--select", false)
+
+  d3.select(this)
+      .classed("node--select", true); // give 
+
+  // pull the song title from the node label and create a heading for the info box.
+  var title = d3.select('.node--select')[0][0].innerHTML;
+  $('#info-box').html('<h5>' + title + '</h5>');
+
+  // AJAX request to server to get lyrics for given title
+  // $.get('/get_lyrics.json', title, function{
+  //                                 $('#info-box').append('<p>' + 'Success!' + '</p>');
+  //                               });
+
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");

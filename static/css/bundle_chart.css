@@ -1,22 +1,10 @@
 .node { /* styling for node labels */
   font: 300 8px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #aaa;
+  fill: sienna;
 }
 
 .node:hover { /* node label when being hovered over */
-  fill: #000;
-}
-
-.link { /* connecting lines */
-  stroke: steelblue;
-  stroke-opacity: .9;
-  stroke-width: .5px;
-  fill: none; /* color between lines? No. Never do this. */
-  pointer-events: hover;
-}
-
-.link:hover { /* link when being hovered over */
-  stroke: red;
+  fill: brown;
 }
 
 /* bold nodes connected to the node being hovered over */
@@ -24,26 +12,41 @@
 .node--source,
 .node--target { 
   font-weight: 700;
+  fill: brown;
 }
 
-.node--source { /* make source green */
-  fill: #2ca02c;
+.link { /* connecting lines */
+  stroke: sienna;
+  stroke-opacity: .9;
+  stroke-width: .5px;
+  fill: none; /* color between lines? No. Never do this. */
+  pointer-events: auto;
 }
 
-.node--target { /* make target red */
-  fill: #d62728;
+.link:hover { /* link when being hovered over */
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  stroke: brown;
 }
+
+/* bold nodes connected to the link being hovered over */
+.node--source,
+.node--target { 
+  fill: brown;
+}
+
 
 .link--source,
 .link--target { /* links when node is hovered over */
   stroke-opacity: 1;
   stroke-width: 2px;
+  stroke: brown;
 }
 
-.link--source { /* turn link in which node is a source red */
-  stroke: #d62728;
+.link--source { /* links when node is hovered over */
+  stroke: red;
 }
 
-.link--target { /* turn link in which node is a target red */
-  stroke: #2ca02c;
+.link--target { /* links when node is hovered over */
+  stroke: green;
 }
