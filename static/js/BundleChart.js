@@ -19,7 +19,7 @@ var bundle = d3.layout.bundle(); // bundle layout
 
 var line = d3.svg.line.radial()
     .interpolate("bundle")
-    .tension(.05) // 0 is straight, 1 is super-curved
+    .tension(.1) // 0 is straight, 1 is super-curved
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
@@ -92,29 +92,53 @@ function mouseouted(d) {
 }
 
 function clicked(d) {
-  // give the selected node a new class, for easy jquery selection.
-  node
-      .classed("node--select", false)
+  // if no nodes are currently selected
+  if ($('.node--song1').length === 0) {
+    d3.select(this)
+      .classed("node--song1", true); // add song1 class (show lyrics)
+  }
+  // if the node is currently selected (as either song1 or song2)
+  else if (d3.select(this)[0][0]
+               .outerHTML
+               .indexOf('node--song') > -1) {
+    d3.select(this)
+      .classed("node--song1", false); // remove song1 class
+    d3.select(this)
+      .classed("node--song2", false); // remove song2 class
+  
+  }
 
-  d3.select(this)
-      .classed("node--select", true); // give the selected node a class of node--select
+  
+  // node
+  //     .classed("node--song1", false);
 
+  // console.log(d3.select(this)[0][0].outerHTML.indexOf('node--song') > -1);
+
+  // d3.select(this)
+  //     .classed("node--song1", true); // give the selected node a class of node--select
+
+  console.log(d3.select(this)[0][0].outerHTML.indexOf('node--song') > -1);
   // pull the song title from the node label and create a heading for the info box.
-  var title = d3.select('.node--select')[0][0].innerHTML;
-  $('#info-box').html('<h4>' + title + '</h4 class="song-title">' + '<table id="lyrics"></table>');
+  
+  if ($('.node--song1').length !== 0) {
+    var title = d3.select('.node--song1')[0][0].innerHTML;
+    $('#info-box').html('<h4>' + title + '</h4 class="song-title">' + '<table id="lyrics"></table>');
 
-  // AJAX request to server to get character:lyric pairs for given title
-  $.get('/get_lyrics.json', {'title': title}, function(results){
-                                              // initialize empty string
-                                              var songLyrics = ''
-                                              // add a new row containing the character name and lyrics for each line
-                                              for (var i = 0; i < results.lyrics.length; i++) {
-                                                songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
-                                                };
-                                              // insert newly created list of rows into table tags
-                                              $('#lyrics').append(songLyrics);
-                                              });
-
+    // AJAX request to server to get character:lyric pairs for given title
+    $.get('/get_lyrics.json', {'title': title}, function(results){
+                                                // initialize empty string
+                                                var songLyrics = ''
+                                                // add a new row containing the character name and lyrics for each line
+                                                for (var i = 0; i < results.lyrics.length; i++) {
+                                                  songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
+                                                  };
+                                                // insert newly created list of rows into table tags
+                                                $('#lyrics').append(songLyrics);
+                                                });
+  }
+  else {
+    $('#info-box').html('');
+  }
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
