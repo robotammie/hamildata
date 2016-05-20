@@ -121,7 +121,9 @@ function clicked(d) {
     
     // pull the song title from the node label and create a heading for the info box.
     var title = d3.select('.node--song1')[0][0].innerHTML;
-    $('#info-box').html('<table id="lyrics"><th colspan="2"><h4class="song-title">' + title + '</h4 ></th></table>');
+    $('#info-box').html('<table id="lyrics"><th colspan="2"><h4class="song-title">' 
+                        + title 
+                        + '</h4 ></th></table>');
 
     // AJAX request to server to get character:lyric pairs for given title
     $.get('/get_lyrics.json', {'title': title}, function(results){
@@ -129,7 +131,7 @@ function clicked(d) {
                                                 var songLyrics = ''
                                                 // add a new row containing the character name and lyrics for each line
                                                 for (var i = 0; i < results.lyrics.length; i++) {
-                                                  songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
+                                                  songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>');
                                                   };
                                                 // insert newly created list of rows into table tags
                                                 $('#lyrics').append(songLyrics);
@@ -144,11 +146,35 @@ function clicked(d) {
     // populate table header with both song titles
     var title1 = d3.select('.node--song1')[0][0].innerHTML;
     var title2 = d3.select('.node--song2')[0][0].innerHTML;
-    $('#info-box').html('<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title1 + '</h4 ></th></table></div>' + '<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title2 + '</h4 ></th></table></div>');
+    $('#info-box').html('<div id="song--table"><table id="song1--lyrics"><th colspan="2"><h4class="song-title">' 
+                        + title1 
+                        + '</h4 ></th></table></div>' 
+                        + '<div id="song--table"><table id="song2--lyrics"><th colspan="2"><h4class="song-title">' 
+                        + title2 
+                        + '</h4 ></th></table></div>');
 
     $.get('/compare_songs.json', {'title1': title1, 'title2': title2}, function(results){
-                                                r = results;
-                                                console.log(r);
+
+                                                // do for every match found between song 1 and song 2
+                                                for (var match in results){
+                                                  var song1Lyrics = '';
+                                                  
+                                                  // insert a new line into the song 1 table
+                                                  song1Lyrics = song1Lyrics.concat('<tr><td>', results[match].song1['char'], ':</td><td>', results[match].song1['line'], '</td></tr>');
+                                                  $('#song1--lyrics').append(song1Lyrics);
+                                                  
+                                                  // insert 1 line per matching lyric into song 2 table
+                                                  for (var line in results[match].song2){
+                                                    var song2Lyrics = '';
+                                                    console.log(results[match].song2[line]);
+                                                    song2Lyrics = song2Lyrics.concat('<tr><td>', results[match].song2[line]['char'], ':</td><td>', results[match].song2[line]['line'], '</td></tr>');
+                                                    $('#song2--lyrics').append(song2Lyrics);
+                                                  }
+                                                }
+
+
+
+
                                                 // initialize empty string
                                                 // var songLyrics = ''
                                                 // add a new row containing the character name and lyrics for each line
@@ -157,7 +183,7 @@ function clicked(d) {
                                                 //   };
                                                 // // insert newly created list of rows into table tags
                                                 // $('#lyrics').append(songLyrics);
-                                                  // $('#info-box').append(results);
+                                                //   $('#info-box').append(results);
                                                 });
   }
 }
