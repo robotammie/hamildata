@@ -41,6 +41,11 @@
   fill: brown;
 }
 
+.node--song1,
+.node--song2 { 
+  font-weight: 700;
+  fill: black;
+}
 
 .link--source,
 .link--target { /* links when node is hovered over */
