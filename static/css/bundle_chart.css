@@ -1,6 +1,7 @@
 .node { /* styling for node labels */
   font: 300 8px "Helvetica Neue", Helvetica, Arial, sans-serif;
   fill: sienna;
+  cursor: pointer;
 }
 
 .node:hover { /* node label when being hovered over */
