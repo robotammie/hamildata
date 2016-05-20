@@ -147,6 +147,8 @@ function clicked(d) {
     $('#info-box').html('<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title1 + '</h4 ></th></table></div>' + '<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title2 + '</h4 ></th></table></div>');
 
     $.get('/compare_songs.json', {'title1': title1, 'title2': title2}, function(results){
+                                                r = results;
+                                                console.log(r);
                                                 // initialize empty string
                                                 // var songLyrics = ''
                                                 // add a new row containing the character name and lyrics for each line
@@ -155,7 +157,7 @@ function clicked(d) {
                                                 //   };
                                                 // // insert newly created list of rows into table tags
                                                 // $('#lyrics').append(songLyrics);
-                                                  $('#info-box').append(results);
+                                                  // $('#info-box').append(results);
                                                 });
   }
 }
