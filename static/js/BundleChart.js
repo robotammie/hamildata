@@ -105,9 +105,16 @@ function clicked(d) {
       .classed("node--song1", false); // remove song1 class
     d3.select(this)
       .classed("node--song2", false); // remove song2 class
-  
+    if ($('.node--song2').length === 1) {
+      var song2 = d3.select('.node--song2');
+      song2.classed("node--song2", false);
+      song2.classed("node--song1", true);
+    }
   }
-
+  else if ($('.node--song2').length === 0) {
+    d3.select(this)
+      .classed("node--song2", true); // add song2 class (compare)
+  }
   
   // node
   //     .classed("node--song1", false);
@@ -118,9 +125,11 @@ function clicked(d) {
   //     .classed("node--song1", true); // give the selected node a class of node--select
 
   console.log(d3.select(this)[0][0].outerHTML.indexOf('node--song') > -1);
-  // pull the song title from the node label and create a heading for the info box.
   
-  if ($('.node--song1').length !== 0) {
+  // if there is a song1, and is not a song2, show song1's lyrics
+  if ($('.node--song1').length !== 0 && $('.node--song2').length === 0) {
+    
+    // pull the song title from the node label and create a heading for the info box.
     var title = d3.select('.node--song1')[0][0].innerHTML;
     $('#info-box').html('<h4>' + title + '</h4 class="song-title">' + '<table id="lyrics"></table>');
 

@@ -15,7 +15,8 @@
   fill: brown;
 }
 
-.node--select { 
+.node--song1,
+.node--song2 { 
   font-weight: 700;
   fill: black;
 }
