@@ -9,10 +9,21 @@ svg {
     margin: 10px;
     padding-left: 10px;
     padding-top: 5px;
+    overflow: hidden;
     background-color: beige;
 }
 
 .song-title {  /* FIXME: doesn't work; find out why */
     font-family: serif;
     color: red;
+}
+
+#song--table{
+    width: 50%;
+    float:left;
+    overflow: hidden;
+}
+
+td {
+    font-size: .8em;
 }

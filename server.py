@@ -1,10 +1,14 @@
+import json
+
 from jinja2 import StrictUndefined
 
 from flask import Flask, render_template, jsonify, redirect, request, flash, session
 
 from model import Line, Song, Character, connect_to_db, db
 
-import json
+from comparisons import comp_lines
+
+
 
 # create fask application
 app = Flask(__name__)
@@ -61,6 +65,24 @@ def get_lyrics():
 
     # pass list of tuples back to webpage
     return jsonify({'lyrics': song_lyrics})
+
+
+@app.route("/compare_songs.json")
+def compare_songs():
+    """Get song lyrics to populate info box"""
+
+    song_title_1 = request.args.get('title1')
+    song_title_2 = request.args.get('title2')
+
+    # get the song id for the line from the title passed in by the AJAX query
+    song1 = db.session.query(Song.song_id).filter(Song.title == song_title_1).one()[0]
+    song2 = db.session.query(Song.song_id).filter(Song.title == song_title_2).one()[0]
+
+    comparisons = comp_lines(song1, song2)
+
+    # TODO: rewrite comp_lines so that it returns a dictionary of tuples, as per notebook sketch
+
+    return jsonify('totally a dictionary')
 
 
 ##########################################################

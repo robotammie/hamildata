@@ -116,22 +116,12 @@ function clicked(d) {
       .classed("node--song2", true); // add song2 class (compare)
   }
   
-  // node
-  //     .classed("node--song1", false);
-
-  // console.log(d3.select(this)[0][0].outerHTML.indexOf('node--song') > -1);
-
-  // d3.select(this)
-  //     .classed("node--song1", true); // give the selected node a class of node--select
-
-  console.log(d3.select(this)[0][0].outerHTML.indexOf('node--song') > -1);
-  
   // if there is a song1, and is not a song2, show song1's lyrics
-  if ($('.node--song1').length !== 0 && $('.node--song2').length === 0) {
+  if ($('.node--song1').length === 1 && $('.node--song2').length === 0) {
     
     // pull the song title from the node label and create a heading for the info box.
     var title = d3.select('.node--song1')[0][0].innerHTML;
-    $('#info-box').html('<h4>' + title + '</h4 class="song-title">' + '<table id="lyrics"></table>');
+    $('#info-box').html('<table id="lyrics"><th colspan="2"><h4class="song-title">' + title + '</h4 ></th></table>');
 
     // AJAX request to server to get character:lyric pairs for given title
     $.get('/get_lyrics.json', {'title': title}, function(results){
@@ -148,7 +138,28 @@ function clicked(d) {
   else {
     $('#info-box').html('');
   }
+
+  // if two songs are selected, show common lyrics
+  if ($('.node--song1').length === 1 && $('.node--song2').length === 1) {
+    // populate table header with both song titles
+    var title1 = d3.select('.node--song1')[0][0].innerHTML;
+    var title2 = d3.select('.node--song2')[0][0].innerHTML;
+    $('#info-box').html('<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title1 + '</h4 ></th></table></div>' + '<div id="song--table"><table id="lyrics"><th colspan="2"><h4class="song-title">' + title2 + '</h4 ></th></table></div>');
+
+    $.get('/compare_songs.json', {'title1': title1, 'title2': title2}, function(results){
+                                                // initialize empty string
+                                                // var songLyrics = ''
+                                                // add a new row containing the character name and lyrics for each line
+                                                // for (var i = 0; i < results.lyrics.length; i++) {
+                                                //   songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
+                                                //   };
+                                                // // insert newly created list of rows into table tags
+                                                // $('#lyrics').append(songLyrics);
+                                                  $('#info-box').append(results);
+                                                });
+  }
 }
+
 
 d3.select(self.frameElement).style("height", diameter + "px");
 
