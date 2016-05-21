@@ -1,0 +1,25 @@
+language: python
+python:
+  - "2.7"
+# command to install dependencies
+install: 
+  - pip install -r requirements.txt
+  - pip install coveralls
+services:
+  - postgresql
+# command to run tests
+script: 
+  - coverage run --source=server tests.py
+# setup for tests
+before_script:
+  # Add postgres db setup
+  - psql -c 'create database travis_ci_test;' -U postgres
+  # Allow us to SSH passwordless to localhost
+  - ssh-keygen -f ~/.ssh/id_rsa -N ""
+  - cp ~/.ssh/{id_rsa.pub,authorized_keys}
+  # Creation of an SSH agent for testing forwarding
+  - eval $(ssh-agent)
+  - ssh-add
+# Integrate with coveralls.io
+after_success:
+  - coveralls
