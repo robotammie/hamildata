@@ -13,9 +13,19 @@ svg {
     background-color: beige;
 }
 
+/*.both-songs {
+    width: 100%;
+}*/
+
+.one-song {
+    float: left;
+    width: 50%;
+}
+
+
 .song-title {  /* FIXME: doesn't work; find out why */
     font-family: serif;
-    color: red;
+    color: brown;
 }
 
 #song--table{
