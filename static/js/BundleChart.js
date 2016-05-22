@@ -121,16 +121,14 @@ function clicked(d) {
     
     // pull the song title from the node label and create a heading for the info box.
     var title = d3.select('.node--song1')[0][0].innerHTML;
-    $('#info-box').html('<table id="lyrics"><th colspan="2"><h4class="song-title">' 
-                        + title 
-                        + '</h4 ></th></table>');
+    $('#info-box').html('<h4 class="song-title">' + title + '</h4 >');
 
     // AJAX request to server to get character:lyric pairs for given title
     $.get('/get_lyrics.json',
           {'title': title},
           function(results){
               // initialize empty string
-              var songLyrics = ''
+              var songLyrics = '<table id="lyrics">'
               // add a new row containing the character name and lyrics for each line
               for (var i = 0; i < results.lyrics.length; i++) {
                 songLyrics = songLyrics.concat('<tr>', 
@@ -143,7 +141,7 @@ function clicked(d) {
                                                '</tr>');
                 };
               // insert newly created list of rows into table tags
-              $('#lyrics').append(songLyrics);
+              $('#info-box').append(songLyrics, '</table>');
             });
   }
   else {
@@ -155,7 +153,7 @@ function clicked(d) {
     // populate table header with both song titles
     var title1 = d3.select('.node--song1')[0][0].innerHTML;
     var title2 = d3.select('.node--song2')[0][0].innerHTML;
-    $('#info-box').html('<div class="both-songs, container">'
+    $('#info-box').html('<div class="container match">'
                           + '<div class="one-song">'
                             + '<h4 class="song-title">'
                               + title1
@@ -173,7 +171,7 @@ function clicked(d) {
 
                                                 // do for every match found between song 1 and song 2
                                                 for (var match in results){
-                                                  html = '<div class="match, container">'
+                                                  html = '<div class="container match">'
                                                   var song1Lyrics = '';
                                                   
                                                   // insert a new line into the song 1 table

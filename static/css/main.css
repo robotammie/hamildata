@@ -13,8 +13,9 @@ svg {
     background-color: beige;
 }
 
-div .contaner {
-    margin-bottom: 15px;
+.match {
+    padding: 0;
+    padding-bottom: 15px;
 }
 
 .one-song {
