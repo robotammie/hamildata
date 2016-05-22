@@ -6,8 +6,7 @@ from flask import Flask, render_template, jsonify, redirect, request, flash, ses
 
 from model import Line, Song, Character, connect_to_db, db
 
-from comparisons import comp_lines
-
+from comparisons import comp_songs
 
 
 # create fask application
@@ -16,6 +15,12 @@ app = Flask(__name__)
 # cause Jinja to fail loudly, so errors are caught
 # TODO: comment out before deployment
 app.jinja_env.undefined = StrictUndefined
+
+
+@app.route('/favicon.ico')
+def serve_favicon():
+    '''Serve our favicon'''
+    return send_from_directory(os.path.join(app.root_path, 'static/img'), 'favicon.ico')
 
 
 @app.route('/')
@@ -78,7 +83,7 @@ def compare_songs():
     song1 = db.session.query(Song.song_id).filter(Song.title == song_title_1).one()[0]
     song2 = db.session.query(Song.song_id).filter(Song.title == song_title_2).one()[0]
 
-    comparisons = comp_lines(song1, song2)
+    comparisons = comp_songs(song1, song2)
 
     # TODO: rewrite comp_lines so that it returns a dictionary of tuples, as per notebook sketch
 
