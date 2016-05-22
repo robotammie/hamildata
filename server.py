@@ -87,14 +87,16 @@ def compare_songs():
 
     # TODO: rewrite comp_lines so that it returns a dictionary of tuples, as per notebook sketch
 
-    return jsonify({0: {'song1': {'char': '1-char 1', 'line': '1-line 1'},
-                        'song2': {0: {'char': '2-char 1', 'line': '2-line 1'},
-                                  1: {'char': '2-char 2', 'line': '2-line 2'}}
-                        },
-                    1: {'song1': {'char': '1-char 2', 'line': '1-line 2'},
-                        'song2': {0: {'char': '2-char 3', 'line': '2-line 3'}}
-                        }
-                    })
+    return jsonify(comparisons)
+
+    # return jsonify({0: {'song1': {'char': '1-char 1', 'line': '1-line 1'},
+    #                     'song2': {0: {'char': '2-char 1', 'line': '2-line 1'},
+    #                               1: {'char': '2-char 2', 'line': '2-line 2'}}
+    #                     },
+    #                 1: {'song1': {'char': '1-char 2', 'line': '1-line 2'},
+    #                     'song2': {0: {'char': '2-char 3', 'line': '2-line 3'}}
+    #                     }
+    #                 })
 
 
 ##########################################################

@@ -13,9 +13,9 @@ svg {
     background-color: beige;
 }
 
-/*.both-songs {
-    width: 100%;
-}*/
+div .contaner {
+    margin-bottom: 15px;
+}
 
 .one-song {
     float: left;
@@ -37,3 +37,9 @@ svg {
 td {
     font-size: .8em;
 }
+
+td.char{
+    width: 70px;
+    vertical-align: top;
+}
+

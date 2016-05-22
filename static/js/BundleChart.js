@@ -134,10 +134,10 @@ function clicked(d) {
               // add a new row containing the character name and lyrics for each line
               for (var i = 0; i < results.lyrics.length; i++) {
                 songLyrics = songLyrics.concat('<tr>', 
-                                                  '<td>', 
+                                                  '<td class="char">', 
                                                     results.lyrics[i][0], ': ',
                                                   '</td>', 
-                                                  '<td>', 
+                                                  '<td class="lyrics">', 
                                                     results.lyrics[i][1], 
                                                   '</td>', 
                                                '</tr>');
@@ -173,17 +173,17 @@ function clicked(d) {
 
                                                 // do for every match found between song 1 and song 2
                                                 for (var match in results){
-                                                  html = '<div class="both-songs, container">'
+                                                  html = '<div class="match, container">'
                                                   var song1Lyrics = '';
                                                   
                                                   // insert a new line into the song 1 table
                                                   song1Lyrics = song1Lyrics.concat('<div class="one-song">', 
                                                                                     '<table id="lyrics">', 
                                                                                       '<tr>', 
-                                                                                        '<td>',
+                                                                                        '<td class="char">',
                                                                                            results[match].song1['char'], ': ',
                                                                                         '</td>', 
-                                                                                        '<td>',
+                                                                                        '<td class="lyrics">',
                                                                                           results[match].song1['line'],
                                                                                         '</td>', 
                                                                                       '</tr>', 
@@ -192,21 +192,20 @@ function clicked(d) {
                                                   html = html.concat(song1Lyrics);
                                                   // $('#info-box').append(html);
                                                   // insert 1 line per matching lyric into song 2 table
-                                                  var song2Lyrics = '<div class="one-song">';
+                                                  var song2Lyrics = '<div class="one-song"><table id="lyrics">';
                                                   for (var line in results[match].song2){
                                                     console.log(results[match].song2[line]);
-                                                    song2Lyrics = song2Lyrics.concat('<table id="lyrics">', 
-                                                                                        '<tr>', 
-                                                                                          '<td>', 
-                                                                                            results[match].song2[line]['char'], ': ', 
-                                                                                          '</td>', 
-                                                                                          '<td>', 
-                                                                                            results[match].song2[line]['line'], 
-                                                                                          '</td>', 
-                                                                                        '</tr>', 
-                                                                                      '</table>');
+                                                    song2Lyrics = song2Lyrics.concat('<tr>', 
+                                                                                        '<td class="char">', 
+                                                                                          results[match].song2[line]['char'], ': ', 
+                                                                                        '</td>', 
+                                                                                        '<td class="lyrics">', 
+                                                                                          results[match].song2[line]['line'], 
+                                                                                        '</td>', 
+                                                                                      '</tr>'
+                                                                                     );
                                                   }
-                                                  html = html.concat(song2Lyrics, '</div></div>');
+                                                  html = html.concat(song2Lyrics, '</table></div></div>');
                                                   $('#info-box').append(html);
                                                 }
 

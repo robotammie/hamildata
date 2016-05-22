@@ -201,6 +201,37 @@ def comp_lines(song1, song2):
     pprint(edges)
 
 
+def comp_songs(song1, song2):
+    """create a list of smilarities between two songs."""
+
+    lines1 = Line.query.filter(Line.song_id == song1).all()
+    lines2 = Line.query.filter(Line.song_id == song2).all()
+
+    edges = {}
+
+    for line1 in lines1:
+
+        for line2 in lines2:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
+                # add similar lines to the adjacency list
+                # comment
+                if edges.get(line1.line_no):
+                    edges[line1.line_no]['song2'][line2.line_no] = {'char': line2.char.name,
+                                                                    'line': line2.lyrics
+                                                                    }
+                else:
+                    edges[line1.line_no] = {'song1': {'char': line1.char.name,
+                                                      'line': line1.lyrics
+                                                      },
+                                            'song2': {line2.line_no: {'char': line2.char.name,
+                                                                      'line': line2.lyrics
+                                                                      }
+                                                      }
+                                            }
+
+    return edges
+
+
 if __name__ == "__main__":
     """Create Adjacency List"""
 
