@@ -5,7 +5,7 @@ import re
 from pprint import pprint
 # from difflib import SequenceMatcher
 
-sensitivity = .75
+sensitivity = .65
 
 def compute_jaccard_index(s1, s2):
     """
@@ -37,8 +37,8 @@ def compute_jaccard_index(s1, s2):
     # remove empty strings artifacts from punctuation
     set_1.discard('')
     set_2.discard('')
-    # set_1.discard('he')
-    # set_2.discard('he')
+    set_1.discard('the')
+    set_2.discard('the')
     # set_1.discard('she')
     # set_2.discard('she')
     # set_1.discard('they')
@@ -92,7 +92,7 @@ def make_json():
     for song in songs:
         # initiate an empty dictionary, and populate it
         mydict = {}
-        mydict["name"] = song.title
+        mydict["name"] = str(song.act) + '.' + song.title
         mydict["size"] = 0
         mydict["imports"] = get_song_connections(song.song_id)
 
@@ -240,7 +240,7 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
-    # pprint(make_json())
+    pprint(make_json())
 
 else:
     print "Never ran."

@@ -1,5 +1,6 @@
-﻿1	burr	How does a bastard, orphan, son of a whore 
-1	burr	and a Scotsman, dropped in the middle of a forgotten
+﻿1	burr	How does a bastard, orphan,
+1	burr	son of a whore and a Scotsman,
+1	burr	dropped in the middle of a forgotten
 1	burr	spot in the Caribbean by providence, impoverished, in squalor,
 1	burr	grow up to be a hero and a scholar?
 1	laur	The ten-dollar founding father without a father
@@ -976,7 +977,8 @@
 8	ham	What?
 8	wash	And his right hand man!
 8	comp	Boom!
-9	burr	How does the bastard, orphan, son of a whore,
+9	burr	How does the bastard, orphan,
+9	burr	son of a whore,
 9	burr	go on and on,
 9	burr	grow into more of a phenomenon?
 9	burr	Watch this obnoxious, arrogant, loudmouth bother
@@ -1742,7 +1744,8 @@
 17	eliz	and I could be enough
 17	eliz	and we could be enough
 17	eliz	that would be enough.
-18	burr	How does a ragtag volunteer army in need of a shower
+18	burr	How does a ragtag volunteer
+18	burr	army in need of a shower
 18	burr	somehow defeat a global superpower?
 18	burr	How do we emerge victorious from the quagmire?
 18	burr	Leave the battlefield waving Betsy Ross' flag higher?
@@ -3308,8 +3311,9 @@
 33	kg	Da da da dat dat da ya daaaaa!
 33	kg	"President John Adams"
 33	kg	Good Luck.
-34	burr	How does Hamilton, the short-tempered, protean creator
-34	burr	of the Coast Guard, founder of the New York Post,
+34	burr	How does Hamilton, the short-tempered,
+34	burr	protean creator of the Coast Guard,
+34	burr	founder of the New York Post,
 34	burr	ardently abuse his cab'net post,
 34	burr	destroy his reputation?
 34	burr	Welcome, folks, to
@@ -3985,8 +3989,9 @@
 42	jef	'cuz I'm the President.
 42	jef	Hey, Burr, when you see Hamilton,
 42	jef	thank him for the endorsement.
-43	burr	How does Hamilton, an arrogant, immigrant, orphan,
-43	burr	bastard, whoreson, somehow endorse
+43	burr	How does Hamilton, an arrogant,
+43	burr	immigrant, orphan, bastard,
+43	burr	whoreson, somehow endorse
 43	burr	Thomas Jefferson, his enemy,
 43	burr	a man he's despised since the beginning,
 43	burr	just to keep me from winning?
