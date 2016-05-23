@@ -9,7 +9,7 @@ svg {
     margin: 10px;
     padding-left: 10px;
     padding-top: 5px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: beige;
 }
 
@@ -24,7 +24,7 @@ svg {
 }
 
 
-.song-title {  /* FIXME: doesn't work; find out why */
+.song-title {
     font-family: serif;
     color: brown;
 }

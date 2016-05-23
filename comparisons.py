@@ -240,7 +240,7 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
-    pprint(make_json())
+    # pprint(make_json())
 
 else:
     print "Never ran."
