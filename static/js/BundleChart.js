@@ -84,10 +84,12 @@ function mouseovered(d) {
 }
 
 function mouseouted(d) {
+  // un-highlight all links
   link
       .classed("link--target", false)
       .classed("link--source", false);
 
+  // unhighlight all nodes
   node
       .classed("node--hover", false)
       .classed("node--target", false)
@@ -99,28 +101,8 @@ function clicked(d) {
   if ($('.node--song1').length === 0) {
     d3.select(this)
       .classed("node--song1", true); // add song1 class (show lyrics)
-
-
-    // node
-    //   .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching?
-
-    // console.log("I have one song 1 and no song 2")
-    // console.log($('.node--song1'));
-    // console.log($('.node--song2'));
-
-    // link
-    //   .classed("link-song1-target", function(l) { if (l.target === d) return l.source.source = true; })
-    //   .classed("link-song1-source", function(l) { if (l.source === d) return l.target.target = true; })
-    //   .filter(function(l) { return l.target === d || l.source === d; })
-    //   .each(function() { this.parentNode.appendChild(this); });
-
-    // node
-    //   .classed("node-song1-target", function(n) { return n.target; })
-    //   .classed("node-song1-source", function(n) { return n.source; });
-
-
-
   }
+
   // if the node is currently selected (as either song1 or song2)
   else if (d3.select(this)[0][0]
                .outerHTML
@@ -131,50 +113,27 @@ function clicked(d) {
     d3.select(this)
       .classed("node--song2", false); // remove song2 class
 
-    // console.log('a');
+    // un-highlight all links
     link
       .classed("link-song1-target", false)
       .classed("link-song1-source", false);
 
+    // unhighlight all nodes
     node
       .classed("node-song1-target", false)
       .classed("node-song1-source", false);
 
-    // console.log('nodes: class = node-song1-source')
-    // console.log($('.node-song1-source'));
-
+    // if song 2 exists, re-class it to song 1
     if ($('.node--song2').length === 1) {
       var song2 = d3.select('.node--song2');
       song2.classed("node--song2", false);
       song2.classed("node--song1", true);
-
-      // console.log('b');
-      // link
-      //   .classed("song1--target", false)
-      //   .classed("song1--source", false);
-
     }
   }
   // if there is a song 1 already, but no song 2
   else if ($('.node--song2').length === 0) {
     d3.select(this)
       .classed("node--song2", true); // add song2 class (compare)
-  
-   // node
-      // .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching?
-
-    // link
-    //   .classed("link-song1-target", function(l) { if (l.target === d) return l.source.source = true; })
-    //   .classed("link-song1-source", function(l) { if (l.source === d) return l.target.target = true; })
-    //   .filter(function(l) { return l.target === d || l.source === d; })
-    //   .each(function() { this.parentNode.appendChild(this); });
-
-    // node
-    //   .classed("node-song1-target", function(n) { return n.target; })
-    //   .classed("node-song1-source", function(n) { return n.source; });
-
-
-
   }
   
   // if there is a song1, and is not a song2, show song1's lyrics
@@ -183,19 +142,18 @@ function clicked(d) {
     node
       .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching?
 
+    // select data attached to the song 1 node
     song1_d = $('.node--song1')[0]['__data__'];
 
-    console.log(song1_d);
-
+    // highlight the links whose target/source matches the song1 data
     link
-      .classed("link-song1-target", function(l) { if (l.target === song1_d) {console.log(l.target); return l.source.source = true;}})
+      .classed("link-song1-target", function(l) { if (l.target === song1_d) return l.source.source = true; })
       .classed("link-song1-source", function(l) { if (l.source === song1_d) return l.target.target = true; })
       .filter(function(l) { return l.target === song1_d || l.source === song1_d; })
       .each(function() { this.parentNode.appendChild(this); });
 
     node
-      .classed("node-song1-target", function(n) { // console.log(n);
-                                                  return n.target; })
+      .classed("node-song1-target", function(n) { return n.target; })
       .classed("node-song1-source", function(n) { return n.source; });
 
     // pull the song title from the node label and create a heading for the info box.
@@ -267,7 +225,6 @@ function clicked(d) {
                                                   // insert 1 line per matching lyric into song 2 table
                                                   var song2Lyrics = '<div class="one-song"><table id="lyrics">';
                                                   for (var line in results[match].song2){
-                                                    // console.log(results[match].song2[line]);
                                                     song2Lyrics = song2Lyrics.concat('<tr>', 
                                                                                         '<td class="char">', 
                                                                                           results[match].song2[line]['char'], ': ', 
