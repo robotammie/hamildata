@@ -183,7 +183,7 @@ def make_json():
 
 
 def comp_lines(song1, song2):
-    """create a list of smilarities between two songs."""
+    """Quick and dirty song comparison for in-console checking. Delete before final publish."""
 
     lines1 = Line.query.filter(Line.song_id == song1).all()
     lines2 = Line.query.filter(Line.song_id == song2).all()
@@ -209,25 +209,38 @@ def comp_songs(song1, song2):
 
     edges = {}
 
+    used = {}
+
     for line1 in lines1:
 
         for line2 in lines2:
             if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
-                # add similar lines to the adjacency list
-                # comment
-                if edges.get(line1.line_no):
-                    edges[line1.line_no]['song2'][line2.line_no] = {'char': line2.char.name,
-                                                                    'line': line2.lyrics
-                                                                    }
+                print line2
+                print used
+                if line2.line_no not in used:
+
+                    # add similar lines to the adjacency list
+                    if edges.get(line1.line_no):    # line1 already has a match
+                        edges[line1.line_no]['song2'][line2.line_no] = {'char': line2.char.name,
+                                                                        'line': line2.lyrics
+                                                                        }
+                    else:                           # line1 does not have any matches yet
+                        edges[line1.line_no] = {'song1': {line1.line_no: {'char': line1.char.name,
+                                                          'line': line1.lyrics
+                                                                          }
+                                                          },
+                                                'song2': {line2.line_no: {'char': line2.char.name,
+                                                                          'line': line2.lyrics
+                                                                          }
+                                                          }
+                                                }
+                    used[line2.line_no] = line1.line_no
+                    # print used
+
                 else:
-                    edges[line1.line_no] = {'song1': {'char': line1.char.name,
-                                                      'line': line1.lyrics
-                                                      },
-                                            'song2': {line2.line_no: {'char': line2.char.name,
-                                                                      'line': line2.lyrics
-                                                                      }
-                                                      }
-                                            }
+                    edges[used[line2.line_no]]['song1'][line1.line_no] = {'char': line1.char.name,
+                                                                          'line': line1.lyrics
+                                                                          }
 
     return edges
 
