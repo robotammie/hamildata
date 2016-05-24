@@ -55,6 +55,19 @@
   stroke: brown;
 }
 
+.link-song1-source,
+.link-song1-target { /* links when node is hovered over */
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  stroke: brown;
+}
+
+.node-song1-source,
+.node-song1-target { /* links when node is hovered over */
+   font-weight: 700;
+  fill: red;
+}
+
 .link--source { /* links when node is hovered over */
   stroke: red;
 }
