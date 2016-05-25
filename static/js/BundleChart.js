@@ -8,7 +8,7 @@
 
 var diameter = 600, // dimensions of svg element
     radius = diameter / 2,
-    innerRadius = radius - 120; // relative dimention of chart
+    innerRadius = radius - 160; // relative dimention of chart
 
 var cluster = d3.layout.cluster()
     .size([360, innerRadius]) // how many degrees, radius
@@ -24,10 +24,13 @@ var line = d3.svg.line.radial()
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
+    .attr("id", "graph")
+    .attr("viewBox", "10 1 525 575")
+    .attr("preserveAspectRatio", "xMidYMid")
+    // .attr("width", diameter)
+    // .attr("height", diameter)
     .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")"); // center the graph in the svg element
+    .attr("transform", "translate(" + (radius - 40) + "," + (radius + 10) + ")"); // center the graph in the svg element
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
@@ -57,7 +60,10 @@ d3.json("/data.json", function(error, data) {
       .attr("class", "node")
       // .attr("data", function(d) {console.log(d); return d})
       .attr("dy", ".31em") // center text on node
-      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
+      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")" + 
+                                              "translate(" + (d.y + 8) + ",0)" + 
+                                              (d.x < 180 ? "" : "rotate(180)"); 
+                                      })
       .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
