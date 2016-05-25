@@ -5,7 +5,7 @@ import re
 from pprint import pprint
 # from difflib import SequenceMatcher
 
-sensitivity = .65
+sensitivity = .5
 
 def compute_jaccard_index(s1, s2):
     """
@@ -71,7 +71,7 @@ def get_song_connections(song):
     for line1 in lines:
         for line2 in all_lines:
             # if they are lyrically similar, add the song number of the second song to our set of connectors
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) > sensitivity:
                 links.add(str(line2.song.act) + '.' + line2.song.title)
 
     # return set to list form for future jsonification
@@ -192,7 +192,7 @@ def comp_lines(song1, song2):
 
     for line1 in lines1:
         for line2 in lines2:
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) > sensitivity:
                 # add similar lines to the adjacency list
                 edges[line1] = edges.get(line1, [])
                 edges[line1].append(line2)
@@ -214,7 +214,7 @@ def comp_songs(song1, song2):
     for line1 in lines1:
 
         for line2 in lines2:
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) >= sensitivity:
+            if compute_jaccard_index(line1.lyrics, line2.lyrics) > sensitivity:
                 print line2
                 print used
                 if line2.line_no not in used:
