@@ -1,7 +1,7 @@
 import unittest
 from server import app
-from model import Line, Song, Character, connect_to_db, db
-from comparisons import comp_songs, make_json
+# from model import Line, Song, Character, example_data, connect_to_db, db
+# from comparisons import comp_songs, make_json
 
 
 class BasicTests(unittest.TestCase):
@@ -33,39 +33,34 @@ class BasicTests(unittest.TestCase):
     #     print "Tested RSVP Form"
 
 
-class PartyTestsDatabase(unittest.TestCase):
-    """Flask tests that use the database."""
+# class PartyTestsDatabase(unittest.TestCase):
+#     """Flask tests that use the database."""
 
-    def setUp(self):
-        """Stuff to do before every test."""
+#     def setUp(self):
+#         """Do before every test."""
 
-        self.client = app.test_client()
-        app.config['TESTING'] = True
+#         self.client = app.test_client()
+#         app.config['TESTING'] = True
 
-        # Connect to test database (uncomment when testing database)
-        connect_to_db(app, "postgresql:///testdb")
+#         # Connect to test database
+#         connect_to_db(app, "postgresql:///testdb")
 
-        # Create tables and add sample data (uncomment when testing database)
-        db.create_all()
-        example_data()
+#         # Create tables and add sample data
+#         db.create_all()
+#         example_data()
 
-    def tearDown(self):
-        """Do at end of every test."""
+#     def tearDown(self):
+#         """Do at end of every test."""
 
-        # (uncomment when testing database)
-        db.session.close()
-        db.drop_all()
+#         # (uncomment when testing database)
+#         db.session.close()
+#         db.drop_all()
 
-    # def test_games(self):
-    #     #FIXME: test that the games page displays the game from example_data()
-    #     result = self.client.get("/games")
-    #     self.assertIn("Galaxy", result.data)
-    #     print "Tested Game List"
-
-
-if __name__ == "__main__":
-    unittest.main()
-
+#     def test_chart(self):
+#         """tests database-dependandt elements"""
+#         result = self.client.get("/")
+#         # self.assertIn("song1", result.data)
+#         print "Tested chart creation"
 
 
 if __name__ == "__main__":
