@@ -94,7 +94,6 @@ def make_json():
         # initiate an empty dictionary, and populate it
         mydict = {}
         mydict["name"] = str(song.act) + '.' + song.title
-        mydict["size"] = 0
         mydict["imports"] = get_song_connections(song.song_id)
 
         data.append(mydict)
