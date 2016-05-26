@@ -13,7 +13,6 @@ var diameter = 600, // dimensions of svg element
 var cluster = d3.layout.cluster()
     .size([360, innerRadius]) // how many degrees, radius
     .sort(null)
-    // .value(function(d) { return d.size; }); // this line doesn't seem to do anything
 
 var bundle = d3.layout.bundle(); // bundle layout
 
@@ -27,8 +26,6 @@ var svg = d3.select("body").append("svg")
     .attr("id", "graph")
     .attr("viewBox", "10 1 525 575")
     .attr("preserveAspectRatio", "xMidYMid")
-    // .attr("width", diameter)
-    // .attr("height", diameter)
     .append("g")
     .attr("transform", "translate(" + (radius - 40) + "," + (radius + 10) + ")"); // center the graph in the svg element
 
@@ -38,7 +35,7 @@ var link = svg.append("g").selectAll(".link"),
 
 // BEGIN CODE
 
-// import json
+// import json;  use data to 
 d3.json("/data.json", function(error, data) {
   if (error) throw error;
 
@@ -51,8 +48,6 @@ d3.json("/data.json", function(error, data) {
       .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
       .attr("class", "link")
       .attr("d", line);
-
-
 
   node = node
       .data(nodes.filter(function(n) { return !n.children; }))
