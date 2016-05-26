@@ -2,6 +2,7 @@
 
 from model import Line, Song, Character, db, connect_to_db
 import re
+import json
 from pprint import pprint
 # from difflib import SequenceMatcher
 
@@ -99,7 +100,10 @@ def make_json():
         data.append(mydict)
 
     # FIXME: look into json library for making ' into "
-    return data
+    f = open('static/song_data.json', 'w')
+    f.write(json.dumps(data))
+
+    # return json_str
 
 
 # def make_edge_list(str_list):
@@ -253,7 +257,7 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
-    # pprint(make_json())
+    make_json()
 
 else:
     print "Never ran."
