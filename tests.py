@@ -1,6 +1,6 @@
 import unittest
 from server import app
-# from model import Line, Song, Character, example_data, connect_to_db, db
+from model import Line, Song, Character, example_data, connect_to_db, db
 # from comparisons import comp_songs, make_json
 
 
@@ -16,51 +16,46 @@ class BasicTests(unittest.TestCase):
         self.assertIn("Hamilton Data", result.data)
         print "Tested Homepage"
 
-    # def test_no_rsvp_yet(self):
-    #     # FIXME: Add a test to show we see the RSVP form, but NOT the party details
-    #     result = self.client.get("/")
-    #     self.assertIn("RSVP", result.data)
-    #     self.assertNotIn("123 Magic Unicorn Way", result.data)
-    #     print "Tested No RSVP"
-
-    # def test_rsvp(self):
-    #     # FIXME: Once we RSVP, we should see the party details, but not the RSVP form
-    #     result = self.client.post("/rsvp",
-    #                               data={'name': "Jane", 'email': "jane@jane.com"},
-    #                               follow_redirects=True)
-    #     self.assertNotIn("RSVP", result.data)
-    #     self.assertIn("123 Magic Unicorn Way", result.data)
-    #     print "Tested RSVP Form"
+    def test_song_data(self):
+        result = self.client.get("/data.json")
+        self.assertIn("Alexander Hamilton", result.data)
+        print "Tested jsonified song data"
 
 
-# class PartyTestsDatabase(unittest.TestCase):
-#     """Flask tests that use the database."""
+class PartyTestsDatabase(unittest.TestCase):
+    """Flask tests that use the database."""
 
-#     def setUp(self):
-#         """Do before every test."""
+    def setUp(self):
+        """Do before every test."""
 
-#         self.client = app.test_client()
-#         app.config['TESTING'] = True
+        self.client = app.test_client()
+        app.config['TESTING'] = True
 
-#         # Connect to test database
-#         connect_to_db(app, "postgresql:///testdb")
+        # Connect to test database
+        connect_to_db(app, "postgresql:///testdb")
 
-#         # Create tables and add sample data
-#         db.create_all()
-#         example_data()
+        # Create tables and add sample data
+        db.create_all()
+        example_data()
 
-#     def tearDown(self):
-#         """Do at end of every test."""
+    def tearDown(self):
+        """Do at end of every test."""
 
-#         # (uncomment when testing database)
-#         db.session.close()
-#         db.drop_all()
+        # (uncomment when testing database)
+        db.session.close()
+        db.drop_all()
 
-#     def test_chart(self):
-#         """tests database-dependandt elements"""
-#         result = self.client.get("/")
-#         # self.assertIn("song1", result.data)
-#         print "Tested chart creation"
+    def test_get_lyrics(self):
+        result = self.client.get("/get_lyrics.json?title=song1")
+        self.assertIn("Look around!", result.data)
+        self.assertIn("Hamilton", result.data)
+        print "Tested song lyrics request"
+
+    def test_compare_songs(self):
+        result = self.client.get("/compare_songs.json?title1=song1&title2=song2")
+        self.assertIn("Look around!", result.data)
+        self.assertIn("Burr", result.data)
+        print "Tested song comparison request"
 
 
 if __name__ == "__main__":

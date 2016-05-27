@@ -2,7 +2,7 @@ import json
 
 from jinja2 import StrictUndefined
 
-from flask import Flask, render_template, jsonify, redirect, request, flash, session
+from flask import Flask, render_template, jsonify, redirect, request, flash, session, g
 
 from model import Line, Song, Character, connect_to_db, db
 
@@ -13,8 +13,14 @@ from comparisons import comp_songs
 app = Flask(__name__)
 
 # cause Jinja to fail loudly, so errors are caught
-# TODO: comment out before deployment
-app.jinja_env.undefined = StrictUndefined
+# app.jinja_env.undefined = StrictUndefined
+
+JS_TESTING_MODE = False
+
+
+@app.before_request
+def add_tests():
+    g.jasmine_tests = JS_TESTING_MODE
 
 
 @app.route('/favicon.ico')
@@ -41,6 +47,19 @@ def get_graph_data():
 
     # render json to homepage
     return jsonify({'data': my_json})
+
+
+# @app.route("/datatest.json")
+# def test_get_graph_data():
+#     """pull pre-loaded song connections from json file"""
+
+#     # open pre-loaded file of song connections
+#     f = open('static/test_data.json')
+#     content = f.read()
+#     my_json = json.loads(content)
+
+#     # render json to homepage
+#     return jsonify({'data': my_json})
 
 
 @app.route("/get_lyrics.json")
@@ -90,6 +109,13 @@ def compare_songs():
     return jsonify(comparisons)
 
 
+# @app.route('/2')
+# def index():
+#     """Render second page."""
+
+#     return render_template("search_lyrics.html")
+
+
 ##########################################################
 
 
@@ -103,6 +129,11 @@ if __name__ == "__main__":
     # Use the DebugToolbar
     # DebugToolbarExtension(app)
 
-    app.run()
+    import sys
+    if sys.argv[-1] == "jstest":
+        JS_TESTING_MODE = True
 
-  
+        app.run(debug=True)
+
+    else:
+        app.run()
