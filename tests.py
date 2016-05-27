@@ -32,7 +32,7 @@ class PartyTestsDatabase(unittest.TestCase):
         app.config['TESTING'] = True
 
         # Connect to test database
-        connect_to_db(app, "postgresql:///testdb")
+        connect_to_db(app, "postgresql:///travis_ci_test")
 
         # Create tables and add sample data
         db.create_all()
