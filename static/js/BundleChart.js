@@ -39,7 +39,7 @@ function bundleChart() {
     // BEGIN CODE
 
     // import json;  use data to 
-    d3.json("/data.json", function(error, data) {
+    d3.json("/bundle_data.json", function(error, data) {
       if (error) throw error;
 
       var nodes = cluster.nodes(packageHierarchy(data.data)),

@@ -1,11 +1,8 @@
 import json
-
+import os
 from jinja2 import StrictUndefined
-
-from flask import Flask, render_template, jsonify, redirect, request, flash, session, g
-
+from flask import Flask, render_template, jsonify, redirect, request, flash, session, g, send_from_directory, url_for
 from model import Line, Song, Character, connect_to_db, db
-
 from comparisons import comp_songs
 
 
@@ -20,12 +17,14 @@ JS_TESTING_MODE = False
 
 @app.before_request
 def add_tests():
+
     g.jasmine_tests = JS_TESTING_MODE
 
 
 @app.route('/favicon.ico')
 def serve_favicon():
     '''Serve our favicon'''
+
     return send_from_directory(os.path.join(app.root_path, 'static/img'), 'favicon.ico')
 
 
@@ -36,7 +35,7 @@ def index():
     return render_template("homepage.html")
 
 
-@app.route("/data.json")
+@app.route("/bundle_data.json")
 def get_graph_data():
     """pull pre-loaded song connections from json file"""
 
@@ -47,19 +46,6 @@ def get_graph_data():
 
     # render json to homepage
     return jsonify({'data': my_json})
-
-
-# @app.route("/datatest.json")
-# def test_get_graph_data():
-#     """pull pre-loaded song connections from json file"""
-
-#     # open pre-loaded file of song connections
-#     f = open('static/test_data.json')
-#     content = f.read()
-#     my_json = json.loads(content)
-
-#     # render json to homepage
-#     return jsonify({'data': my_json})
 
 
 @app.route("/get_lyrics.json")
@@ -109,11 +95,43 @@ def compare_songs():
     return jsonify(comparisons)
 
 
-# @app.route('/2')
-# def index():
-#     """Render second page."""
+@app.route('/2')
+def bar_chart():
+    """Render second page."""
 
-#     return render_template("search_lyrics.html")
+    return render_template("search_lyrics.html")
+
+
+@app.route("/bar_data.json")
+def get_graph_data2():
+    """pull pre-loaded data from json file"""
+
+    # open pre-loaded file of song connections
+    f = open('static/bar_data.json')
+    content = f.read()
+    old_json = json.loads(content)
+
+
+    # my_json = []
+    # songs = Song.query.all()
+
+    # for song in songs:
+    #     dic = {}
+    #     dic['song'] = song.title
+    #     my_json.append(dic)
+
+
+    #  matches = Line.query.filter(Line.lyrics.like("%satisfied%")).order_by(Line.line_no).all()
+
+
+    # TODO: generate both data for the chart AND data for the info box.
+    # Also, have a good weekend.
+
+    #  - Past Tammie
+
+
+    # render json to homepage
+    return jsonify({'data': old_json})
 
 
 ##########################################################
@@ -125,6 +143,8 @@ if __name__ == "__main__":
     app.debug = True
 
     connect_to_db(app)
+
+    # url_for('static', filename='bar_data.csv')
 
     # Use the DebugToolbar
     # DebugToolbarExtension(app)
