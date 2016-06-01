@@ -1,4 +1,4 @@
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 20, bottom: 30, left: 40}
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -32,9 +32,11 @@ var svg = d3.select("body").append("svg")
 d3.json("/bar_data.json", function(error, data) {
   if (error) throw error;
 
-  data = data.data;
+  // debugger;
 
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "State"; }));
+  data = data.data.graph;
+
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Song"; }));
 
   data.forEach(function(d) {
     var y0 = 0;
@@ -42,15 +44,18 @@ d3.json("/bar_data.json", function(error, data) {
     d.total = d.ages[d.ages.length - 1].y1;
   });
 
-  data.sort(function(a, b) { return b.total - a.total; });
+  // data.sort(function(a, b) { return b.total - a.total; }); // do not sort data!
 
-  x.domain(data.map(function(d) { return d.State; }));
+  x.domain(data.map(function(d) { return d.Song; }));
   y.domain([0, d3.max(data, function(d) { return d.total; })]);
 
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")") 
-      .call(xAxis);
+      .call(xAxis)
+    .selectAll("text")
+      .attr("transform", "translate(-12,0) rotate(-60)")
+      .style("text-anchor", "end")
 
   svg.append("g")
       .attr("class", "y axis")
@@ -60,15 +65,15 @@ d3.json("/bar_data.json", function(error, data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Population");
+      .text("Number of Occurances");
 
-  var state = svg.selectAll(".state")
+  var song = svg.selectAll(".song")
       .data(data)
     .enter().append("g")
       .attr("class", "g")
-      .attr("transform", function(d) { return "translate(" + x(d.State) + ",0)"; });
+      .attr("transform", function(d) { return "translate(" + x(d.Song) + ",0)"; });
 
-  state.selectAll("rect")
+  song.selectAll("rect")
       .data(function(d) { return d.ages; })
     .enter().append("rect")
       .attr("width", x.rangeBand())
