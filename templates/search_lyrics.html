@@ -5,15 +5,22 @@
 
     <h1>Hamilton Data</h1>
 
+<div id='chart'></div>
+<div id="info-box">
+    <div class="container">
+        <form id='searchbox'><label>
+            Search for lyrics: 
+            <input type="text" name="search"></label>
+            <input type="submit" id="mybutton" value="Search"><br>
+        </form>
+    </div>
+    <div class="container" id="results">
+
+    </div>
+</div>
+
 <script src="/static/js/jquery-1.12.4.js"></script>
 <script src="/static/js/d3.v3.min.js"></script>
 <script src="/static/js/BarChart.js"></script>
-
-<div id="info-box">
-<form ></form>
-
-
-</div>
-
 
 {% endblock %}

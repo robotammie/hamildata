@@ -96,7 +96,7 @@ def compare_songs():
     return jsonify(comparisons)
 
 
-@app.route('/2')
+@app.route('/2', methods=['GET', 'POST'])
 def bar_chart():
     """Render second page."""
 
@@ -107,10 +107,10 @@ def bar_chart():
 def get_graph_data2():
     """pull pre-loaded data from json file"""
 
-    # search_input = request.args.get('search')
+    search_input = request.args.get('search', "Alexander Hamilton")
     # .get() returns None if no data is entered.
 
-    search_input = "satisfied"
+    # search_input = "satisfied"
 
     matches = Line.query.filter(Line.lyrics.like("%" + search_input + "%")).order_by(Line.line_no).all()
     all_chars = {}
