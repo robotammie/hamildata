@@ -154,21 +154,26 @@ function generateBars(reference, pos_data=null) {
   });
 }
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 generateBars('#chart');
 
 
 $(function(){
   $('#searchbox').submit(function (evt) {
-      console.log('ran');
       evt.preventDefault();
       // debugger;
 
       var formData = $('#searchbox').serializeArray();
+      
+      // debugger;
 
       $.get('/bar_data.json',
             formData,
             function(results){
-              // console.log(results);
+              $('h3').html('"' + capitalizeFirstLetter(formData[0].value) + '"')
               generateBars('#chart', results);
             });
   });

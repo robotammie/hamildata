@@ -109,9 +109,9 @@ def get_graph_data2():
 
     search_input = request.args.get('search', "Alexander Hamilton")
 
-    # search_input = "satisfied"
+    search_input = search_input.lower()
 
-    matches = Line.query.filter(Line.lyrics.like("%" + search_input + "%")).order_by(Line.line_no).all()
+    matches = Line.query.filter(Line.lyrics.like("%" + search_input + "%") | Line.lyrics.like("%" + search_input.title() + "%")).order_by(Line.line_no).all()
     all_chars = {}
 
     # generate data for info box
