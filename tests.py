@@ -13,13 +13,18 @@ class BasicTests(unittest.TestCase):
 
     def test_homepage(self):
         result = self.client.get("/")  # <- response object
-        self.assertIn("Hamilton Data", result.data)
+        self.assertIn("Song Comparisons", result.data)
         print "Tested Homepage"
 
     def test_song_data(self):
         result = self.client.get("/bundle_data.json")
         self.assertIn("Alexander Hamilton", result.data)
         print "Tested jsonified song data"
+
+    def test_route2(self):
+        result = self.client.get("/2")  # <- response object
+        self.assertIn("Search for lyrics:", result.data)
+        print "Tested Route 2"
 
 
 class PartyTestsDatabase(unittest.TestCase):
@@ -56,6 +61,18 @@ class PartyTestsDatabase(unittest.TestCase):
         self.assertIn("Look around!", result.data)
         self.assertIn("Burr", result.data)
         print "Tested song comparison request"
+
+    def test_bar_data_lower(self):
+        result = self.client.get("/bar_data.json?search=bastard")
+        self.assertIn("orphan", result.data)
+        self.assertIn("1", result.data)
+        print "Tested bar data (lower) request"
+
+    def test_bar_data_upper(self):
+        result = self.client.get("/bar_data.json?search=Bastard")
+        self.assertIn("orphan", result.data)
+        self.assertIn("1", result.data)
+        print "Tested bar data (upper) request"
 
 
 if __name__ == "__main__":
