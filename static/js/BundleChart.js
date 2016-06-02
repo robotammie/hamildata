@@ -27,7 +27,7 @@ function generateBundles(reference) {
 
     var svg = d3.select(reference).append("svg")
         .attr("id", "graph")
-        .attr("viewBox", "10 1 570 570")
+        .attr("viewBox", "10 1 515 650")
         .attr("preserveAspectRatio", "xMidYMid")
         .append("g")
         .attr("transform", "translate(" + (radius - 40) + "," + (radius + 10) + ")"); // center the graph in the svg element
@@ -123,6 +123,10 @@ function generateBundles(reference) {
         link
           .classed("link-song1-target", false)
           .classed("link-song1-source", false);
+
+        link
+          .classed("link-song12-target", false)
+          .classed("link-song12-source", false)
 
         // unhighlight all nodes
         node
