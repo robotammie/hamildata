@@ -22,11 +22,11 @@
   var yAxis = d3.svg.axis()
       .scale(y)
       .orient("left")
-      .tickFormat(d3.format(".2s"));
+      .tickFormat(d3.format("d"));
 
   var svg = d3.select(reference).append("svg")
       .attr("id", "graph")
-      .attr("viewBox", "0 0 1000 650")
+      .attr("viewBox", "0 0 1050 650")
       .attr("preserveAspectRatio", "xMidYMid")
       // .attr("width", width + margin.left + margin.right)
       // .attr("height", height + margin.top + margin.bottom)
@@ -38,8 +38,6 @@
   d3.json("/bar_data.json", function(error, data) {
     if (error) throw error;
 
-    console.log(pos_data === null);
-
     if (pos_data !== null) {
       data = pos_data
     };
@@ -47,8 +45,6 @@
     infoData = data.data.infobox;
 
     // debugger;
-
-    console.log(data)
 
     data = data.data.graph;
 
@@ -63,7 +59,15 @@
     // data.sort(function(a, b) { return b.total - a.total; }); // do not sort data!
 
     x.domain(data.map(function(d) { return d.Song; }));
-    y.domain([0, d3.max(data, function(d) { return d.total; })]);
+    
+    if ( d3.max(data, function(d) { return d.total; }) > 5){
+      y.domain([0, d3.max(data, function(d) { return d.total; })]);
+    } else {
+      y.domain([0, 5]);
+    }
+
+  
+    // console.log(d3.max(data, function(d) { return d.total; }));
 
     svg.append("g")
         .attr("class", "x axis")
@@ -98,10 +102,10 @@
         .style("fill", function(d) { return color(d.name); });
 
     var legend = svg.selectAll(".legend")
-        .data(color.domain().slice().reverse())
+        .data(color.domain().slice())
       .enter().append("g")
         .attr("class", "legend")
-        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+        .attr("transform", function(d, i) { return "translate(75," + i * 20 + ")"; });
 
     legend.append("rect")
         .attr("x", width - 18)
