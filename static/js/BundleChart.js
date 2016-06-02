@@ -170,7 +170,6 @@ function generateBundles(reference) {
         $.get('/get_lyrics.json',
               {'title': title},
               function(results){
-                  console.log(results);
                   // initialize empty string
                   var songLyrics = '<table id="lyrics">'
                   // add a new row containing the character name and lyrics for each line

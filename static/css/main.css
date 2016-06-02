@@ -1,16 +1,37 @@
-svg {
-    display: block;
-    margin: 0px;
+.row-fluid {
+    position: relative;
+}
+
+#chart {
+    display: inline-block;
+}
+
+.chart-bar {
+    width: 70%;
+}
+
+.chart-bundle {
+    width: 55%;
 }
 
 #info-box {
-    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0; 
     height: auto;
     margin: 10px;
     padding-left: 10px;
     padding-top: 5px;
     /*overflow: hidden;*/
     background-color: beige;
+}
+
+.info-bar{
+    width: 25%;
+}
+
+.info-bundle {
+    width: 40%;
 }
 
 .match {
@@ -20,7 +41,7 @@ svg {
 
 .one-song {
     float: left;
-    width: 50%;
+    width: 20%;
     padding-right: 10px;
 }
 
