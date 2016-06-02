@@ -1,4 +1,4 @@
- function generatePage(reference, pos_data=null) { 
+function generateBars(reference, pos_data=null) { 
   
   $(reference).empty()
 
@@ -154,7 +154,7 @@
   });
 }
 
-generatePage('#chart');
+generateBars('#chart');
 
 
 $(function(){
@@ -169,7 +169,7 @@ $(function(){
             formData,
             function(results){
               // console.log(results);
-              generatePage('#chart', results);
+              generateBars('#chart', results);
             });
   });
 });

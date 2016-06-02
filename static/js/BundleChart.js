@@ -4,9 +4,9 @@
 //////////////////////////////////////////////////
 
 
-function bundleChart() {
+function generateBundles(reference) {
 
-
+    $(reference).empty()
   //   // VARIABLE INSTANTIATION
 
     var diameter = 600, // dimensions of svg element
@@ -25,7 +25,7 @@ function bundleChart() {
         .radius(function(d) { return d.y; })
         .angle(function(d) { return d.x / 180 * Math.PI; });
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select(reference).append("svg")
         .attr("id", "graph")
         .attr("viewBox", "10 1 525 575")
         .attr("preserveAspectRatio", "xMidYMid")
@@ -70,21 +70,23 @@ function bundleChart() {
     });
 
     function mouseovered(d) {
-      node
-          .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching
+      if ($('.node--song1').length === 0) {
+          node
+              .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching
 
-      link
-          .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
-          .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
-          .filter(function(l) { return l.target === d || l.source === d; })
-          .each(function() { this.parentNode.appendChild(this); });
+          link
+              .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
+              .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
+              .filter(function(l) { return l.target === d || l.source === d; })
+              .each(function() { this.parentNode.appendChild(this); });
 
-      d3.select(this)
-          .classed("node--hover", true);
+          d3.select(this)
+              .classed("node--hover", true);
 
-      node
-          .classed("node--target", function(n) { return n.target; })
-          .classed("node--source", function(n) { return n.source; });
+          node
+              .classed("node--target", function(n) { return n.target; })
+              .classed("node--source", function(n) { return n.source; });
+      }
     }
 
     function mouseouted(d) {
@@ -194,10 +196,14 @@ function bundleChart() {
         song2_d = $('.node--song2')[0]['__data__'];
 
 
+        link
+          .classed("link-song1-target", false)
+          .classed("link-song1-source", false);
+
         // highlight the links whose target/source matches the song1 data
         link
-          .classed("link-song1-target", function(l) { if (l.target === song1_d && l.source === song2_d) return l.source.source = true; })
-          .classed("link-song1-source", function(l) { if (l.source === song1_d && l.target === song2_d) return l.target.target = true; })
+          .classed("link-song12-target", function(l) { if (l.target === song1_d && l.source === song2_d) return l.source.source = true; })
+          .classed("link-song12-source", function(l) { if (l.source === song1_d && l.target === song2_d) return l.target.target = true; })
           .filter(function(l) { return l.target === song1_d || l.source === song1_d; })
           .each(function() { this.parentNode.appendChild(this); });
 
@@ -338,4 +344,4 @@ function bundleChart() {
   // return that;
 }
 
-bundleChart();
+generateBundles("#chart");

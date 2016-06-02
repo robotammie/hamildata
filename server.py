@@ -108,7 +108,6 @@ def get_graph_data2():
     """pull pre-loaded data from json file"""
 
     search_input = request.args.get('search', "Alexander Hamilton")
-    # .get() returns None if no data is entered.
 
     # search_input = "satisfied"
 
