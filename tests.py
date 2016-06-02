@@ -17,7 +17,7 @@ class BasicTests(unittest.TestCase):
         print "Tested Homepage"
 
     def test_song_data(self):
-        result = self.client.get("/data.json")
+        result = self.client.get("/bundle_data.json")
         self.assertIn("Alexander Hamilton", result.data)
         print "Tested jsonified song data"
 
