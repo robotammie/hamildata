@@ -67,7 +67,6 @@ def get_lyrics():
 
     # pull character names and lyrics from the Line object
     for line in song_lines:
-        # print line
         name = line.char.name
         lyrics = line.lyrics
 
@@ -144,9 +143,6 @@ def get_graph_data2():
     my_json = {}
     my_json['graph'] = graph_data
     my_json['infobox'] = infobox_data
-
-    from pprint import pprint
-    pprint(infobox_data)
 
     # render json to homepage
     return jsonify({'data': my_json})
