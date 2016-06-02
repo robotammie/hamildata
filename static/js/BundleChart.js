@@ -27,7 +27,7 @@ function generateBundles(reference) {
 
     var svg = d3.select(reference).append("svg")
         .attr("id", "graph")
-        .attr("viewBox", "10 1 525 575")
+        .attr("viewBox", "10 1 570 570")
         .attr("preserveAspectRatio", "xMidYMid")
         .append("g")
         .attr("transform", "translate(" + (radius - 40) + "," + (radius + 10) + ")"); // center the graph in the svg element
