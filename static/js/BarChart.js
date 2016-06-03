@@ -1,4 +1,4 @@
-function generateBars(reference, pos_data=null) { 
+function generateBars(reference, pos_data, callback) { 
   
   $(reference).empty()
 
@@ -33,7 +33,7 @@ function generateBars(reference, pos_data=null) {
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
 
   d3.json("/bar_data.json", function(error, data) {
     if (error) throw error;
@@ -152,10 +152,16 @@ function generateBars(reference, pos_data=null) {
     $('#results').html(results);
 
   });
+
+  callback && callback(); // check if a callback exists, then run it
+  
 }
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+
+      callback && callback(); // check if a callback exists, then run it
+      
 }
 
 generateBars('#chart');

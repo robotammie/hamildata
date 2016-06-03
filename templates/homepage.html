@@ -2,22 +2,23 @@
 {% block content %}
 
     <h3>Song Comparisons</h3>
-<div class="row-fluid">
-    <div id="chart" class="chart-bundle"></div>
-    <div id="info-box" class="info-bundle"></div>
-</div>
-<script src='https://code.jquery.com/jquery.js'></script>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="static/js/BundleChart.js"></script>
+    <div class="row-fluid">
+        <div id="chart" class="chart-bundle"></div>
+        <div id="info-box" class="info-bundle"></div>
+    </div>
 
-<!-- {% if g.jasmine_tests %}
-    <!-- stuff for testing -->
-    <link rel="stylesheet" href="/static/css/jasmine.min.css">
-    <script src="/static/js/jasmine.min.js"></script>
-    <script src="/static/js/jasmine-html.min.js"></script>
-    <script src="/static/js/boot.min.js"></script>
-    <script src="/static/js/BundleChartSpec.js"></script>
-    <!-- end of stuff for testing -->
-{% endif %} -->
+    <script src='https://code.jquery.com/jquery.js'></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="static/js/BundleChart.js"></script>
+
+    {% if g.jasmine_tests %}
+        <!-- stuff for testing -->
+        <link rel="stylesheet" href="/static/css/jasmine.min.css">
+        <script src="/static/js/jasmine.min.js"></script>
+        <script src="/static/js/jasmine-html.min.js"></script>
+        <script src="/static/js/boot.min.js"></script>
+        <script src="/static/js/BundleChartSpec.js"></script>
+        <!-- end of stuff for testing -->
+    {% endif %}
 
 {% endblock %}
