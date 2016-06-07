@@ -66,13 +66,13 @@
 .link-song12-target { /* links when node is hovered over */
   stroke-opacity: 1;
   stroke-width: 2px;
-  stroke: red;
+  stroke: brown;
 }
 
 .node-song1-source,
 .node-song1-target { /* links when node is hovered over */
-   font-weight: 700;
-  fill: red;
+  font-weight: 700;
+  fill: brown;
 }
 
 .link--source

@@ -15,7 +15,7 @@ function generateBundles(reference, callback) {
     $('#info-box')
         .removeClass('info-bar')
         .addClass('info-bundle info-none')
-        .html('<h4>Click on a song title to see with which songs it shares common lyrics.</h4>');
+        .html('<h4>Click on a song title to see with which songs it shares lyrics.</h4>');
 
 
   //   // VARIABLE INSTANTIATION
