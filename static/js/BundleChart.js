@@ -6,7 +6,18 @@
 
 function generateBundles(reference, callback) {
 
-    $(reference).empty()
+    // $('h3').html('Song Connections');
+    $(reference).empty();
+    $('h3').html("");
+    $('#chart')
+        .removeClass('chart-bar')
+        .addClass('chart-bundle');
+    $('#info-box')
+        .removeClass('info-bar')
+        .addClass('info-bundle info-none')
+        .html('<h4>Click on a song title to see with which songs it shares common lyrics.</h4>');
+
+
   //   // VARIABLE INSTANTIATION
 
     var diameter = 600, // dimensions of svg element
@@ -27,7 +38,7 @@ function generateBundles(reference, callback) {
 
     var svg = d3.select(reference).append("svg")
         .attr("id", "graph")
-        .attr("viewBox", "10 1 515 650")
+        .attr("viewBox", "10 1 515 575")
         .attr("preserveAspectRatio", "xMidYMid")
         .append("g")
         .attr("transform", "translate(" + (radius - 40) + "," + (radius + 10) + ")"); // center the graph in the svg element
@@ -151,6 +162,8 @@ function generateBundles(reference, callback) {
       // if there is a song1, and is not a song2, show song1's lyrics
       if ($('.node--song2').length === 0 && $('.node--song1').length === 1) {
         
+        $('#info-box').removeClass("info-none")
+
         node
           .each(function(n) { n.target = n.source = false; }); // deletes previous source/target matching?
 
@@ -195,6 +208,8 @@ function generateBundles(reference, callback) {
       }
       // if two songs are selected, show common lyrics
       else if ($('.node--song1').length === 1 && $('.node--song2').length === 1) {
+
+        $('#info-box').removeClass("info-none")
         
         // select data attached to the song 1 node
         song1_d = $('.node--song1')[0]['__data__'];
@@ -292,7 +307,8 @@ function generateBundles(reference, callback) {
       }
       // if no songs are selected
       else {
-        $('#info-box').html('');
+        $('#info-box').removeClass("info-double info-single").addClass("info-none");
+        $('#info-box').html('<h4>Click on a song title to see with which songs it shares common lyrics.</h4>');
       }
 
       
@@ -347,11 +363,21 @@ function generateBundles(reference, callback) {
 
 }
 
+
+
+//////////////////////////////////////////////////
+//    code template for bar layout based on     //
+//    https://bl.ocks.org/mbostock/3886208      //
+//////////////////////////////////////////////////
+
+
 function generateBarPage() {
 
   function generateBars(reference, pos_data, callback) { 
     
     $(reference).empty()
+    $('#chart').removeClass('chart-bundle').addClass('chart-bar')
+    $('#info-box').removeClass('info-bundle').addClass('info-bar')
 
     var margin = {top: 20, right: 20, bottom: 30, left: 40}
         width = 960 - margin.left - margin.right,
@@ -384,7 +410,7 @@ function generateBarPage() {
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    ////////////////////////////////////////////////////////////////////////
+    // begin code
 
     d3.json("/bar_data.json", function(error, data) {
       if (error) throw error;
@@ -518,7 +544,7 @@ function generateBarPage() {
   $('h3').html('Alexander Hamilton');
 
   // create form
-  $('info-box').append("<div class='container'>" +
+  $('#info-box').append("<div class='container'>" +
                           "<form id='searchbox'><label>" +
                             "Search for lyrics: " +
                             "<input type='text' name='search' value='look around'></label>" +
@@ -554,28 +580,35 @@ function generateBarPage() {
 // add event listeners to nav bar
 $(function(){
   $('#song-connections').click(function (evt) {
+      location.hash = ""
       $('#chart').empty();
       $('#info-box').empty();
-      $('#li-connections').toggleClass( 'active', true );
-      $('#li-lyrics').toggleClass( 'active', false );
-      // debugger;
-
-      generateBundles("#chart");
-      
+    
+      setupPage();
   });
 });
 
 $(function(){
   $('#search-lyrics').click(function (evt) {
+      location.hash = "search"
       $('#chart').empty();
       $('#info-box').empty();
-      $('#li-lyrics').toggleClass( 'active', true );
-      $('#li-connections').toggleClass( 'active', false );
-      // debugger;
 
-      generateBarPage("#chart");
-      
+      setupPage();
   });
 });
 
-generateBundles("#chart");
+function setupPage() {
+  if (location.hash === "#search") {
+    generateBarPage("#chart");
+    $('#li-lyrics').toggleClass( 'active', true );
+    $('#li-connections').toggleClass( 'active', false );
+    }
+  else {
+    generateBundles("#chart")
+    $('#li-connections').toggleClass( 'active', true );
+    $('#li-lyrics').toggleClass( 'active', false );
+  };
+}
+
+setupPage();

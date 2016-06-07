@@ -1,19 +1,66 @@
-.row-fluid {
-    position: relative;
+/* Nav Bar*/
+.navbar {
+    background-color: #e3ba9c;
 }
 
+.navbar-default .navbar-brand {
+    color: #444
+}
+
+.navbar-toggle {
+    background-color: #e3ba9c;
+}
+
+.navbar-default 
+.navbar-toggle:focus, 
+.navbar-default 
+.navbar-toggle:hover {
+    background-color: #d89f74;
+}
+
+.navbar-default
+.navbar-nav>li>a {
+    color: #666;
+}
+
+.navbar-brand {
+    cursor: default;
+    /*background-image: url("../img/LoyaltyOathIcon.jpg");*/
+}
+
+.nav {
+    cursor: pointer;
+    font-size: 1.25em;
+}
+
+#navbar .nav > .active > a {
+    background-color: #d89f74;
+}
+
+/* body */
+.row-fluid {
+    padding: 10px;
+    position: relative;
+    color: #444;
+}
+
+
+/*Chart Div*/
 #chart {
     display: inline-block;
 }
 
 .chart-bar {
-    width: 70%;
+    width: 66%;
 }
 
 .chart-bundle {
-    width: 55%;
+    width: 50%;
 }
 
+
+
+/*Infobox Div*/
 #info-box {
     display: inline-block;
     position: absolute;
@@ -23,15 +70,25 @@
     padding-left: 10px;
     padding-top: 5px;
     /*overflow: hidden;*/
-    background-color: beige;
+    /*background-color: rgba(244, 228, 215,0.5);*/
+}
+
+#info-box.info-none {
+    height: 500px;
 }
 
 .info-bar{
-    width: 25%;
+    width: 30%;
 }
 
 .info-bundle {
-    width: 40%;
+    width: 45%;
+}
+
+
+/* Div Within Infobox */
+form {
+    font-size: 1.5em;
 }
 
 .match {
@@ -41,13 +98,12 @@
 
 .one-song {
     float: left;
-    width: 20%;
+    width: 22%;
     padding-right: 10px;
 }
 
-
 .song-title {
-    font-family: serif;
+    font-family: 'Crete Round', serif;
     color: brown;
 }
 
@@ -58,7 +114,8 @@
 }
 
 td {
-    font-size: 12 em;
+    font-size: 1.25em;
+    font-family: 'Crete Round', serif;
 }
 
 td.char{
@@ -67,11 +124,26 @@ td.char{
 }
 
 body {
-    background-color: #fff9e6;
-   /* background-size: 100% auto;
-    background-image: url("../img/LetterToOtis.jpg");
-    background-position: left top;*/
+    /*background-color: #fff9e6;*/
+    font-family: 'Crete Round', serif;
+    background-size: 100% auto;
+    background-image: url("../img/LetterToOtis2.jpg");
+    background-position: left top;
 }
 
 
+/* for phones/tablets */
+@media (max-width: 850px) {
+    #chart {
+        width: 100%;
+        hieght: auto;
+    }
+    #info-box {
+        width: 100%;
+        position: static;
+    }
+    .one-song {
+    width: 50%;
+    }
+}
 

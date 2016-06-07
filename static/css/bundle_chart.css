@@ -75,10 +75,11 @@
   fill: red;
 }
 
-.link--source { /* links when node is hovered over */
-  stroke: red;
+.link--source
+.link--target { /* links when node is hovered over */
+  stroke: brown;
 }
 
-.link--target { /* links when node is hovered over */
+/*.link--target {  links when node is hovered over 
   stroke: green;
-}
+}*/
