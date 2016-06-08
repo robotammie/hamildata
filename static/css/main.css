@@ -107,10 +107,14 @@ form {
     color: brown;
 }
 
-#song--table{
+#song--table {
     width: 50%;
     float:left;
     overflow: hidden;
+}
+
+.form-instructions {
+font-size: .75em;
 }
 
 td {

@@ -1,12 +1,11 @@
 # Functions for use in Hamilton data project
 
-from model import Line, Song, Character, db, connect_to_db
+from model import Line, Song, Character, connect_to_db
 import re
 import json
-from pprint import pprint
-# from difflib import SequenceMatcher
 
 sensitivity = .5
+
 
 def compute_jaccard_index(s1, s2):
     """
@@ -40,10 +39,6 @@ def compute_jaccard_index(s1, s2):
     set_2.discard('')
     set_1.discard('the')
     set_2.discard('the')
-    # set_1.discard('she')
-    # set_2.discard('she')
-    # set_1.discard('they')
-    # set_2.discard('they')
 
     # compute words in common between two strings
     common_words = len(set_1.intersection(set_2))
@@ -57,8 +52,6 @@ def get_song_connections(song):
     """
     Create a list of songs with lyrical callbacks to the given song.
 
-    Too complicated for a doctest.
-    TODO: incorporate this into a unit test later
     """
 
     # initiate empty set (for duplicate checking)
@@ -98,110 +91,8 @@ def make_json():
 
         data.append(mydict)
 
-    # FIXME: look into json library for making ' into "
     f = open('static/song_data.json', 'w')
     f.write(json.dumps(data))
-
-    # return json_str
-
-
-# def make_edge_list(str_list):
-#     """
-#     Create a dictionary of similar lines for visualization.
-#     Too complicated for a doctest.
-#     TODO: incorporate this into a unit test later
-#     """
-#     # initiate empty dictionary
-#     edges = {}
-#     for i in range(len(str_list)):
-#         line1 = str_list[i]
-#         # print line1
-#         # check only those lines after the one you're looking at
-#         # (to prevent duplicate matches)
-#         for line2 in str_list[i+1:]:
-#             # match = longest_match(line1.lyrics, line2.lyrics)
-#             # if match >= 2:
-
-#             # check jaccard similarity
-#             if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
-
-#                # add similar lines to the adjacency list
-#                 edges[line1] = edges.get(line1, [])
-#                 edges[line1].append(line2)
-
-#     return edges
-
-
-# def longest_match(s1, s2):
-#     """determine the longest number of consecutive words in common"""
-
-#     list1 = re.split("[?\s.,\-!\"]", s1.lower())
-#     list2 = re.split("[?\s.,\-!\"]", s2.lower())
-
-#     while '' in list1:
-#         list1.remove('')
-
-#     while '' in list2:
-#         list2.remove('')
-
-#     matcher = SequenceMatcher(None, list1, list2)
-
-#     match = matcher.find_longest_match(0, len(list1), 0, len(list2))
-
-#     return match.size
-
-
-# def comp_songs():
-#     """
-#     Create a dictionary of similarities between songs.
-
-#     """
-
-#     song_ids = db.session.query(Song.song_id).all()
-
-#     # create dictionary of song lines, sorted by song number
-#     song_lines = {s[0]: Line.query.filter(Line.song_id == s[0]).all() for s in song_ids}
-
-#     # initiate empty dictionary
-#     edges = {}
-
-#     for song_id1 in song_lines:
-#         # for each item in the value list
-#         edges[song_id1] = {}
-#         skip = [song_id1]
-#         for line1 in song_lines[song_id1]:
-#             # for each key in song_lines THAT IS NOT SONG_ID1
-#                 for song_id2 in song_lines:
-#                     if song_id2 not in skip:
-#                         # for each line in the value list
-#                         for line2 in song_lines[song_id2]:
-#                             # if the two lines match
-#                             if compute_jaccard_index(line1.lyrics, line2.lyrics) >= .50:
-#                                 # iterate edges[songnum1][songnum2] by one
-#                                 # import pdb; pdb.set_trace()
-#                                 edges[song_id1][song_id2] = edges[song_id1].get(song_id2, 0)
-#                                 edges[song_id1][song_id2] += 1
-
-#         return edges
-
-
-def comp_lines(song1, song2):
-    """Quick and dirty song comparison for in-console checking. Delete before final publish."""
-
-    lines1 = Line.query.filter(Line.song_id == song1).all()
-    lines2 = Line.query.filter(Line.song_id == song2).all()
-
-    edges = {}
-
-    for line1 in lines1:
-        for line2 in lines2:
-            if compute_jaccard_index(line1.lyrics, line2.lyrics) > sensitivity:
-                # add similar lines to the adjacency list
-                edges[line1] = edges.get(line1, [])
-                edges[line1].append(line2)
-                # lines2.remove(line2)
-
-    pprint(edges)
 
 
 def comp_songs(song1, song2):
@@ -248,6 +139,50 @@ def comp_songs(song1, song2):
     return edges
 
 
+def get_bar_data(search_input):
+
+    matches = (Line.query.filter(Line.lyrics.like("%" + search_input + "%") |
+                                 Line.lyrics.like("%" + search_input.lower() + "%") |
+                                 Line.lyrics.like("%" + search_input.capitalize() + "%"))
+                         .order_by(Line.line_no).all())
+    all_chars = {}
+
+    # generate data for info box
+    infobox_data = {}
+
+    for line in matches:
+        infobox_data[line.song_id] = infobox_data.get(line.song_id,
+                                                      {'title': line.song.title, 'lines': []})
+        infobox_data[line.song_id]['lines'].append((line.char.name,
+                                                    line.lyrics))
+
+    # generate data for bar graph
+    graph_data = []
+
+    # create dictionary of all characters who use the searched-for word
+    all_chars = {}
+    for line in matches:
+        all_chars[line.char.name] = all_chars.get(line.char.name, 0)
+
+    # create dictionary for each song, append character names
+    songs = Song.query.order_by(Song.song_id).all()
+    for song in songs:
+        song_data = {'Song': song.title}
+        song_data.update(all_chars)
+        if song.song_id in infobox_data:
+            for line in infobox_data[song.song_id]['lines']:
+                char = line[0]
+                song_data[char] += 1
+
+        graph_data.append(song_data)
+
+    route_data = {}
+    route_data['graph'] = graph_data
+    route_data['infobox'] = infobox_data
+
+    return route_data
+
+
 if __name__ == "__main__":
     """Create Adjacency List"""
 
@@ -256,7 +191,6 @@ if __name__ == "__main__":
     connect_to_db(app)
     print "Connected"
 
+    print "Generating adjacency dictionary..."
     make_json()
-
-else:
-    print "Never ran."
+    print "Done."

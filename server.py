@@ -4,7 +4,7 @@ from jinja2 import StrictUndefined
 from flask import Flask, render_template, jsonify, redirect, request, flash, session, g, send_from_directory, url_for
 from sqlalchemy import func, desc
 from model import Line, Song, Character, connect_to_db, db
-from comparisons import comp_songs
+from comparisons import comp_songs, get_bar_data
 
 
 # create fask application
@@ -104,45 +104,15 @@ def bar_chart():
 
 @app.route("/bar_data.json")
 def get_graph_data2():
-    """pull pre-loaded data from json file"""
+    """
+    Search lines for provided word(s), return json for populating both bar
+    chart and infobox.
+
+    """
 
     search_input = request.args.get('search', "Alexander Hamilton")
 
-    search_input = search_input.lower()
-
-    matches = Line.query.filter(Line.lyrics.like("%" + search_input + "%") | Line.lyrics.like("%" + search_input.title() + "%")).order_by(Line.line_no).all()
-    all_chars = {}
-
-    # generate data for info box
-    infobox_data = {}
-
-    for line in matches:
-        infobox_data[line.song_id] = infobox_data.get(line.song_id, {'title': line.song.title, 'lines': []})
-        infobox_data[line.song_id]['lines'].append((line.char.name, line.lyrics))
-
-    # generate data for bar graph
-    graph_data = []
-
-    # create dictionary of all characters who use the searched-for word
-    all_chars = {}
-    for line in matches:
-        all_chars[line.char.name] = all_chars.get(line.char.name, 0)
-
-    # create dictionary for each song, append character names
-    songs = Song.query.order_by(Song.song_id).all()
-    for song in songs:
-        song_data = {'Song': song.title}
-        song_data.update(all_chars)
-        if song.song_id in infobox_data:
-            for line in infobox_data[song.song_id]['lines']:
-                char = line[0]
-                song_data[char] += 1
-
-        graph_data.append(song_data)
-
-    my_json = {}
-    my_json['graph'] = graph_data
-    my_json['infobox'] = infobox_data
+    my_json = get_bar_data(search_input)
 
     # render json to homepage
     return jsonify({'data': my_json})

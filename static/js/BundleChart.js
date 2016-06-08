@@ -291,19 +291,7 @@ function generateBundles(reference, callback) {
                                                       $('#info-box').append(html);
                                                     }
 
-
-
-
-                                                    // initialize empty string
-                                                    // var songLyrics = ''
-                                                    // add a new row containing the character name and lyrics for each line
-                                                    // for (var i = 0; i < results.lyrics.length; i++) {
-                                                    //   songLyrics = songLyrics.concat('<tr><td>', results.lyrics[i][0], ':</td><td>', results.lyrics[i][1], '</td></tr>')
-                                                    //   };
-                                                    // // insert newly created list of rows into table tags
-                                                    // $('#lyrics').append(songLyrics);
-                                                    //   $('#info-box').append(results);
-                                                    });
+              });
       }
       // if no songs are selected
       else {
@@ -390,7 +378,8 @@ function generateBarPage() {
         .rangeRound([height, 0]);
 
     var color = d3.scale.ordinal()
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+        .range(["#3b1300", "#601302", "#8a2b0e", "#c75e24", "#c79f58", 
+                "#a4956a", "#868569", "#746f61", "#596160", "#607982"]);
 
     var xAxis = d3.svg.axis()
         .scale(x)
@@ -549,6 +538,7 @@ function generateBarPage() {
                             "Search for lyrics: " +
                             "<input type='text' name='search' value='look around'></label>" +
                             "<input type='submit' id='mybutton' value='Search'><br>" +
+                            "<p class='form-instructions'>You can use \"%\" as a wildcard character. Example: \"Tell % story\"</p>" + 
                           "</form>" +
                         "</div>" +
                         "<div class='container' id='results'>" +
