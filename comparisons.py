@@ -1,6 +1,6 @@
 # Functions for use in Hamilton data project
 
-from model import Line, Song, Character, connect_to_db
+from model import Line, Song, connect_to_db
 import re
 import json
 
