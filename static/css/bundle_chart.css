@@ -30,11 +30,11 @@
   pointer-events: auto;
 }
 
-.link:hover { /* link when being hovered over */
+/*.link:hover { /* link when being hovered over */
   stroke-opacity: 1;
   stroke-width: 2px;
   stroke: brown;
-}
+}*/
 
 /* bold nodes connected to the link being hovered over */
 .node--source,

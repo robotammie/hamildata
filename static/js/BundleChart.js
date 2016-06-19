@@ -536,7 +536,7 @@ function generateBarPage() {
   $('#info-box').append("<div class='container'>" +
                           "<form id='searchbox'><label>" +
                             "Search for lyrics: " +
-                            "<input type='text' name='search' value='look around'></label>" +
+                            "<input type='text' name='search'></label>" +
                             "<input type='submit' id='mybutton' value='Search'><br>" +
                             "<p class='form-instructions'>You can use \"%\" as a wildcard character. Example: \"Tell % story\"</p>" + 
                           "</form>" +
