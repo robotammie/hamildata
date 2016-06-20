@@ -13,6 +13,8 @@ app = Flask(__name__)
 # cause Jinja to fail loudly, so errors are caught
 # app.jinja_env.undefined = StrictUndefined
 
+PORT = int(os.environ.get("PORT", 5000))
+DEBUG = "NO_DEBUG" not in os.environ
 JS_TESTING_MODE = False
 
 
@@ -120,14 +122,12 @@ def get_graph_data2():
 
 ##########################################################
 
-PORT = int(os.environ.get("PORT", 5000))
 
 if __name__ == "__main__":  # pragma: no cover
     # We have to set debug=True here, since it has to be True at the point
     # that we invoke the DebugToolbarExtension
-    app.debug = True
 
-    connect_to_db(app)
+    connect_to_db(app, os.environ.get("DATABASE_URL"))
 
     # url_for('static', filename='bar_data.csv')
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":  # pragma: no cover
     if sys.argv[-1] == "jstest":
         JS_TESTING_MODE = True
 
-        app.run(debug=True)
+        app.run(host="0.0.0.0", port=PORT, debug=DEBUG)
 
     else:
-        app.run(host="0.0.0.0", port=PORT)
+        app.run(host="0.0.0.0", port=PORT, debug=DEBUG)
