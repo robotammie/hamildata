@@ -39,13 +39,18 @@ def compute_jaccard_index(s1, s2):
     set_2.discard('')
     set_1.discard('the')
     set_2.discard('the')
+    set_1.discard('what')
+    set_2.discard('what')
 
     # compute words in common between two strings
     common_words = len(set_1.intersection(set_2))
     # compute total individual words across both strings
     all_words = float(len(set_1) + len(set_2) - common_words)
 
-    return common_words / all_words
+    if all_words:
+        return common_words / all_words
+
+    return 0
 
 
 def get_song_connections(song):
