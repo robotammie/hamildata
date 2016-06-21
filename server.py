@@ -1,6 +1,6 @@
 import json
 import os
-from jinja2 import StrictUndefined
+# from jinja2 import StrictUndefined
 from flask import Flask, render_template, jsonify, redirect, request, flash, session, g, send_from_directory, url_for
 from sqlalchemy import func, desc
 from model import Line, Song, Character, connect_to_db, db
