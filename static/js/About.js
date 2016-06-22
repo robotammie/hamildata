@@ -1,6 +1,6 @@
 function generateAbout(reference, callback) {
 
-    // $("h3").html("About Hamildata");
+    $("h3").html("");
 
     $(reference).html('<br>' +
                       '<h4>What is Hamildata?</h4>' +
