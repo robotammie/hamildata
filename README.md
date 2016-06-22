@@ -1,7 +1,7 @@
 # Hamilton Data Visualizer
 
 ## Description
-![Animation](http://i.imgur.com/rJprS7t.gifv)
+![Animation](http://i.imgur.com/rJprS7t.gif)
 
 Hamildata provides visualizations of the lyrical overlap between songs in the Musical *Hamilton*.
 
