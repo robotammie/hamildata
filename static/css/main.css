@@ -30,7 +30,7 @@
 
 .nav {
     cursor: pointer;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 #navbar .nav > .active > a {
@@ -38,11 +38,19 @@
 }
 
 /* body */
+body {
+    /*background-color: #fff9e6;*/
+    font-family: 'Crete Round', serif;
+    background-size: 100% auto;
+    background-image: url("../img/LetterToOtis2.jpg");
+    background-position: left top;
+    font-size: 14px;
+}
+
 .row-fluid {
     padding: 10px;
     position: relative;
     color: #444;
-    font-size: 14px;
 }
 
 
@@ -87,11 +95,6 @@
 }
 
 
-/* Div Within Infobox */
-form {
-    font-size: 1.5em;
-}
-
 .match {
     padding: 0;
     padding-bottom: 15px;
@@ -119,21 +122,12 @@ font-size: .75em;
 }
 
 td {
-    font-size: 1.25em;
     font-family: 'Crete Round', serif;
 }
 
 td.char{
     width: 70px;
     vertical-align: top;
-}
-
-body {
-    /*background-color: #fff9e6;*/
-    font-family: 'Crete Round', serif;
-    background-size: 100% auto;
-    background-image: url("../img/LetterToOtis2.jpg");
-    background-position: left top;
 }
 
 
