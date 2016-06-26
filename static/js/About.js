@@ -10,10 +10,10 @@ function generateAbout(reference, callback) {
                       '<h4>Are you affiliated with the musical Hamilton at all?</h4>' +
                       '<p>Nope, just a fan (though I do hope to see it when they come to San Francisco next year).</p>' +
                       '<br>' +
-                      '<h4>Why doesn\'t it show [lines] as connected when they obviously are?</h4>' +
-                      '<p>Hamildata uses a Jaccard Index to compare lines, which means that similarity is defined merely as having a certain percentage of words in common. This results, in some cases, in lines that are linked more by melody or a few specific keywords to be ovrlooked.</p>' +
+                      '<h4>Why aren\'t [lines] shown as connected?</h4>' +
+                      '<p>Hamildata uses a Jaccard Index to compare lines, which means that similarity is defined merely as having a certain percentage of words in common. This results, in some cases, in some lines being overlooked.</p>' +
                       '<p>For example:</p>' +
-                      '<p>"We are waiting in the wings for you" and "When America sings for you" share only 2 words in common, and are not considered a match, while "We are waiting in the wings for you" and "Troops are waiting in the field for you" share 6 words in common, and are.</p>' +
+                      '<p>"We are waiting in the wings for you" and "When America sings for you" share only 2 words in common, and are not considered a match, while "We are waiting in the wings for you" and "Troops are waiting in the field for you" share 6 words in common, and are matched.</p>' +
                       '<br>' +
                       '<h4>What language(s) is it written in?</h4>' +
                       '<p>Database: PostgreSQL, with SQLAlchemy</p>' +

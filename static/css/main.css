@@ -67,6 +67,9 @@ body {
     width: 50%;
 }
 
+svg {
+    height: 100%;
+}
 
 
 /*Infobox Div*/
