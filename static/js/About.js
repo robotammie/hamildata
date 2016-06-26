@@ -27,7 +27,7 @@ function generateAbout(reference, callback) {
                       '<h4>References and other links:</h4>' +
                       '<p><a href="http://www.hamiltonbroadway.com/">Official Hamilton Site</a></p>' +
                       '<p><a href="http://atlanticrecords.com/HamiltonMusic/">Official Hamilton Soundtrack page</a>, including links to the full lyrics .pdf and the Rap Genius pages for individual songs.</p>' +
-                      '<p><a href="http://graphics.wsj.com/hamilton/">Wall Street Journal Artical</a> comparing Hamilton lines on rhyme scheme rather than whole words</p>'
+                      '<p><a href="http://graphics.wsj.com/hamilton/">Wall Street Journal Article</a> comparing Hamilton lines on rhyme scheme rather than whole words</p>'
 
         );
 
